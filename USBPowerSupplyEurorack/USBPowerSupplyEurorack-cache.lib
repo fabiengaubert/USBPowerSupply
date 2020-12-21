@@ -24,6 +24,28 @@ X SHIELD SH2 -400 -300 200 R 40 40 0 0 P
 ENDDRAW
 ENDDEF
 #
+# 744235601_744235601
+#
+DEF 744235601_744235601 L 0 30 Y Y 1 F N
+F0 "L" 650 300 50 H V L CNN
+F1 "744235601_744235601" 650 200 50 H V L CNN
+F2 "744235601" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/744235601.pdf" 650 0 50 H I L CNN
+F4 "Wurth WE-CNSW SMD Series Wire-wound SMD Inductor with a Ferrite Core, 1 uH 25% Bifilar, Winding Symmetry 1200mA Idc" 650 -100 50 H I L CNN "Description"
+F5 "3" 650 -200 50 H I L CNN "Height"
+F6 "Wurth Elektronik" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "744235601" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "710-744235601" 650 -700 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744235601?qs=BXmE%252BJ0Y7xYO4MPd53j2NQ%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 -100 200 R 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 0 0 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Device_CP1_Small
 #
 DEF Device_CP1_Small C 0 10 N N 1 F N
@@ -64,6 +86,23 @@ P 4 0 1 10 20 50 0 50 0 -50 -20 -50 N
 P 4 0 1 10 100 50 100 -50 0 0 100 50 F
 X A1 1 -150 0 100 R 50 50 1 1 P
 X A2 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -159,6 +198,21 @@ P 2 0 1 0 -30 50 0 100 N
 P 2 0 1 0 0 0 0 100 N
 P 2 0 1 0 0 100 30 50 N
 X +5V 1 0 0 0 U 50 50 1 1 W N
+ENDDRAW
+ENDDEF
+#
+# power_+5VD
+#
+DEF power_+5VD #PWR 0 0 Y Y 1 F P
+F0 "#PWR" 0 -150 50 H I C CNN
+F1 "power_+5VD" 0 140 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 -30 50 0 100 N
+P 2 0 1 0 0 0 0 100 N
+P 2 0 1 0 0 100 30 50 N
+X +5VD 1 0 0 0 U 50 50 1 1 W N
 ENDDRAW
 ENDDEF
 #

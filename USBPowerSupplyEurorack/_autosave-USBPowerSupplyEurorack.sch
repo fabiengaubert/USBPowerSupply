@@ -323,4 +323,5 @@ Wire Wire Line
 Wire Wire Line
 	5630 4740 5630 4840
 Connection ~ 5630 4840
+NoConn ~ 7140 2870
 $EndSCHEMATC
