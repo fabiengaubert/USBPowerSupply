@@ -14,25 +14,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L SS36:SS36 D1
-U 1 1 5FE03083
-P 2330 1470
-F 0 "D1" H 2730 1203 50  0000 C CNN
-F 1 "SS36" H 2730 1294 50  0000 C CNN
-F 2 "SS36:DIOM8059X265N" H 2830 1620 50  0001 L CNN
-F 3 "http://www.onsemi.com/pub/Collateral/SS39-D.PDF" H 2830 1520 50  0001 L CNN
-F 4 "ON SEMICONDUCTOR - SS36 - DIODE, SCHOTTKY, 3A, 60V, DO-214AB-3" H 2830 1420 50  0001 L CNN "Description"
-F 5 "2.65" H 2830 1320 50  0001 L CNN "Height"
-F 6 "ON Semiconductor" H 2830 1220 50  0001 L CNN "Manufacturer_Name"
-F 7 "SS36" H 2830 1120 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "SS36" H 2830 1020 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/ss36/on-semiconductor" H 2830 920 50  0001 L CNN "Arrow Price/Stock"
-F 10 "512-SS36" H 2830 820 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/ON-Semiconductor-Fairchild/SS36/?qs=3wuez3jz59JyNj1can%252BtMw%3D%3D" H 2830 720 50  0001 L CNN "Mouser Price/Stock"
-	1    2330 1470
-	-1   0    0    1   
-$EndComp
-$Comp
 L Device:CP1_Small C1
 U 1 1 5FE096E1
 P 5630 5120
@@ -237,25 +218,6 @@ $EndComp
 NoConn ~ 1510 1570
 NoConn ~ 1510 1670
 $Comp
-L 744235601:744235601 L?
-U 1 1 5FE25D51
-P 6830 5090
-F 0 "L?" H 7230 5355 50  0000 C CNN
-F 1 "744235601" H 7230 5264 50  0000 C CNN
-F 2 "744235601" H 7480 5190 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/744235601.pdf" H 7480 5090 50  0001 L CNN
-F 4 "Wurth WE-CNSW SMD Series Wire-wound SMD Inductor with a Ferrite Core, 1 uH 25% Bifilar, Winding Symmetry 1200mA Idc" H 7480 4990 50  0001 L CNN "Description"
-F 5 "3" H 7480 4890 50  0001 L CNN "Height"
-F 6 "Wurth Elektronik" H 7480 4790 50  0001 L CNN "Manufacturer_Name"
-F 7 "744235601" H 7480 4690 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 7480 4590 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 7480 4490 50  0001 L CNN "Arrow Price/Stock"
-F 10 "710-744235601" H 7480 4390 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744235601?qs=BXmE%252BJ0Y7xYO4MPd53j2NQ%3D%3D" H 7480 4290 50  0001 L CNN "Mouser Price/Stock"
-	1    6830 5090
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:CP1_Small C?
 U 1 1 5FE2664F
 P 6420 5130
@@ -269,15 +231,7 @@ $EndComp
 Wire Wire Line
 	6420 5230 6420 5420
 Wire Wire Line
-	6420 5420 6830 5420
-Wire Wire Line
-	6830 5420 6830 5190
-Wire Wire Line
 	6420 5030 6420 4840
-Wire Wire Line
-	6420 4840 6830 4840
-Wire Wire Line
-	6830 4840 6830 5090
 Wire Wire Line
 	6010 4970 6010 4840
 Wire Wire Line
@@ -312,10 +266,6 @@ $EndComp
 Wire Wire Line
 	5630 5520 5630 5420
 Connection ~ 5630 5420
-Text GLabel 7630 5190 2    50   Input ~ 0
--Vin
-Text GLabel 7630 5090 2    50   Input ~ 0
-+Vin
 Wire Wire Line
 	2230 1470 2310 1470
 Wire Wire Line
@@ -323,4 +273,46 @@ Wire Wire Line
 Wire Wire Line
 	5630 4740 5630 4840
 Connection ~ 5630 4840
+Text GLabel 9120 4870 2    50   Input ~ 0
++Vin
+Text GLabel 9400 5180 2    50   Input ~ 0
+-Vin
+Wire Wire Line
+	6830 4840 6830 5090
+Wire Wire Line
+	6420 4840 6830 4840
+Wire Wire Line
+	6830 5420 6830 5190
+Wire Wire Line
+	6420 5420 6830 5420
+$Comp
+L 744235601:744235601 L?
+U 1 1 5FE25D51
+P 6830 5090
+F 0 "L?" H 7230 5355 50  0000 C CNN
+F 1 "744235601" H 7230 5264 50  0000 C CNN
+F 2 "744235601" H 7480 5190 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/744235601.pdf" H 7480 5090 50  0001 L CNN
+F 4 "Wurth WE-CNSW SMD Series Wire-wound SMD Inductor with a Ferrite Core, 1 uH 25% Bifilar, Winding Symmetry 1200mA Idc" H 7480 4990 50  0001 L CNN "Description"
+F 5 "3" H 7480 4890 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 7480 4790 50  0001 L CNN "Manufacturer_Name"
+F 7 "744235601" H 7480 4690 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 7480 4590 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 7480 4490 50  0001 L CNN "Arrow Price/Stock"
+F 10 "710-744235601" H 7480 4390 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744235601?qs=BXmE%252BJ0Y7xYO4MPd53j2NQ%3D%3D" H 7480 4290 50  0001 L CNN "Mouser Price/Stock"
+	1    6830 5090
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP_Small C?
+U 1 1 5FE49BEB
+P 8000 5130
+F 0 "C?" H 8088 5176 50  0000 L CNN
+F 1 "100nF close to Switch" H 8088 5085 50  0000 L CNN
+F 2 "" H 8000 5130 50  0001 C CNN
+F 3 "~" H 8000 5130 50  0001 C CNN
+	1    8000 5130
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
