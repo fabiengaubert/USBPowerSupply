@@ -1,0 +1,26 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model PC722A
+#/888300/389885/2.47/3/4/Connector
+DEF PC722A J 0 30 Y Y 1 F N
+F0 "J" 2350 300 50 H V L CNN
+F1 "PC722A" 2350 200 50 H V L CNN
+F2 "PC722A" 2350 100 50 H I L CNN
+F3 "http://www.switchcraft.com/Drawings/pc722a_cd.pdf" 2350 0 50 H I L CNN
+F4 "DC Power Connectors 2.1MM POWER JACK" 2350 -100 50 H I L CNN "Description"
+F5 "" 2350 -200 50 H I L CNN "Height"
+F6 "Switchcraft" 2350 -300 50 H I L CNN "Manufacturer_Name"
+F7 "PC722A" 2350 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "PC722A" 2350 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/pc722a/switchcraft" 2350 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "502-PC722A" 2350 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/Switchcraft/PC722A?qs=MW%252B0w7tSdpnJ65YeXKyakg%3D%3D" 2350 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X PIN_TERMINAL 1 0 0 200 R 50 50 0 0 P
+X SLEEVE_SHUNT_TERMINAL 2 0 -100 200 R 50 50 0 0 P
+X SLEEVE_TERMINAL 3 2500 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 2300 100 2300 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

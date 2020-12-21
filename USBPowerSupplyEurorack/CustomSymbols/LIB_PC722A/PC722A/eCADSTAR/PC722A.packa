@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "PC722A"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2019-12-18-16:15:28)
+    (mountForm default
+        (footprintRef "PC722A")
+        (spec "System")
+    )
+)

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SS36
+D ON SEMICONDUCTOR - SS36 - DIODE, SCHOTTKY, 3A, 60V, DO-214AB-3
+K
+F http://www.onsemi.com/pub/Collateral/SS39-D.PDF
+$ENDCMP
+#
+#End Doc Library

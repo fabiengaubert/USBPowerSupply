@@ -1,0 +1,110 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "PC722A"
+   (description "DC Power Connectors 2.1MM POWER JACK")
+   (family "CON")
+   (package "PC722A")
+   (attribute "Datasheet Link" "http://www.switchcraft.com/Drawings/pc722a_cd.pdf")
+   (attribute "Manufacturer_Name" "Switchcraft")
+   (attribute "Manufacturer_Part_Number" "PC722A")
+   (attribute "Arrow Part Number" "PC722A")
+   (attribute "Arrow Price/Stock" "https://www.arrow.com/en/products/pc722a/switchcraft")
+   (attribute "Mouser Part Number" "502-PC722A")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Switchcraft/PC722A?qs=MW%252B0w7tSdpnJ65YeXKyakg%3D%3D")
+   (gate
+    (symbol "PC722A")
+    (pin "PIN_TERMINAL" 1 PS)
+    (pin "SLEEVE_SHUNT_TERMINAL" 2 PS)
+    (pin "SLEEVE_TERMINAL" 3 PS)
+   )
+  )
+  (symbol "PC722A"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 2300 100) (pt 2300 -200) (pt 200 -200) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 2500 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "PC722A"
+   (units MM)
+   (layer OCCA
+    (graphic
+     (stroke 0.1)
+     (path
+      (closed true)
+      (pt -6.4 6.4)
+      (pt 7.287 6.4)
+      (pt 7.287 -6.4)
+      (pt -6.4 -6.4)
+      (pt -6.4 6.4))))
+   (layer TASM
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 5.4 0)
+      (arc (pt 5.400 0.000) (pt -5.400 -5.400) (pt 5.400 5.400) (start -180.0) (sweep .0))
+      (pt -5.4 0)
+      (arc (pt -5.400 0.000) (pt -5.400 -5.400) (pt 5.400 5.400) (start -180.0) (sweep -180.0))
+      (pt 5.4 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.2)
+     (path
+      (closed true)
+      (pt 5.4 0)
+      (arc (pt 5.400 0.000) (pt -5.400 -5.400) (pt 5.400 5.400) (start -180.0) (sweep .0))
+      (pt -5.4 0)
+      (arc (pt -5.400 0.000) (pt -5.400 -5.400) (pt 5.400 5.400) (start -180.0) (sweep -180.0))
+      (pt 5.4 0))))
+   (layer TSLK
+    (graphic
+     (stroke 0.0519999999999996)
+     (path
+      (closed true)
+      (pt 6.235 -1.019)
+      (arc (pt 6.235 -1.019) (pt 6.235 -1.045) (pt 6.287 -0.993) (start -180.0) (sweep 180.0))
+      (pt 6.287 -1.019)
+      (arc (pt 6.287 -1.019) (pt 6.235 -1.045) (pt 6.287 -0.993) (start -180.0) (sweep .0))
+      (pt 6.235 -1.019))))
+   (leg 1 (pt 3.962 -1.016) (padstack 0))
+   (leg 2 (pt -3.810 0.000) (padstack 0))
+   (leg 3 (pt 0.000 3.962) (padstack 0))
+   (padstack 0
+    (hole 1.5748)
+    (plated true)
+    (pad (layer TCOP) (round 2.400))
+    (pad (layer INNER) (round 2.400))
+    (pad (layer BCOP) (round 2.400))
+   )
+  )
+ )
+)

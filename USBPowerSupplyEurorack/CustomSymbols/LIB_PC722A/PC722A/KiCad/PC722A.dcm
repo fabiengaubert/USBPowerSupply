@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PC722A
+D DC Power Connectors 2.1MM POWER JACK
+K
+F http://www.switchcraft.com/Drawings/pc722a_cd.pdf
+$ENDCMP
+#
+#End Doc Library

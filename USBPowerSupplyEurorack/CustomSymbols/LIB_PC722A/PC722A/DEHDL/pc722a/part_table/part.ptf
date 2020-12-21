@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'PC722A'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "ARROW_PART_NUMBER", "ARROW_PRICE/STOCK", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Switchcraft", "PC722A" (!) = "", "PC722A", "Other", "PC722A", "https://www.arrow.com/en/products/pc722a/switchcraft", "502-PC722A", "https://www.mouser.co.uk/ProductDetail/Switchcraft/PC722A?qs=MW%252B0w7tSdpnJ65YeXKyakg%3D%3D", "DC Power Connectors 2.1MM POWER JACK", "http://www.switchcraft.com/Drawings/pc722a_cd.pdf"
+END_PART
+
+END.

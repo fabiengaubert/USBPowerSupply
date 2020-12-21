@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name SS36)(type Legacy)(uri ${KIPRJMOD}/CustomSymbols/SS36/SS36.mod)(options "")(descr ""))
+)

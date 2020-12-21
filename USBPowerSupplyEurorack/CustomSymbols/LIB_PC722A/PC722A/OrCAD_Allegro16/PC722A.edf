@@ -1,0 +1,106 @@
+
+(EDIF
+  (rename &PC722A "PC722A")
+  (EDIFVersion 2 0 0)
+  (EDIFLevel 0)
+  (keywordMap (keywordLevel 0))
+  (status
+    (written
+      (timestamp 2020 12 20 15 24 43)
+      (dataOrigin "888300/389885/2.47/3/4/Connector")
+      (program "SamacSys ECAD Model PC722A"
+        (version "1.2"))))
+  (library
+  (rename &PC722A "PC722A")
+    (EDIFLevel 0)
+    (technology
+      (numberDefinition (scale 1 (e 254 -6) (unit DISTANCE)))
+      (userData GRIDRESOLUTION (integer 50 50))
+      (figureGroup DEFAULT (pathWidth 10) (textHeight 100))
+      (figureGroup PROPERTY (pathWidth 10) (textHeight 90))
+      (figureGroup PINNUMBER (pathWidth 10) (textHeight 90))
+      (figureGroup PINNAME (pathWidth 10) (textHeight 90))
+      (figureGroup COMMENT (pathWidth 10) (textHeight 90))
+      (figureGroup PIN (pathWidth 10) (textHeight 90))
+      (figureGroup GRAPHIC (pathWidth 10) (textHeight 100))
+    )
+    (cell
+      (rename &PC722A "PC722A")
+      (cellType GENERIC)
+      (view
+        (rename NORMAL "Normal")
+        (viewType SCHEMATIC)
+        (interface
+          (designator "J")
+          (property (rename PACKAGENAME "PackageName") (string "PC722A"))
+          (property (rename ISHETEROGENEOUS "IsHeterogeneous") (string "False"))
+          (property (rename DEVICESINVIEW "DevicesInView") (string "1"))
+          (property (rename DEVICESINPACKAGE "DevicesInPackage") (string "1"))
+          (property (rename DEVICEDESIGNATOR "DeviceDesignator") (string "A"))
+          (property (rename DEVICENUMBERING "DeviceNumbering") (string "Alpha"))
+          (property (rename PCB_32_FOOTPRINT "PCB Footprint") (string "PC722A"))
+          (property (rename &Manufacturer_Name "Manufacturer_Name") (string "Switchcraft"))
+          (property (rename &Manufacturer_Part_Number "Manufacturer_Part_Number") (string "PC722A"))
+          (property (rename &Arrow_Part_Number "Arrow Part Number") (string "PC722A"))
+          (property (rename &Arrow_Price_Stock "Arrow Price/Stock") (string "https://www.arrow.com/en/products/pc722a/switchcraft"))
+          (property (rename &Mouser_Part_Number "Mouser Part Number") (string "502-PC722A"))
+          (property (rename &Mouser_Price_Stock "Mouser Price/Stock") (string "https://www.mouser.co.uk/ProductDetail/Switchcraft/PC722A?qs=MW%252B0w7tSdpnJ65YeXKyakg%3D%3D"))
+          (property (rename &Description "Description") (string "DC Power Connectors 2.1MM POWER JACK"))
+          (property (rename &Datasheet_Link "Datasheet Link") (string "http://www.switchcraft.com/Drawings/pc722a_cd.pdf"))
+          (property (rename &_60__32_VALUE_32__62_ "Value") (string "PC722A"))
+          (property (rename VALUE "Value") (string "Value"))
+          (port
+            (rename &PIN_TERMINAL "PIN_TERMINAL")
+            (designator "1")
+            (property (rename ORDER "Order") (string "0") (owner "OrCAD"))
+          )
+          (port
+            (rename &SLEEVE_SHUNT_TERMINAL "SLEEVE_SHUNT_TERMINAL")
+            (designator "2")
+            (property (rename ORDER "Order") (string "1") (owner "OrCAD"))
+          )
+          (port
+            (rename &SLEEVE_TERMINAL "SLEEVE_TERMINAL")
+            (designator "3")
+            (property (rename ORDER "Order") (string "2") (owner "OrCAD"))
+          )
+          (symbol
+            (portImplementation
+              (name &PIN_TERMINAL (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -100) (pt 0 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -100))))
+            )
+            (portImplementation
+              (name &SLEEVE_SHUNT_TERMINAL (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt -200 -200) (pt 0 -200))))
+              (connectLocation (figure GRAPHIC (dot (pt -200 -200))))
+            )
+            (portImplementation
+              (name &SLEEVE_TERMINAL (display PINNAME))
+              (keywordDisplay DESIGNATOR (display PINNUMBER))
+              (figure PIN (path (pointList (pt 2100 -100) (pt 2300 -100))))
+              (connectLocation (figure GRAPHIC (dot (pt 2300 -100))))
+            )
+            (figure GRAPHIC
+              (figureGroupOverride GRAPHIC
+                (pathWidth 10))
+              (path
+                (pointList
+                  (pt 0 0)
+                  (pt 2100 0)
+                  (pt 2100 -300)
+                  (pt 0 -300)
+                  (pt 0 0)
+                )
+              )
+            )
+            (keywordDisplay DESIGNATOR (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 2150 130))))
+            (propertyDisplay &_60__32_VALUE_32__62_ (display PROPERTY (justify LOWERLEFT) (orientation R0) (origin (pt 2150 30))))
+          )
+        )
+      )
+    )
+  )
+)

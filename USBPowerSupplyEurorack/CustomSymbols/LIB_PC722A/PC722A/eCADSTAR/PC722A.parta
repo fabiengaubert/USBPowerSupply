@@ -1,0 +1,71 @@
+(Japanese_coding: sjis)
+(function "ECS_888300"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-03-16:06:30)
+    (utime 2018-12-06-13:27:14)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "PC722A")
+)
+
+
+(pinAssign "ECS_888300"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-03-16:06:30)
+    (utime 2018-12-06-13:27:14)
+    (interface
+        (port "1" (symbPinId 1) (portName "PIN_TERMINAL") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "SLEEVE_SHUNT_TERMINAL") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "SLEEVE_TERMINAL") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_888300")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "PC722A")
+)
+
+
+(part "PC722A"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-11-03-16:06:30)
+    (utime 2018-12-06-13:27:14)
+    (packageRef "PC722A")
+    (pinAssignRef "ECS_888300")
+    (interface
+        (port "1" (symbPinId 1) (portName "PIN_TERMINAL") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "SLEEVE_SHUNT_TERMINAL") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "SLEEVE_TERMINAL") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "DC Power Connectors 2.1MM POWER JACK")
+    (property "Manufacturer_Name" "Switchcraft")
+    (property "Manufacturer_Part_Number" "PC722A")
+    (property "Arrow_Part_Number" "PC722A")
+    (property "Arrow_Price/Stock" "https://www.arrow.com/en/products/pc722a/switchcraft")
+    (property "Mouser_Part_Number" "502-PC722A")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Switchcraft/PC722A?qs=MW%252B0w7tSdpnJ65YeXKyakg%3D%3D")
+    (property "Datasheet_Link" "http://www.switchcraft.com/Drawings/pc722a_cd.pdf")
+)
+
+

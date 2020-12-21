@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# PC722A
+#
+DEF PC722A J 0 40 Y N 1 L N
+F0 "J" -200 200 50 H V L BNN
+F1 "PC722A" -200 -200 50 H V L BNN
+F2 "SWITCHCRAFT_PC722A" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "16.764 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F5 "G" 0 0 50 H I L BNN "PARTREV"
+F6 "Manufacturer Recommendations" 0 0 50 H I L BNN "STANDARD"
+F7 "Switchcraft" 0 0 50 H I L BNN "MANUFACTURER"
+DRAW
+P 2 0 0 10 0 0 100 0 N
+P 2 0 0 10 0 0 0 -70 N
+P 3 0 0 10 0 -90 -10 -40 10 -40 f
+P 2 0 0 10 -200 100 100 100 N
+P 2 0 0 10 -100 -100 100 -100 N
+A -250 95 50 -60 1860 0 0 10 N -200 100 -300 100
+A -150 -95 50 1740 3660 0 0 10 N -200 -100 -100 -100
+X ~ S_S 300 0 200 L 40 40 0 0 P 
+X ~ SLV 300 -100 200 L 40 40 0 0 P 
+X ~ PIN 300 100 200 L 40 40 0 0 P 
+ENDDRAW
+ENDDEF
+#
+# End Library

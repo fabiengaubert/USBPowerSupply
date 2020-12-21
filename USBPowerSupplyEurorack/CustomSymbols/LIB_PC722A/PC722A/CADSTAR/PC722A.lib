@@ -1,0 +1,17 @@
+.PC722A :1 ;DC Power Connectors 2.1MM POWER JACK
+PC722A
+*STM J
+*NGS
+*PLB 1="PIN TERMINAL" 2="SLEEVE SHUNT TERMINAL" 3="SLEEVE TERMINAL"
+*MXP 3
+*DFN PC722A
+~!Manufacturer_Name (Switchcraft)
+~!Manufacturer_Part_Number (PC722A)
+~!Arrow Part Number (PC722A)
+~!Link Arrow Price/Stock (https://www.arrow.com/en/products/pc722a/switchcraft)
+~!Mouser Part Number (502-PC722A)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Switchcraft/PC722A?qs=MW%252B0w7tSdpnJ65YeXKyakg%3D%3D)
+~!Link Datasheet (http://www.switchcraft.com/Drawings/pc722a_cd.pdf)
+~!Height (-)
+PC722A
+1.1!U 2.1!U 3.1!U 
