@@ -1,0 +1,30 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model RS6-0512D
+#/942567/389885/2.47/7/4/Transformer
+DEF RS6-0512D T 0 30 Y Y 1 F N
+F0 "T" 850 300 50 H V L CNN
+F1 "RS6-0512D" 850 200 50 H V L CNN
+F2 "RS60505S" 850 100 50 H I L CNN
+F3 "http://www.recom-power.com/pdf/Econoline/RS6.pdf" 850 0 50 H I L CNN
+F4 "Recom Through Hole 6W Isolated DC-DC Converter, Vin 4.5  9 V dc" 850 -100 50 H I L CNN "Description"
+F5 "11.6" 850 -200 50 H I L CNN "Height"
+F6 "RECOM Power" 850 -300 50 H I L CNN "Manufacturer_Name"
+F7 "RS6-0512D" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "RS6-0512D" 850 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/rs6-0512d/recom-power" 850 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "919-RS6-0512D" 850 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512D?qs=FLBwGrBR9%252B0Q8nr9fBSm8Q%3D%3D" 850 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+X -VIN 1 0 0 200 R 50 50 0 0 P
+X +VIN 2 0 -100 200 R 50 50 0 0 P
+X CTRL 3 0 -200 200 R 50 50 0 0 P
+X NC 5 0 -300 200 R 50 50 0 0 N
+X +VOUT 6 0 -400 200 R 50 50 0 0 P
+X COM 7 0 -500 200 R 50 50 0 0 P
+X -VOUT 8 0 -600 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 800 100 800 -700 200 -700 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
