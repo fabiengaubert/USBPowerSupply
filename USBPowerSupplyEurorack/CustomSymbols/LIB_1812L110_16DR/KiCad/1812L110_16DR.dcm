@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 1812L110_16DR
+D PTC Resettable Fuse 1.1A(hold) 1.95A(trip) 16VDC 100A 0.8W 0.3s 0.06Ohm SMD Solder Pad 1812 T/R
+K
+F https://www.arrow.com/en/products/1812l11016dr/littelfuse
+$ENDCMP
+#
+#End Doc Library
