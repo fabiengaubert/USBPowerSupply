@@ -16,303 +16,601 @@ $EndDescr
 $Comp
 L Device:CP1_Small C1
 U 1 1 5FE096E1
-P 5630 5120
-F 0 "C1" H 5721 5166 50  0000 L CNN
-F 1 "220uF" H 5721 5075 50  0000 L CNN
-F 2 "" H 5630 5120 50  0001 C CNN
-F 3 "~" H 5630 5120 50  0001 C CNN
-	1    5630 5120
+P 8420 1710
+F 0 "C1" H 8511 1756 50  0000 L CNN
+F 1 "220uF" H 8511 1665 50  0000 L CNN
+F 2 "" H 8420 1710 50  0001 C CNN
+F 3 "~" H 8420 1710 50  0001 C CNN
+	1    8420 1710
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:D_TVS_ALT D2
 U 1 1 5FE0A48F
-P 6010 5120
-F 0 "D2" V 5964 5200 50  0000 L CNN
-F 1 "P4SMAJ15CA" V 6055 5200 50  0001 L CNN
-F 2 "" H 6010 5120 50  0001 C CNN
-F 3 "~" H 6010 5120 50  0001 C CNN
-	1    6010 5120
+P 8800 1710
+F 0 "D2" V 8754 1790 50  0000 L CNN
+F 1 "P4SMAJ15CA" V 8845 1790 50  0001 L CNN
+F 2 "" H 8800 1710 50  0001 C CNN
+F 3 "~" H 8800 1710 50  0001 C CNN
+	1    8800 1710
 	0    1    1    0   
 $EndComp
 $Comp
 L RS6-0512D:RS6-0512D T1
 U 1 1 5FE0B06B
-P 7140 2670
-F 0 "T1" H 7968 2416 50  0000 L CNN
-F 1 "RS6-0512D" H 7968 2325 50  0000 L CNN
-F 2 "RS6-0512D:RS60505S" H 7990 2770 50  0001 L CNN
-F 3 "http://www.recom-power.com/pdf/Econoline/RS6.pdf" H 7990 2670 50  0001 L CNN
-F 4 "Recom Through Hole 6W Isolated DC-DC Converter, Vin 4.5  9 V dc" H 7990 2570 50  0001 L CNN "Description"
-F 5 "11.6" H 7990 2470 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 7990 2370 50  0001 L CNN "Manufacturer_Name"
-F 7 "RS6-0512D" H 7990 2270 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "RS6-0512D" H 7990 2170 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/rs6-0512d/recom-power" H 7990 2070 50  0001 L CNN "Arrow Price/Stock"
-F 10 "919-RS6-0512D" H 7990 1970 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512D?qs=FLBwGrBR9%252B0Q8nr9fBSm8Q%3D%3D" H 7990 1870 50  0001 L CNN "Mouser Price/Stock"
-	1    7140 2670
+P 1620 5270
+F 0 "T1" H 2020 5540 50  0000 L CNN
+F 1 "RS6-0512D" H 1900 5450 50  0000 L CNN
+F 2 "RS6-0512D:RS60505S" H 2470 5370 50  0001 L CNN
+F 3 "http://www.recom-power.com/pdf/Econoline/RS6.pdf" H 2470 5270 50  0001 L CNN
+F 4 "Recom Through Hole 6W Isolated DC-DC Converter, Vin 4.5  9 V dc" H 2470 5170 50  0001 L CNN "Description"
+F 5 "11.6" H 2470 5070 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 2470 4970 50  0001 L CNN "Manufacturer_Name"
+F 7 "RS6-0512D" H 2470 4870 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "RS6-0512D" H 2470 4770 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/rs6-0512d/recom-power" H 2470 4670 50  0001 L CNN "Arrow Price/Stock"
+F 10 "919-RS6-0512D" H 2470 4570 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512D?qs=FLBwGrBR9%252B0Q8nr9fBSm8Q%3D%3D" H 2470 4470 50  0001 L CNN "Mouser Price/Stock"
+	1    1620 5270
 	1    0    0    -1  
 $EndComp
-Text GLabel 7140 2670 0    50   Input ~ 0
+Text GLabel 1620 5270 0    50   Input ~ 0
 -Vin
-Text GLabel 7140 2770 0    50   Input ~ 0
+Text GLabel 1620 5370 0    50   Input ~ 0
 +Vin
-Text GLabel 7140 3270 0    50   Input ~ 0
+Text GLabel 1620 5870 0    50   Input ~ 0
 -Vout
-Text GLabel 7140 3070 0    50   Input ~ 0
+Text GLabel 1620 5670 0    50   Input ~ 0
 +Vout
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5FE13FD5
-P 1630 2110
-F 0 "#PWR?" H 1630 1860 50  0001 C CNN
-F 1 "GND" H 1635 1937 50  0000 C CNN
-F 2 "" H 1630 2110 50  0001 C CNN
-F 3 "" H 1630 2110 50  0001 C CNN
-	1    1630 2110
+P 1980 2170
+F 0 "#PWR0101" H 1980 1920 50  0001 C CNN
+F 1 "GND" H 1985 1997 50  0000 C CNN
+F 2 "" H 1980 2170 50  0001 C CNN
+F 3 "" H 1980 2170 50  0001 C CNN
+	1    1980 2170
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1510 1770 1630 1770
+	1860 1830 1980 1830
 Wire Wire Line
-	1630 1770 1630 2110
+	1980 1830 1980 2170
 Wire Wire Line
-	1510 1470 1630 1470
+	1860 1530 1980 1530
 $Comp
 L 1734366-1:1734366-1 J1
 U 1 1 5FE0D725
-P 1110 1670
-F 0 "J1" H 1190 2130 50  0000 C CNN
-F 1 "1734366-1" H 1110 2040 50  0000 C CNN
-F 2 "1734366-1:TE_1734366-1" H 1110 1670 50  0001 L BNN
-F 3 "" H 1110 1670 50  0001 L BNN
-F 4 "2 mm[.078 in]" H 1110 1670 50  0001 L BNN "Centerline_Pitch"
-F 5 "Connector" H 1110 1670 50  0001 L BNN "Product_Type"
-F 6 "1734366-1" H 1110 1670 50  0001 L BNN "Comment"
-F 7 "Compliant" H 1110 1670 50  0001 L BNN "EU_RoHS_Compliance"
-F 8 "4" H 1110 1670 50  0001 L BNN "Number_of_Positions"
-	1    1110 1670
+P 1460 1730
+F 0 "J1" H 1540 2190 50  0000 C CNN
+F 1 "1734366-1" H 1460 2100 50  0000 C CNN
+F 2 "1734366-1:TE_1734366-1" H 1460 1730 50  0001 L BNN
+F 3 "" H 1460 1730 50  0001 L BNN
+F 4 "2 mm[.078 in]" H 1460 1730 50  0001 L BNN "Centerline_Pitch"
+F 5 "Connector" H 1460 1730 50  0001 L BNN "Product_Type"
+F 6 "1734366-1" H 1460 1730 50  0001 L BNN "Comment"
+F 7 "Compliant" H 1460 1730 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 "4" H 1460 1730 50  0001 L BNN "Number_of_Positions"
+	1    1460 1730
 	-1   0    0    -1  
 $EndComp
 Wire Notes Line
-	800  1050 2470 1050
+	1150 1110 2880 1110
 Wire Notes Line
-	2470 1050 2470 2400
+	2880 1110 2880 2460
 Wire Notes Line
-	2470 2400 800  2400
+	2880 2460 1150 2460
 Wire Notes Line
-	800  2400 800  1050
-Text Notes 800  1050 0    50   ~ 0
+	1150 2460 1150 1110
+Text Notes 1150 1110 0    50   ~ 0
 USB Power In
 Wire Wire Line
-	3030 1870 3030 1970
+	4630 1780 4630 1880
 Wire Wire Line
-	4430 1870 4430 1970
+	6030 1780 6030 1880
 $Comp
 L LP4OA1PBCTR:LP4OA1PBCTR S1
 U 1 1 5FE10AE7
-P 3730 2570
-F 0 "S1" V 4870 2880 50  0000 L CNN
-F 1 "LP4OA1PBCTR" V 4780 2680 50  0000 L CNN
-F 2 "LP4OA1PBCTR" H 4780 3070 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/B240001.pdf" H 4780 2970 50  0001 L CNN
-F 4 "Pushbutton Switches DPDT On-Mom LED, Red" H 4780 2870 50  0001 L CNN "Description"
-F 5 "19.95" H 4780 2770 50  0001 L CNN "Height"
-F 6 "E-Switch" H 4780 2670 50  0001 L CNN "Manufacturer_Name"
-F 7 "LP4OA1PBCTR" H 4780 2570 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 4780 2470 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 4780 2370 50  0001 L CNN "Arrow Price/Stock"
-F 10 "612-LP4OA1PBCTR" H 4780 2270 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-LP4OA1PBCTR" H 4780 2170 50  0001 L CNN "Mouser Price/Stock"
-	1    3730 2570
+P 5330 2480
+F 0 "S1" V 6470 2790 50  0000 L CNN
+F 1 "LP4OA1PBCTR" V 6380 2590 50  0000 L CNN
+F 2 "LP4OA1PBCTR" H 6380 2980 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/B240001.pdf" H 6380 2880 50  0001 L CNN
+F 4 "Pushbutton Switches DPDT On-Mom LED, Red" H 6380 2780 50  0001 L CNN "Description"
+F 5 "19.95" H 6380 2680 50  0001 L CNN "Height"
+F 6 "E-Switch" H 6380 2580 50  0001 L CNN "Manufacturer_Name"
+F 7 "LP4OA1PBCTR" H 6380 2480 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 6380 2380 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 6380 2280 50  0001 L CNN "Arrow Price/Stock"
+F 10 "612-LP4OA1PBCTR" H 6380 2180 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-LP4OA1PBCTR" H 6380 2080 50  0001 L CNN "Mouser Price/Stock"
+	1    5330 2480
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 3030 2070
-NoConn ~ 4430 2070
+NoConn ~ 4630 1980
+NoConn ~ 6030 1980
 Wire Wire Line
-	3730 1370 4430 1370
+	5330 1280 6030 1280
 Wire Wire Line
-	4430 1370 4430 1870
-Connection ~ 4430 1870
+	6030 1280 6030 1780
+Connection ~ 6030 1780
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR0102
 U 1 1 5FE20BD7
-P 2310 1420
-F 0 "#PWR?" H 2310 1270 50  0001 C CNN
-F 1 "+5VD" H 2325 1593 50  0000 C CNN
-F 2 "" H 2310 1420 50  0001 C CNN
-F 3 "" H 2310 1420 50  0001 C CNN
-	1    2310 1420
+P 2660 1480
+F 0 "#PWR0102" H 2660 1330 50  0001 C CNN
+F 1 "+5VD" H 2675 1653 50  0000 C CNN
+F 2 "" H 2660 1480 50  0001 C CNN
+F 3 "" H 2660 1480 50  0001 C CNN
+	1    2660 1480
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0103
 U 1 1 5FE2195B
-P 4430 1370
-F 0 "#PWR?" H 4430 1220 50  0001 C CNN
-F 1 "+5V" H 4445 1543 50  0000 C CNN
-F 2 "" H 4430 1370 50  0001 C CNN
-F 3 "" H 4430 1370 50  0001 C CNN
-	1    4430 1370
+P 6030 1280
+F 0 "#PWR0103" H 6030 1130 50  0001 C CNN
+F 1 "+5V" H 6045 1453 50  0000 C CNN
+F 2 "" H 6030 1280 50  0001 C CNN
+F 3 "" H 6030 1280 50  0001 C CNN
+	1    6030 1280
 	1    0    0    -1  
 $EndComp
-Connection ~ 4430 1370
+Connection ~ 6030 1280
 $Comp
-L power:+5VD #PWR?
+L power:+5VD #PWR0104
 U 1 1 5FE220CC
-P 3030 1870
-F 0 "#PWR?" H 3030 1720 50  0001 C CNN
-F 1 "+5VD" H 3045 2043 50  0000 C CNN
-F 2 "" H 3030 1870 50  0001 C CNN
-F 3 "" H 3030 1870 50  0001 C CNN
-	1    3030 1870
+P 4630 1780
+F 0 "#PWR0104" H 4630 1630 50  0001 C CNN
+F 1 "+5VD" H 4645 1953 50  0000 C CNN
+F 2 "" H 4630 1780 50  0001 C CNN
+F 3 "" H 4630 1780 50  0001 C CNN
+	1    4630 1780
 	1    0    0    -1  
 $EndComp
-Connection ~ 3030 1870
+Connection ~ 4630 1780
 $Comp
-L Device:R_Small R?
+L Device:R_Small R1
 U 1 1 5FE234A2
-P 3730 2670
-F 0 "R?" H 3789 2716 50  0000 L CNN
-F 1 "100" H 3789 2625 50  0000 L CNN
-F 2 "" H 3730 2670 50  0001 C CNN
-F 3 "~" H 3730 2670 50  0001 C CNN
-	1    3730 2670
+P 5330 2580
+F 0 "R1" H 5389 2626 50  0000 L CNN
+F 1 "100" H 5389 2535 50  0000 L CNN
+F 2 "" H 5330 2580 50  0001 C CNN
+F 3 "~" H 5330 2580 50  0001 C CNN
+	1    5330 2580
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0105
 U 1 1 5FE23B35
-P 3730 2820
-F 0 "#PWR?" H 3730 2570 50  0001 C CNN
-F 1 "GND" H 3735 2647 50  0000 C CNN
-F 2 "" H 3730 2820 50  0001 C CNN
-F 3 "" H 3730 2820 50  0001 C CNN
-	1    3730 2820
+P 5330 2730
+F 0 "#PWR0105" H 5330 2480 50  0001 C CNN
+F 1 "GND" H 5335 2557 50  0000 C CNN
+F 2 "" H 5330 2730 50  0001 C CNN
+F 3 "" H 5330 2730 50  0001 C CNN
+	1    5330 2730
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3730 2770 3730 2820
+	5330 2680 5330 2730
 Wire Notes Line
-	2840 1050 4640 1050
+	4440 960  6560 960 
 Wire Notes Line
-	4640 1050 4640 3090
+	6560 960  6560 3000
 Wire Notes Line
-	4640 3090 2840 3090
+	6560 3000 4440 3000
 Wire Notes Line
-	2840 3090 2840 1050
-Text Notes 2840 1050 0    50   ~ 0
+	4440 3000 4440 960 
+Text Notes 4440 960  0    50   ~ 0
 Push button & LED
 $Comp
-L power:+5V #PWR?
+L power:+5V #PWR0106
 U 1 1 5FE2FAE8
-P 5630 4740
-F 0 "#PWR?" H 5630 4590 50  0001 C CNN
-F 1 "+5V" H 5645 4913 50  0000 C CNN
-F 2 "" H 5630 4740 50  0001 C CNN
-F 3 "" H 5630 4740 50  0001 C CNN
-	1    5630 4740
+P 8030 1350
+F 0 "#PWR0106" H 8030 1200 50  0001 C CNN
+F 1 "+5V" H 8045 1523 50  0000 C CNN
+F 2 "" H 8030 1350 50  0001 C CNN
+F 3 "" H 8030 1350 50  0001 C CNN
+	1    8030 1350
 	1    0    0    -1  
 $EndComp
-NoConn ~ 1510 1570
-NoConn ~ 1510 1670
+NoConn ~ 1860 1630
+NoConn ~ 1860 1730
 $Comp
-L Device:CP1_Small C?
+L Device:CP1_Small C2
 U 1 1 5FE2664F
-P 6420 5130
-F 0 "C?" H 6511 5176 50  0000 L CNN
-F 1 "22uF" H 6511 5085 50  0000 L CNN
-F 2 "" H 6420 5130 50  0001 C CNN
-F 3 "~" H 6420 5130 50  0001 C CNN
-	1    6420 5130
+P 9210 1720
+F 0 "C2" H 9301 1766 50  0000 L CNN
+F 1 "22uFMLCC" H 9301 1675 50  0000 L CNN
+F 2 "" H 9210 1720 50  0001 C CNN
+F 3 "~" H 9210 1720 50  0001 C CNN
+	1    9210 1720
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6420 5230 6420 5420
+	9210 1820 9210 2010
 Wire Wire Line
-	6420 5030 6420 4840
+	9210 1620 9210 1430
 Wire Wire Line
-	6010 4970 6010 4840
+	8800 1560 8800 1430
 Wire Wire Line
-	6010 4840 6420 4840
-Connection ~ 6420 4840
+	8800 1430 9210 1430
+Connection ~ 9210 1430
 Wire Wire Line
-	6010 5270 6010 5420
+	8800 1860 8800 2010
 Wire Wire Line
-	6010 5420 6420 5420
-Connection ~ 6420 5420
+	8800 2010 9210 2010
+Connection ~ 9210 2010
 Wire Wire Line
-	5630 5020 5630 4840
+	8420 1610 8420 1430
 Wire Wire Line
-	5630 4840 6010 4840
-Connection ~ 6010 4840
+	8420 1430 8800 1430
+Connection ~ 8800 1430
 Wire Wire Line
-	5630 5220 5630 5420
+	8420 1810 8420 2010
 Wire Wire Line
-	5630 5420 6010 5420
-Connection ~ 6010 5420
+	8420 2010 8800 2010
+Connection ~ 8800 2010
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0107
 U 1 1 5FE34916
-P 5630 5520
-F 0 "#PWR?" H 5630 5270 50  0001 C CNN
-F 1 "GND" H 5635 5347 50  0000 C CNN
-F 2 "" H 5630 5520 50  0001 C CNN
-F 3 "" H 5630 5520 50  0001 C CNN
-	1    5630 5520
+P 8030 2100
+F 0 "#PWR0107" H 8030 1850 50  0001 C CNN
+F 1 "GND" H 8035 1927 50  0000 C CNN
+F 2 "" H 8030 2100 50  0001 C CNN
+F 3 "" H 8030 2100 50  0001 C CNN
+	1    8030 2100
 	1    0    0    -1  
 $EndComp
+Connection ~ 8420 2010
 Wire Wire Line
-	5630 5520 5630 5420
-Connection ~ 5630 5420
+	2580 1530 2660 1530
 Wire Wire Line
-	2230 1470 2310 1470
-Wire Wire Line
-	2310 1470 2310 1420
-Wire Wire Line
-	5630 4740 5630 4840
-Connection ~ 5630 4840
-Text GLabel 9120 4870 2    50   Input ~ 0
+	2660 1530 2660 1480
+Connection ~ 8420 1430
+Text GLabel 10420 1680 2    50   Input ~ 0
 +Vin
-Text GLabel 9400 5180 2    50   Input ~ 0
+Text GLabel 10420 1780 2    50   Input ~ 0
 -Vin
 Wire Wire Line
-	6830 4840 6830 5090
+	9620 1430 9620 1680
 Wire Wire Line
-	6420 4840 6830 4840
+	9210 1430 9620 1430
 Wire Wire Line
-	6830 5420 6830 5190
+	9620 2010 9620 1780
 Wire Wire Line
-	6420 5420 6830 5420
+	9210 2010 9620 2010
 $Comp
-L 744235601:744235601 L?
+L 744235601:744235601 L1
 U 1 1 5FE25D51
-P 6830 5090
-F 0 "L?" H 7230 5355 50  0000 C CNN
-F 1 "744235601" H 7230 5264 50  0000 C CNN
-F 2 "744235601" H 7480 5190 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/744235601.pdf" H 7480 5090 50  0001 L CNN
-F 4 "Wurth WE-CNSW SMD Series Wire-wound SMD Inductor with a Ferrite Core, 1 uH 25% Bifilar, Winding Symmetry 1200mA Idc" H 7480 4990 50  0001 L CNN "Description"
-F 5 "3" H 7480 4890 50  0001 L CNN "Height"
-F 6 "Wurth Elektronik" H 7480 4790 50  0001 L CNN "Manufacturer_Name"
-F 7 "744235601" H 7480 4690 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 7480 4590 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 7480 4490 50  0001 L CNN "Arrow Price/Stock"
-F 10 "710-744235601" H 7480 4390 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744235601?qs=BXmE%252BJ0Y7xYO4MPd53j2NQ%3D%3D" H 7480 4290 50  0001 L CNN "Mouser Price/Stock"
-	1    6830 5090
+P 9620 1680
+F 0 "L1" H 10020 1945 50  0000 C CNN
+F 1 "744235601" H 10020 1854 50  0000 C CNN
+F 2 "744235601" H 10270 1780 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/744235601.pdf" H 10270 1680 50  0001 L CNN
+F 4 "Wurth WE-CNSW SMD Series Wire-wound SMD Inductor with a Ferrite Core, 1 uH 25% Bifilar, Winding Symmetry 1200mA Idc" H 10270 1580 50  0001 L CNN "Description"
+F 5 "3" H 10270 1480 50  0001 L CNN "Height"
+F 6 "Wurth Elektronik" H 10270 1380 50  0001 L CNN "Manufacturer_Name"
+F 7 "744235601" H 10270 1280 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 10270 1180 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 10270 1080 50  0001 L CNN "Arrow Price/Stock"
+F 10 "710-744235601" H 10270 980 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744235601?qs=BXmE%252BJ0Y7xYO4MPd53j2NQ%3D%3D" H 10270 880 50  0001 L CNN "Mouser Price/Stock"
+	1    9620 1680
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CP_Small C?
+L Device:CP_Small C3
 U 1 1 5FE49BEB
-P 8000 5130
-F 0 "C?" H 8088 5176 50  0000 L CNN
-F 1 "100nF close to Switch" H 8088 5085 50  0000 L CNN
-F 2 "" H 8000 5130 50  0001 C CNN
-F 3 "~" H 8000 5130 50  0001 C CNN
-	1    8000 5130
+P 5020 5240
+F 0 "C3" H 5108 5286 50  0000 L CNN
+F 1 "100nF MLCC" H 5108 5195 50  0000 L CNN
+F 2 "" H 5020 5240 50  0001 C CNN
+F 3 "~" H 5020 5240 50  0001 C CNN
+	1    5020 5240
 	1    0    0    -1  
 $EndComp
+$Comp
+L LSM115JE3_TR13:LSM115JE3_TR13 D1
+U 1 1 5FE4DB5C
+P 2680 1530
+F 0 "D1" H 3150 1290 50  0000 C CNN
+F 1 "LSM115JE3_TR13" H 3160 1370 50  0000 C CNN
+F 2 "DIOM5436X330N" H 3180 1680 50  0001 L CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Microsemi%20PDFs/LSM115J.pdf" H 3180 1580 50  0001 L CNN
+F 4 "Schottky Diodes & Rectifiers Schottky" H 3180 1480 50  0001 L CNN "Description"
+F 5 "3.3" H 3180 1380 50  0001 L CNN "Height"
+F 6 "Microsemi Corporation" H 3180 1280 50  0001 L CNN "Manufacturer_Name"
+F 7 "LSM115JE3/TR13" H 3180 1180 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "LSM115JE3/TR13" H 3180 1080 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/lsm115je3tr13/microsemi" H 3180 980 50  0001 L CNN "Arrow Price/Stock"
+F 10 "494-LSM115JE3/TR13" H 3180 880 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Microchip-Microsemi/LSM115JE3-TR13?qs=6jAvgNDGUA8H9k1qUsKdHA%3D%3D" H 3180 780 50  0001 L CNN "Mouser Price/Stock"
+	1    2680 1530
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:CP1_Small C7
+U 1 1 5FE548E0
+P 8030 1720
+F 0 "C7" H 8121 1766 50  0000 L CNN
+F 1 "47uF" H 8121 1675 50  0000 L CNN
+F 2 "" H 8030 1720 50  0001 C CNN
+F 3 "~" H 8030 1720 50  0001 C CNN
+	1    8030 1720
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 5500 0    50   Input ~ 0
+-Vout
+Wire Wire Line
+	5020 5340 5020 5500
+Wire Wire Line
+	5020 5500 4850 5500
+Wire Wire Line
+	8420 1430 8030 1430
+Wire Wire Line
+	8030 1430 8030 1620
+Wire Wire Line
+	8030 1820 8030 2010
+Wire Wire Line
+	8030 2010 8420 2010
+Wire Wire Line
+	8030 2010 8030 2100
+Connection ~ 8030 2010
+Wire Wire Line
+	8030 1350 8030 1430
+Connection ~ 8030 1430
+Wire Notes Line
+	7760 1010 10870 1010
+Wire Notes Line
+	10870 1010 10870 2480
+Wire Notes Line
+	10870 2480 7760 2480
+Wire Notes Line
+	7760 2480 7760 1010
+Text Notes 7760 1010 0    50   ~ 0
+Pre-regulator filtering and surge protection
+Text GLabel 1620 5770 0    50   Input ~ 0
+COM
+$Comp
+L Diode:1N4004 D3
+U 1 1 5FE6DCB8
+P 6660 4650
+F 0 "D3" V 6614 4730 50  0000 L CNN
+F 1 "1N4004" V 6705 4730 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6660 4475 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6660 4650 50  0001 C CNN
+	1    6660 4650
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:CP_Small C4
+U 1 1 5FE6E630
+P 5020 4650
+F 0 "C4" H 5108 4696 50  0000 L CNN
+F 1 "100nF MLCC" H 5108 4605 50  0000 L CNN
+F 2 "" H 5020 4650 50  0001 C CNN
+F 3 "~" H 5020 4650 50  0001 C CNN
+	1    5020 4650
+	1    0    0    -1  
+$EndComp
+Text GLabel 4850 4370 0    50   Input ~ 0
++Vout
+Wire Wire Line
+	4850 4370 5020 4370
+Wire Wire Line
+	5020 4370 5020 4550
+Wire Wire Line
+	5020 4750 5020 4910
+Wire Wire Line
+	5020 4910 4790 4910
+Text GLabel 4790 4910 0    50   Input ~ 0
+COM
+Wire Wire Line
+	5020 5140 5020 4910
+Connection ~ 5020 4910
+$Comp
+L Device:CP1_Small C5
+U 1 1 5FE73D6E
+P 5920 4650
+F 0 "C5" H 6011 4696 50  0000 L CNN
+F 1 "1uF" H 6011 4605 50  0000 L CNN
+F 2 "" H 5920 4650 50  0001 C CNN
+F 3 "~" H 5920 4650 50  0001 C CNN
+	1    5920 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C6
+U 1 1 5FE74A1F
+P 5920 5260
+F 0 "C6" H 6011 5306 50  0000 L CNN
+F 1 "1uF" H 6011 5215 50  0000 L CNN
+F 2 "" H 5920 5260 50  0001 C CNN
+F 3 "~" H 5920 5260 50  0001 C CNN
+	1    5920 5260
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5020 4370 5920 4370
+Wire Wire Line
+	5920 4370 5920 4550
+Connection ~ 5020 4370
+Wire Wire Line
+	5920 4750 5920 4910
+Wire Wire Line
+	5920 5360 5920 5500
+Wire Wire Line
+	5920 5500 5020 5500
+Connection ~ 5020 5500
+Wire Wire Line
+	5020 4910 5920 4910
+Connection ~ 5920 4910
+Wire Wire Line
+	5920 4910 5920 5160
+$Comp
+L Diode:1N4004 D4
+U 1 1 5FE81B4A
+P 6660 5240
+F 0 "D4" V 6614 5320 50  0000 L CNN
+F 1 "1N4004" V 6705 5320 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6660 5065 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6660 5240 50  0001 C CNN
+	1    6660 5240
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5920 5500 6660 5500
+Wire Wire Line
+	6660 5500 6660 5390
+Connection ~ 5920 5500
+Wire Wire Line
+	5920 4910 6660 4910
+Wire Wire Line
+	6660 4800 6660 4910
+Connection ~ 6660 4910
+Wire Wire Line
+	6660 4910 6660 5090
+Wire Wire Line
+	6660 4500 6660 4370
+Wire Wire Line
+	6660 4370 5920 4370
+Connection ~ 5920 4370
+Wire Notes Line
+	1150 4830 2720 4830
+Wire Notes Line
+	2720 4830 2720 6150
+Wire Notes Line
+	2720 6150 1150 6150
+Wire Notes Line
+	1150 6150 1150 4830
+Text Notes 1150 4830 0    50   ~ 0
+DC-DC switching regulator
+$Comp
+L eurocad:EURO_PWR_2x5 J2
+U 1 1 5FE9238E
+P 9790 5160
+F 0 "J2" H 9790 5607 60  0000 C CNN
+F 1 "EURO_PWR_2x5" H 9790 5501 60  0000 C CNN
+F 2 "" H 9790 5160 60  0000 C CNN
+F 3 "" H 9790 5160 60  0000 C CNN
+	1    9790 5160
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	4420 4140 7190 4140
+Wire Notes Line
+	7190 4140 7190 5900
+Wire Notes Line
+	7190 5900 4420 5900
+Wire Notes Line
+	4420 5900 4420 4140
+Text Notes 4420 4140 0    50   ~ 0
+Output filtering
+Text GLabel 9340 4960 0    50   Input ~ 0
++Vout
+Text GLabel 9270 5160 0    50   Input ~ 0
+COM
+Text GLabel 9340 5360 0    50   Input ~ 0
+-Vout
+Wire Wire Line
+	9340 5060 9340 5160
+Connection ~ 9340 5160
+Wire Wire Line
+	9340 5160 9340 5260
+Wire Wire Line
+	9340 5160 9270 5160
+Wire Wire Line
+	10240 5060 10240 5160
+Connection ~ 10240 5160
+Wire Wire Line
+	10240 5160 10240 5260
+Wire Wire Line
+	10240 4960 9340 4960
+Wire Wire Line
+	9340 5360 10240 5360
+Wire Notes Line
+	8960 4590 10380 4590
+Wire Notes Line
+	10380 4590 10380 5630
+Wire Notes Line
+	10380 5630 8960 5630
+Wire Notes Line
+	8960 5630 8960 4590
+Text Notes 8960 4590 0    50   ~ 0
+Output connector
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5FEB7EB0
+P 2660 1530
+F 0 "#FLG02" H 2660 1605 50  0001 C CNN
+F 1 "PWR_FLAG" H 2660 1703 50  0000 C CNN
+F 2 "" H 2660 1530 50  0001 C CNN
+F 3 "~" H 2660 1530 50  0001 C CNN
+	1    2660 1530
+	-1   0    0    1   
+$EndComp
+Connection ~ 2660 1530
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5FEB8408
+P 1980 1830
+F 0 "#FLG01" H 1980 1905 50  0001 C CNN
+F 1 "PWR_FLAG" V 1980 1958 50  0000 L CNN
+F 2 "" H 1980 1830 50  0001 C CNN
+F 3 "~" H 1980 1830 50  0001 C CNN
+	1    1980 1830
+	0    1    1    0   
+$EndComp
+Connection ~ 1980 1830
+NoConn ~ 1620 5470
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5FEBA228
+P 6660 4370
+F 0 "#FLG0101" H 6660 4445 50  0001 C CNN
+F 1 "PWR_FLAG" H 6660 4543 50  0000 C CNN
+F 2 "" H 6660 4370 50  0001 C CNN
+F 3 "~" H 6660 4370 50  0001 C CNN
+	1    6660 4370
+	1    0    0    -1  
+$EndComp
+Connection ~ 6660 4370
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5FEBAD77
+P 6660 4910
+F 0 "#FLG0102" H 6660 4985 50  0001 C CNN
+F 1 "PWR_FLAG" V 6660 5038 50  0000 L CNN
+F 2 "" H 6660 4910 50  0001 C CNN
+F 3 "~" H 6660 4910 50  0001 C CNN
+	1    6660 4910
+	0    1    1    0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5FEBB245
+P 6660 5500
+F 0 "#FLG0103" H 6660 5575 50  0001 C CNN
+F 1 "PWR_FLAG" H 6660 5673 50  0000 C CNN
+F 2 "" H 6660 5500 50  0001 C CNN
+F 3 "~" H 6660 5500 50  0001 C CNN
+	1    6660 5500
+	-1   0    0    1   
+$EndComp
+Connection ~ 6660 5500
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5FEBEC19
+P 6030 1280
+F 0 "#FLG0104" H 6030 1355 50  0001 C CNN
+F 1 "PWR_FLAG" V 6030 1408 50  0000 L CNN
+F 2 "" H 6030 1280 50  0001 C CNN
+F 3 "~" H 6030 1280 50  0001 C CNN
+	1    6030 1280
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9340 5160 10240 5160
 $EndSCHEMATC
