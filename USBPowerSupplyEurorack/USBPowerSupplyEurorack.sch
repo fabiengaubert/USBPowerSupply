@@ -36,33 +36,6 @@ F 3 "~" H 8930 1700 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L RS6-0512D:RS6-0512D T1
-U 1 1 5FE0B06B
-P 1510 5940
-F 0 "T1" H 1910 6210 50  0000 L CNN
-F 1 "RS6-0512D" H 1790 6120 50  0000 L CNN
-F 2 "RS6-0512D:RS60505S" H 2360 6040 50  0001 L CNN
-F 3 "http://www.recom-power.com/pdf/Econoline/RS6.pdf" H 2360 5940 50  0001 L CNN
-F 4 "Recom Through Hole 6W Isolated DC-DC Converter, Vin 4.5  9 V dc" H 2360 5840 50  0001 L CNN "Description"
-F 5 "11.6" H 2360 5740 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 2360 5640 50  0001 L CNN "Manufacturer_Name"
-F 7 "RS6-0512D" H 2360 5540 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "RS6-0512D" H 2360 5440 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/rs6-0512d/recom-power" H 2360 5340 50  0001 L CNN "Arrow Price/Stock"
-F 10 "919-RS6-0512D" H 2360 5240 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512D?qs=FLBwGrBR9%252B0Q8nr9fBSm8Q%3D%3D" H 2360 5140 50  0001 L CNN "Mouser Price/Stock"
-	1    1510 5940
-	1    0    0    -1  
-$EndComp
-Text GLabel 1510 5940 0    50   Input ~ 0
--Vin
-Text GLabel 1510 6040 0    50   Input ~ 0
-+Vin
-Text GLabel 1510 6540 0    50   Input ~ 0
--Vout
-Text GLabel 1510 6340 0    50   Input ~ 0
-+Vout
-$Comp
 L power:GND #PWR0101
 U 1 1 5FE13FD5
 P 1780 2130
@@ -303,12 +276,12 @@ $EndComp
 $Comp
 L Device:CP_Small C3
 U 1 1 5FE49BEB
-P 4830 5200
-F 0 "C3" H 4918 5246 50  0000 L CNN
-F 1 "100nF MLCC" H 4918 5155 50  0000 L CNN
-F 2 "" H 4830 5200 50  0001 C CNN
-F 3 "~" H 4830 5200 50  0001 C CNN
-	1    4830 5200
+P 4600 5260
+F 0 "C3" H 4688 5306 50  0000 L CNN
+F 1 "100nF MLCC" H 4688 5215 50  0000 L CNN
+F 2 "" H 4600 5260 50  0001 C CNN
+F 3 "~" H 4600 5260 50  0001 C CNN
+	1    4600 5260
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -322,12 +295,10 @@ F 3 "~" H 8160 1710 50  0001 C CNN
 	1    8160 1710
 	1    0    0    -1  
 $EndComp
-Text GLabel 4660 5460 0    50   Input ~ 0
--Vout
 Wire Wire Line
-	4830 5300 4830 5460
+	4600 5360 4600 5520
 Wire Wire Line
-	4830 5460 4660 5460
+	4600 5520 4430 5520
 Wire Wire Line
 	8550 1420 8160 1420
 Wire Wire Line
@@ -350,174 +321,168 @@ Wire Notes Line
 	7310 2460 7310 990 
 Text Notes 7310 990  0    50   ~ 0
 Pre-regulator filtering and surge/reversed polarity protection
-Text GLabel 1510 6440 0    50   Input ~ 0
-COM
 $Comp
 L Diode:1N4004 D3
 U 1 1 5FE6DCB8
-P 6470 4610
-F 0 "D3" V 6424 4690 50  0000 L CNN
-F 1 "1N4004" V 6515 4690 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6470 4435 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6470 4610 50  0001 C CNN
-	1    6470 4610
+P 6240 4670
+F 0 "D3" V 6194 4750 50  0000 L CNN
+F 1 "1N4004" V 6285 4750 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6240 4495 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6240 4670 50  0001 C CNN
+	1    6240 4670
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:CP_Small C4
 U 1 1 5FE6E630
-P 4830 4610
-F 0 "C4" H 4918 4656 50  0000 L CNN
-F 1 "100nF MLCC" H 4918 4565 50  0000 L CNN
-F 2 "" H 4830 4610 50  0001 C CNN
-F 3 "~" H 4830 4610 50  0001 C CNN
-	1    4830 4610
+P 4600 4670
+F 0 "C4" H 4688 4716 50  0000 L CNN
+F 1 "100nF MLCC" H 4688 4625 50  0000 L CNN
+F 2 "" H 4600 4670 50  0001 C CNN
+F 3 "~" H 4600 4670 50  0001 C CNN
+	1    4600 4670
 	1    0    0    -1  
 $EndComp
-Text GLabel 4660 4330 0    50   Input ~ 0
-+Vout
 Wire Wire Line
-	4660 4330 4830 4330
+	4430 4390 4600 4390
 Wire Wire Line
-	4830 4330 4830 4510
+	4600 4390 4600 4570
 Wire Wire Line
-	4830 4710 4830 4870
+	4600 4770 4600 4930
 Wire Wire Line
-	4830 4870 4600 4870
-Text GLabel 4600 4870 0    50   Input ~ 0
-COM
+	4600 4930 4370 4930
 Wire Wire Line
-	4830 5100 4830 4870
-Connection ~ 4830 4870
+	4600 5160 4600 4930
+Connection ~ 4600 4930
 $Comp
 L Device:CP1_Small C5
 U 1 1 5FE73D6E
-P 5730 4610
-F 0 "C5" H 5821 4656 50  0000 L CNN
-F 1 "1uF" H 5821 4565 50  0000 L CNN
-F 2 "" H 5730 4610 50  0001 C CNN
-F 3 "~" H 5730 4610 50  0001 C CNN
-	1    5730 4610
+P 5500 4670
+F 0 "C5" H 5591 4716 50  0000 L CNN
+F 1 "1uF" H 5591 4625 50  0000 L CNN
+F 2 "" H 5500 4670 50  0001 C CNN
+F 3 "~" H 5500 4670 50  0001 C CNN
+	1    5500 4670
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:CP1_Small C6
 U 1 1 5FE74A1F
-P 5730 5220
-F 0 "C6" H 5821 5266 50  0000 L CNN
-F 1 "1uF" H 5821 5175 50  0000 L CNN
-F 2 "" H 5730 5220 50  0001 C CNN
-F 3 "~" H 5730 5220 50  0001 C CNN
-	1    5730 5220
+P 5500 5280
+F 0 "C6" H 5591 5326 50  0000 L CNN
+F 1 "1uF" H 5591 5235 50  0000 L CNN
+F 2 "" H 5500 5280 50  0001 C CNN
+F 3 "~" H 5500 5280 50  0001 C CNN
+	1    5500 5280
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4830 4330 5730 4330
+	4600 4390 5500 4390
 Wire Wire Line
-	5730 4330 5730 4510
-Connection ~ 4830 4330
+	5500 4390 5500 4570
+Connection ~ 4600 4390
 Wire Wire Line
-	5730 4710 5730 4870
+	5500 4770 5500 4930
 Wire Wire Line
-	5730 5320 5730 5460
+	5500 5380 5500 5520
 Wire Wire Line
-	5730 5460 4830 5460
-Connection ~ 4830 5460
+	5500 5520 4600 5520
+Connection ~ 4600 5520
 Wire Wire Line
-	4830 4870 5730 4870
-Connection ~ 5730 4870
+	4600 4930 5500 4930
+Connection ~ 5500 4930
 Wire Wire Line
-	5730 4870 5730 5120
+	5500 4930 5500 5180
 $Comp
 L Diode:1N4004 D4
 U 1 1 5FE81B4A
-P 6470 5200
-F 0 "D4" V 6424 5280 50  0000 L CNN
-F 1 "1N4004" V 6515 5280 50  0000 L CNN
-F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6470 5025 50  0001 C CNN
-F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6470 5200 50  0001 C CNN
-	1    6470 5200
+P 6240 5260
+F 0 "D4" V 6194 5340 50  0000 L CNN
+F 1 "1N4004" V 6285 5340 50  0000 L CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 6240 5085 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 6240 5260 50  0001 C CNN
+	1    6240 5260
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	5730 5460 6470 5460
+	5500 5520 6240 5520
 Wire Wire Line
-	6470 5460 6470 5350
-Connection ~ 5730 5460
+	6240 5520 6240 5410
+Connection ~ 5500 5520
 Wire Wire Line
-	5730 4870 6470 4870
+	5500 4930 6240 4930
 Wire Wire Line
-	6470 4760 6470 4870
-Connection ~ 6470 4870
+	6240 4820 6240 4930
+Connection ~ 6240 4930
 Wire Wire Line
-	6470 4870 6470 5050
+	6240 4930 6240 5110
 Wire Wire Line
-	6470 4460 6470 4330
+	6240 4520 6240 4390
 Wire Wire Line
-	6470 4330 5730 4330
-Connection ~ 5730 4330
+	6240 4390 5500 4390
+Connection ~ 5500 4390
 Wire Notes Line
-	1040 5500 2610 5500
+	1140 4370 2710 4370
 Wire Notes Line
-	2610 5500 2610 6820
+	2710 4370 2710 6700
 Wire Notes Line
-	2610 6820 1040 6820
+	2710 6700 1140 6700
 Wire Notes Line
-	1040 6820 1040 5500
-Text Notes 1040 5500 0    50   ~ 0
-DC-DC switching regulator
+	1140 6700 1140 4370
+Text Notes 1140 4370 0    50   ~ 0
+DC-DC switching regulators
 $Comp
 L eurocad:EURO_PWR_2x5 J2
 U 1 1 5FE9238E
-P 9410 5450
-F 0 "J2" H 9410 5897 60  0000 C CNN
-F 1 "EURO_PWR_2x5" H 9410 5791 60  0000 C CNN
-F 2 "" H 9410 5450 60  0000 C CNN
-F 3 "" H 9410 5450 60  0000 C CNN
-	1    9410 5450
+P 9350 5530
+F 0 "J2" H 9350 5977 60  0000 C CNN
+F 1 "EURO_PWR_2x5" H 9350 5871 60  0000 C CNN
+F 2 "" H 9350 5530 60  0000 C CNN
+F 3 "" H 9350 5530 60  0000 C CNN
+	1    9350 5530
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	4230 4100 7000 4100
+	4000 4160 6770 4160
 Wire Notes Line
-	7000 4100 7000 5860
+	6770 4160 6770 5920
 Wire Notes Line
-	7000 5860 4230 5860
+	6770 5920 4000 5920
 Wire Notes Line
-	4230 5860 4230 4100
-Text Notes 4230 4100 0    50   ~ 0
+	4000 5920 4000 4160
+Text Notes 4000 4160 0    50   ~ 0
 Output filtering
-Text GLabel 8960 5250 0    50   Input ~ 0
+Text GLabel 8900 5330 0    50   Input ~ 0
 +Vout
-Text GLabel 8890 5450 0    50   Input ~ 0
+Text GLabel 8830 5530 0    50   Input ~ 0
 COM
-Text GLabel 8960 5650 0    50   Input ~ 0
+Text GLabel 8900 5730 0    50   Input ~ 0
 -Vout
 Wire Wire Line
-	8960 5350 8960 5450
-Connection ~ 8960 5450
+	8900 5430 8900 5530
+Connection ~ 8900 5530
 Wire Wire Line
-	8960 5450 8960 5550
+	8900 5530 8900 5630
 Wire Wire Line
-	8960 5450 8890 5450
+	8900 5530 8830 5530
 Wire Wire Line
-	9860 5350 9860 5450
-Connection ~ 9860 5450
+	9800 5430 9800 5530
+Connection ~ 9800 5530
 Wire Wire Line
-	9860 5450 9860 5550
+	9800 5530 9800 5630
 Wire Wire Line
-	9860 5250 8960 5250
+	9800 5330 8900 5330
 Wire Wire Line
-	8960 5650 9860 5650
+	8900 5730 9800 5730
 Wire Notes Line
-	8580 4880 10000 4880
+	8520 4960 9940 4960
 Wire Notes Line
-	10000 4880 10000 5920
+	9940 4960 9940 6000
 Wire Notes Line
-	10000 5920 8580 5920
+	9940 6000 8520 6000
 Wire Notes Line
-	8580 5920 8580 4880
-Text Notes 8580 4880 0    50   ~ 0
+	8520 6000 8520 4960
+Text Notes 8520 4960 0    50   ~ 0
 Output connector
 $Comp
 L power:PWR_FLAG #FLG02
@@ -531,31 +496,30 @@ F 3 "~" H 2560 1490 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 2560 1490
-NoConn ~ 1510 6140
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5FEBA228
-P 6470 4330
-F 0 "#FLG0101" H 6470 4405 50  0001 C CNN
-F 1 "PWR_FLAG" H 6470 4503 50  0000 C CNN
-F 2 "" H 6470 4330 50  0001 C CNN
-F 3 "~" H 6470 4330 50  0001 C CNN
-	1    6470 4330
+P 6240 4390
+F 0 "#FLG0101" H 6240 4465 50  0001 C CNN
+F 1 "PWR_FLAG" H 6240 4563 50  0000 C CNN
+F 2 "" H 6240 4390 50  0001 C CNN
+F 3 "~" H 6240 4390 50  0001 C CNN
+	1    6240 4390
 	1    0    0    -1  
 $EndComp
-Connection ~ 6470 4330
+Connection ~ 6240 4390
 $Comp
 L power:PWR_FLAG #FLG0103
 U 1 1 5FEBB245
-P 6470 5460
-F 0 "#FLG0103" H 6470 5535 50  0001 C CNN
-F 1 "PWR_FLAG" H 6470 5633 50  0000 C CNN
-F 2 "" H 6470 5460 50  0001 C CNN
-F 3 "~" H 6470 5460 50  0001 C CNN
-	1    6470 5460
+P 6240 5520
+F 0 "#FLG0103" H 6240 5595 50  0001 C CNN
+F 1 "PWR_FLAG" H 6240 5693 50  0000 C CNN
+F 2 "" H 6240 5520 50  0001 C CNN
+F 3 "~" H 6240 5520 50  0001 C CNN
+	1    6240 5520
 	-1   0    0    1   
 $EndComp
-Connection ~ 6470 5460
+Connection ~ 6240 5520
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 5FEBEC19
@@ -568,7 +532,7 @@ F 3 "~" H 5830 1330 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8960 5450 9860 5450
+	8900 5530 9800 5530
 $Comp
 L 1812L110_16DR:1812L110_16DR F1
 U 1 1 5FE1FDB4
@@ -621,12 +585,80 @@ Connection ~ 7590 2000
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FEBAD77
-P 6470 4870
-F 0 "#FLG0102" H 6470 4945 50  0001 C CNN
-F 1 "PWR_FLAG" V 6470 4998 50  0000 L CNN
-F 2 "" H 6470 4870 50  0001 C CNN
-F 3 "~" H 6470 4870 50  0001 C CNN
-	1    6470 4870
+P 6240 4930
+F 0 "#FLG0102" H 6240 5005 50  0001 C CNN
+F 1 "PWR_FLAG" V 6240 5058 50  0000 L CNN
+F 2 "" H 6240 4930 50  0001 C CNN
+F 3 "~" H 6240 4930 50  0001 C CNN
+	1    6240 4930
 	0    1    1    0   
 $EndComp
+$Comp
+L RS6-0512S:RS6-0512S PS?
+U 1 1 5FE5CD2D
+P 1630 4780
+F 0 "PS?" H 1990 5020 50  0000 L CNN
+F 1 "RS6-0512S" H 1920 4940 50  0000 L CNN
+F 2 "RS6-0512S:RS60512S" H 2480 4880 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 2480 4780 50  0001 L CNN
+F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 2480 4680 50  0001 L CNN "Description"
+F 5 "11.6" H 2480 4580 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 2480 4480 50  0001 L CNN "Manufacturer_Name"
+F 7 "RS6-0512S" H 2480 4380 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-RS6-0512S" H 2480 4280 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 2480 4180 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2480 4080 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2480 3980 50  0001 L CNN "Arrow Price/Stock"
+	1    1630 4780
+	1    0    0    -1  
+$EndComp
+Text GLabel 1630 4780 0    50   Input ~ 0
+-Vin
+Text GLabel 1630 4880 0    50   Input ~ 0
++Vin
+NoConn ~ 1630 4980
+Text GLabel 1560 5280 0    50   Input ~ 0
+0V
+Text GLabel 1630 5180 0    50   Input ~ 0
++12
+NoConn ~ 1630 5080
+Wire Wire Line
+	1560 5280 1630 5280
+$Comp
+L RS6-0512S:RS6-0512S PS?
+U 1 1 5FE68DDD
+P 1630 5820
+F 0 "PS?" H 1990 6060 50  0000 L CNN
+F 1 "RS6-0512S" H 1920 5980 50  0000 L CNN
+F 2 "RS6-0512S:RS60512S" H 2480 5920 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 2480 5820 50  0001 L CNN
+F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 2480 5720 50  0001 L CNN "Description"
+F 5 "11.6" H 2480 5620 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 2480 5520 50  0001 L CNN "Manufacturer_Name"
+F 7 "RS6-0512S" H 2480 5420 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-RS6-0512S" H 2480 5320 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 2480 5220 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2480 5120 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2480 5020 50  0001 L CNN "Arrow Price/Stock"
+	1    1630 5820
+	1    0    0    -1  
+$EndComp
+Text GLabel 1630 5820 0    50   Input ~ 0
+-Vin
+Text GLabel 1630 5920 0    50   Input ~ 0
++Vin
+NoConn ~ 1630 6020
+Text GLabel 1560 6220 0    50   Input ~ 0
+0V
+NoConn ~ 1630 6120
+Wire Wire Line
+	1560 6220 1630 6220
+Text GLabel 1630 6320 0    50   Input ~ 0
+-12
+Text GLabel 4430 5520 0    50   Input ~ 0
+-12
+Text GLabel 4370 4930 0    50   Input ~ 0
+0V
+Text GLabel 4430 4390 0    50   Input ~ 0
++12
 $EndSCHEMATC
