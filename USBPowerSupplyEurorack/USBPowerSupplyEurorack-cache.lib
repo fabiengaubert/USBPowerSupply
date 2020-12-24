@@ -117,29 +117,6 @@ X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
-# Device_D_TVS_ALT
-#
-DEF Device_D_TVS_ALT D 0 40 N N 1 F N
-F0 "D" 0 100 50 H V C CNN
-F1 "Device_D_TVS_ALT" 0 -100 50 H V C CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- TO-???*
- *_Diode_*
- *SingleDiode*
- D_*
-$ENDFPLIST
-DRAW
-P 2 0 1 0 50 0 -50 0 N
-P 4 0 1 10 -100 -50 0 0 -100 50 -100 -50 F
-P 4 0 1 10 20 50 0 50 0 -50 -20 -50 N
-P 4 0 1 10 100 50 100 -50 0 0 100 50 F
-X A1 1 -150 0 100 R 50 50 1 1 P
-X A2 2 150 0 100 L 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
 # Device_Q_PMOS_GSD
 #
 DEF Device_Q_PMOS_GSD Q 0 0 Y N 1 F N
@@ -253,6 +230,36 @@ X TRIM 5 0 -300 200 R 50 50 0 0 P
 X +VOUT 6 0 -400 200 R 50 50 0 0 P
 X -VOUT 7 0 -500 200 R 50 50 0 0 P
 X NC 8 0 -600 200 R 50 50 0 0 N
+ENDDRAW
+ENDDEF
+#
+# SMAJ5.0CA_SMAJ5.0CA
+#
+DEF SMAJ5.0CA_SMAJ5.0CA D 0 30 Y Y 1 F N
+F0 "D" 600 350 50 H V L BNN
+F1 "SMAJ5.0CA_SMAJ5.0CA" 600 250 50 H V L BNN
+F2 "DIONM5026X229N" 600 150 50 H I L BNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" 600 50 50 H I L BNN
+F4 "Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" 600 -50 50 H I L BNN "Description"
+F5 "2.29" 600 -150 50 H I L BNN "Height"
+F6 "LITTELFUSE" 600 -250 50 H I L BNN "Manufacturer_Name"
+F7 "SMAJ5.0CA" 600 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "576-SMAJ5.0CA" 600 -450 50 H I L BNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ50CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D" 600 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "SMAJ5.0CA" 600 -650 50 H I L BNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/smaj5.0ca/littelfuse" 600 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+P 2 0 1 6 160 100 200 80 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 400 0 500 0 N
+P 2 0 1 6 660 100 700 80 N
+P 2 0 1 6 700 -80 700 80 N
+P 2 0 1 6 700 -80 740 -100 N
+P 4 0 1 6 200 0 400 -100 400 100 200 0 N
+P 4 0 1 6 700 0 500 -100 500 100 700 0 N
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 900 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #

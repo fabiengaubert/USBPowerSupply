@@ -1,0 +1,33 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model SMAJ5.0CA
+#/556585/389885/2.47/2/4/TVS Diode (Bi-directional)
+DEF SMAJ5.0CA D 0 30 Y Y 1 F N
+F0 "D" 600 350 50 H V L BNN
+F1 "SMAJ5.0CA" 600 250 50 H V L BNN
+F2 "DIONM5026X229N" 600 150 50 H I L BNN
+F3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" 600 50 50 H I L BNN
+F4 "Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" 600 -50 50 H I L BNN "Description"
+F5 "2.29" 600 -150 50 H I L BNN "Height"
+F6 "LITTELFUSE" 600 -250 50 H I L BNN "Manufacturer_Name"
+F7 "SMAJ5.0CA" 600 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "576-SMAJ5.0CA" 600 -450 50 H I L BNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ50CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D" 600 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "SMAJ5.0CA" 600 -650 50 H I L BNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/smaj5.0ca/littelfuse" 600 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 900 0 200 L 50 50 0 0 P
+P 4 0 1 6 700 0 500 -100 500 100 700 0 N
+P 4 0 1 6 200 0 400 -100 400 100 200 0 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 700 -80 700 80 N
+P 2 0 1 6 660 100 700 80 N
+P 2 0 1 6 700 -80 740 -100 N
+P 2 0 1 6 400 0 500 0 N
+ENDDRAW
+ENDDEF
+#
+#End Library
