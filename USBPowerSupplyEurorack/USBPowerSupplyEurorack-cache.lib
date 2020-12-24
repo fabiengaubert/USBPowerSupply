@@ -77,28 +77,6 @@ X ~ 2 700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
-# 744235601_744235601
-#
-DEF 744235601_744235601 L 0 30 Y Y 1 F N
-F0 "L" 650 300 50 H V L CNN
-F1 "744235601_744235601" 650 200 50 H V L CNN
-F2 "744235601" 650 100 50 H I L CNN
-F3 "https://componentsearchengine.com/Datasheets/2/744235601.pdf" 650 0 50 H I L CNN
-F4 "Wurth WE-CNSW SMD Series Wire-wound SMD Inductor with a Ferrite Core, 1 uH 25% Bifilar, Winding Symmetry 1200mA Idc" 650 -100 50 H I L CNN "Description"
-F5 "3" 650 -200 50 H I L CNN "Height"
-F6 "Wurth Elektronik" 650 -300 50 H I L CNN "Manufacturer_Name"
-F7 "744235601" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
-F8 "710-744235601" 650 -700 50 H I L CNN "Mouser Part Number"
-F9 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744235601?qs=BXmE%252BJ0Y7xYO4MPd53j2NQ%3D%3D" 650 -800 50 H I L CNN "Mouser Price/Stock"
-DRAW
-P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
-X 1 1 0 -100 200 R 50 50 0 0 P
-X 2 2 800 -100 200 L 50 50 0 0 P
-X 3 3 800 0 200 L 50 50 0 0 P
-X 4 4 0 0 200 R 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
 # Device_CP1_Small
 #
 DEF Device_CP1_Small C 0 10 N N 1 F N
@@ -275,6 +253,42 @@ X TRIM 5 0 -300 200 R 50 50 0 0 P
 X +VOUT 6 0 -400 200 R 50 50 0 0 P
 X -VOUT 7 0 -500 200 R 50 50 0 0 P
 X NC 8 0 -600 200 R 50 50 0 0 N
+ENDDRAW
+ENDDEF
+#
+# eec2_ACM4520V-901-2P-T
+#
+DEF eec2_ACM4520V-901-2P-T F 0 40 Y Y 1 L N
+F0 "F" 0 200 50 H V L CNN
+F1 "eec2_ACM4520V-901-2P-T" 0 300 50 H V L CNN
+F2 "TDK-ACM4520V-901-2P-T-*" 0 400 50 H I L CNN
+F3 "http://nl.rs-online.com/webdocs/14e9/0900766b814e92ac.pdf" 0 500 50 H I L CNN
+F4 "Fuse" 0 600 50 H I L CNN "category"
+F5 "2 Line Common Mode Choke Surface Mount 900 Ohm @ 100MHz 1.2A DCR 60 mOhm" 0 700 50 H I L CNN "digikey description"
+F6 "445-15677-1-ND" 0 800 50 H I L CNN "digikey part number"
+F7 "yes" 0 900 50 H I L CNN "lead free"
+F8 "40a722fe90742dbf" 0 1000 50 H I L CNN "library id"
+F9 "TDK" 0 1100 50 H I L CNN "manufacturer"
+F10 "810-ACM4520V9012PT00" 0 1200 50 H I L CNN "mouser part number"
+F11 "L1808" 0 1300 50 H I L CNN "package"
+F12 "yes" 0 1400 50 H I L CNN "rohs"
+F13 "+125°C" 0 1500 50 H I L CNN "temperature range high"
+F14 "-40°C" 0 1600 50 H I L CNN "temperature range low"
+F15 "50V" 0 1700 50 H I L CNN "voltage"
+DRAW
+A 500 -500 100 0 1799 1 1 0 N 600 -500 400 -500
+A 500 0 100 1800 -1 1 1 0 N 400 0 600 0
+A 700 -500 100 0 1799 1 1 0 N 800 -500 600 -500
+A 700 0 100 1800 -1 1 1 0 N 600 0 800 0
+A 900 -500 100 0 1799 1 1 0 N 1000 -500 800 -500
+A 900 0 100 1800 -1 1 1 0 N 800 0 1000 0
+S 200 100 1200 -600 1 1 0 f
+P 2 1 1 0 400 -300 1000 -300 N
+P 2 1 1 0 400 -200 1000 -200 N
+X 1 1 100 0 300 R 40 0 1 1 U
+X 2 2 100 -500 300 R 40 0 1 1 U
+X 3 3 1300 -500 300 L 40 0 1 1 U
+X 4 4 1300 0 300 L 40 0 1 1 U
 ENDDRAW
 ENDDEF
 #

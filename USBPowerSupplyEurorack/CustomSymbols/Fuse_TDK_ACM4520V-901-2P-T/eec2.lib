@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# TDK ACM4520V-901-2P-T
+#
+DEF ACM4520V-901-2P-T F 0 40 Y Y 1 L N
+F0 "F" 0 200 50 H V L CNN 
+F1 "ACM4520V-901-2P-T" 0 300 50 H V L CNN 
+F2 "TDK-ACM4520V-901-2P-T-*" 0 400 50 H I L CNN 
+F3 "http://nl.rs-online.com/webdocs/14e9/0900766b814e92ac.pdf" 0 500 50 H I L CNN 
+F4 "Fuse" 0 600 50 H I L CNN "category"
+F5 "2 Line Common Mode Choke Surface Mount 900 Ohm @ 100MHz 1.2A DCR 60 mOhm" 0 700 50 H I L CNN "digikey description"
+F6 "445-15677-1-ND" 0 800 50 H I L CNN "digikey part number"
+F7 "yes" 0 900 50 H I L CNN "lead free"
+F8 "40a722fe90742dbf" 0 1000 50 H I L CNN "library id"
+F9 "TDK" 0 1100 50 H I L CNN "manufacturer"
+F10 "810-ACM4520V9012PT00" 0 1200 50 H I L CNN "mouser part number"
+F11 "L1808" 0 1300 50 H I L CNN "package"
+F12 "yes" 0 1400 50 H I L CNN "rohs"
+F13 "+125°C" 0 1500 50 H I L CNN "temperature range high"
+F14 "-40°C" 0 1600 50 H I L CNN "temperature range low"
+F15 "50V" 0 1700 50 H I L CNN "voltage"
+DRAW
+X 1 1 100 0 300 R 40 0 1 1 U 
+X 4 4 1300 0 300 L 40 0 1 1 U 
+X 2 2 100 -500 300 R 40 0 1 1 U 
+X 3 3 1300 -500 300 L 40 0 1 1 U 
+A 500 0 100 1800 -1 1 1 0 N 400 0 600 0
+A 700 0 100 1800 -1 1 1 0 N 600 0 800 0
+A 900 0 100 1800 -1 1 1 0 N 800 0 1000 0
+A 500 -500 100 0 1799 1 1 0 N 600 -500 400 -500
+A 700 -500 100 0 1799 1 1 0 N 800 -500 600 -500
+A 900 -500 100 0 1799 1 1 0 N 1000 -500 800 -500
+P 2 1 1 0 400 -200 1000 -200 N
+P 2 1 1 0 400 -300 1000 -300 N
+S 200 100 1200 -600 1 1 0 f
+ENDDRAW
+ENDDEF
+#
+# End Library
