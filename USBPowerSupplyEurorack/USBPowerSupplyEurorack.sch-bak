@@ -16,24 +16,13 @@ $EndDescr
 $Comp
 L Device:CP1_Small C1
 U 1 1 5FE096E1
-P 8010 1720
-F 0 "C1" H 8101 1766 50  0000 L CNN
-F 1 "220uF" H 8101 1675 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x10.2" H 8010 1720 50  0001 C CNN
-F 3 "~" H 8010 1720 50  0001 C CNN
-	1    8010 1720
+P 8010 1770
+F 0 "C1" H 8101 1816 50  0000 L CNN
+F 1 "220uF" H 8101 1725 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_8x10.2" H 8010 1770 50  0001 C CNN
+F 3 "~" H 8010 1770 50  0001 C CNN
+	1    8010 1770
 	1    0    0    -1  
-$EndComp
-$Comp
-L Device:D_TVS_ALT D2
-U 1 1 5FE0A48F
-P 8390 1720
-F 0 "D2" V 8344 1800 50  0000 L CNN
-F 1 "SMAJ5.0CA" V 8435 1800 50  0001 L CNN
-F 2 "digikey-footprints:DO-214AC" H 8390 1720 50  0001 C CNN
-F 3 "~" H 8390 1720 50  0001 C CNN
-	1    8390 1720
-	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR0101
@@ -162,12 +151,12 @@ Push button & LED
 $Comp
 L power:+5V #PWR0106
 U 1 1 5FE2FAE8
-P 7050 1400
-F 0 "#PWR0106" H 7050 1250 50  0001 C CNN
-F 1 "+5V" H 7065 1573 50  0000 C CNN
-F 2 "" H 7050 1400 50  0001 C CNN
-F 3 "" H 7050 1400 50  0001 C CNN
-	1    7050 1400
+P 7050 1280
+F 0 "#PWR0106" H 7050 1130 50  0001 C CNN
+F 1 "+5V" H 7065 1453 50  0000 C CNN
+F 2 "" H 7050 1280 50  0001 C CNN
+F 3 "" H 7050 1280 50  0001 C CNN
+	1    7050 1280
 	1    0    0    -1  
 $EndComp
 NoConn ~ 1660 1590
@@ -184,44 +173,26 @@ F 3 "~" H 8800 1730 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8800 1830 8800 1970
+	8010 1670 8010 1350
 Wire Wire Line
-	8800 1630 8800 1470
-Wire Wire Line
-	8390 1570 8390 1470
-Wire Wire Line
-	8390 1470 8800 1470
-Wire Wire Line
-	8390 1870 8390 1970
-Wire Wire Line
-	8390 1970 8800 1970
-Wire Wire Line
-	8010 1620 8010 1470
-Wire Wire Line
-	8010 1470 8390 1470
-Connection ~ 8390 1470
-Wire Wire Line
-	8010 1820 8010 1970
-Wire Wire Line
-	8010 1970 8390 1970
-Connection ~ 8390 1970
+	8010 1870 8010 2380
 $Comp
 L power:GND #PWR0107
 U 1 1 5FE34916
-P 7050 2050
-F 0 "#PWR0107" H 7050 1800 50  0001 C CNN
-F 1 "GND" H 7055 1877 50  0000 C CNN
-F 2 "" H 7050 2050 50  0001 C CNN
-F 3 "" H 7050 2050 50  0001 C CNN
-	1    7050 2050
+P 7050 2460
+F 0 "#PWR0107" H 7050 2210 50  0001 C CNN
+F 1 "GND" H 7055 2287 50  0000 C CNN
+F 2 "" H 7050 2460 50  0001 C CNN
+F 3 "" H 7050 2460 50  0001 C CNN
+	1    7050 2460
 	1    0    0    -1  
 $EndComp
-Connection ~ 8010 1970
+Connection ~ 8010 2380
 Wire Wire Line
 	2480 1490 2560 1490
 Wire Wire Line
 	2560 1490 2560 1440
-Connection ~ 8010 1470
+Connection ~ 8010 1350
 Text GLabel 10270 1470 2    50   Input ~ 0
 +Vin
 Text GLabel 10270 1970 2    50   Input ~ 0
@@ -240,12 +211,12 @@ $EndComp
 $Comp
 L Device:CP1_Small C7
 U 1 1 5FE548E0
-P 7620 1730
-F 0 "C7" H 7711 1776 50  0000 L CNN
-F 1 "47uF" H 7711 1685 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_6.3x5.8" H 7620 1730 50  0001 C CNN
-F 3 "~" H 7620 1730 50  0001 C CNN
-	1    7620 1730
+P 7620 1780
+F 0 "C7" H 7711 1826 50  0000 L CNN
+F 1 "47uF" H 7711 1735 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_6.3x5.8" H 7620 1780 50  0001 C CNN
+F 3 "~" H 7620 1780 50  0001 C CNN
+	1    7620 1780
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -253,23 +224,23 @@ Wire Wire Line
 Wire Wire Line
 	4990 5650 4820 5650
 Wire Wire Line
-	8010 1470 7620 1470
+	8010 1350 7620 1350
 Wire Wire Line
-	7620 1470 7620 1630
+	7620 1350 7620 1680
 Wire Wire Line
-	7620 1830 7620 1970
+	7620 1880 7620 2380
 Wire Wire Line
-	7620 1970 8010 1970
-Connection ~ 7620 1970
-Connection ~ 7620 1470
+	7620 2380 8010 2380
+Connection ~ 7620 2380
+Connection ~ 7620 1350
 Wire Notes Line
 	6810 1010 10610 1010
 Wire Notes Line
-	10610 1010 10610 2470
+	10610 1010 10610 2710
 Wire Notes Line
-	10610 2470 6810 2480
+	10610 2710 6810 2710
 Wire Notes Line
-	6810 2480 6810 1010
+	6810 2710 6810 1010
 Text Notes 6810 1010 0    50   ~ 0
 Pre-regulator filtering and surge/reversed polarity protection
 $Comp
@@ -495,33 +466,33 @@ $EndComp
 $Comp
 L Device:Q_PMOS_GSD Q1
 U 1 1 5FE39F03
-P 7310 1570
-F 0 "Q1" V 7630 1480 50  0000 C CNN
-F 1 "Q_PMOS_GSD" V 7540 1420 50  0000 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 7510 1670 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf" H 7310 1570 50  0001 C CNN
-	1    7310 1570
+P 7310 1450
+F 0 "Q1" V 7630 1360 50  0000 C CNN
+F 1 "Q_PMOS_GSD" V 7540 1300 50  0000 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 7510 1550 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf" H 7310 1450 50  0001 C CNN
+	1    7310 1450
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	7620 1470 7510 1470
+	7620 1350 7510 1350
 Wire Wire Line
-	7310 1770 7310 1970
+	7310 1650 7310 2380
 Wire Wire Line
-	7310 1970 7620 1970
+	7310 2380 7620 2380
 Wire Wire Line
-	7110 1470 7050 1470
+	7110 1350 7050 1350
 Wire Wire Line
-	7050 1470 7050 1970
+	7050 1350 7050 2380
 Wire Wire Line
-	7050 1970 7310 1970
-Connection ~ 7310 1970
+	7050 2380 7310 2380
+Connection ~ 7310 2380
 Wire Wire Line
-	7050 1400 7050 1470
-Connection ~ 7050 1470
+	7050 1280 7050 1350
+Connection ~ 7050 1350
 Wire Wire Line
-	7050 2050 7050 1970
-Connection ~ 7050 1970
+	7050 2460 7050 2380
+Connection ~ 7050 2380
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FEBAD77
@@ -655,10 +626,51 @@ F 15 "50V" H 8970 3170 50  0001 L CNN "voltage"
 	1    8970 1470
 	1    0    0    -1  
 $EndComp
+$Comp
+L SMAJ5.0CA:SMAJ5.0CA D1
+U 1 1 5FE50B9A
+P 8440 1410
+F 0 "D1" V 8570 1550 50  0000 L CNN
+F 1 "SMAJ5.0CA" V 8480 1110 50  0000 L CNN
+F 2 "DIONM5026X229N" H 9040 1560 50  0001 L BNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 9040 1460 50  0001 L BNN
+F 4 "Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" H 9040 1360 50  0001 L BNN "Description"
+F 5 "2.29" H 9040 1260 50  0001 L BNN "Height"
+F 6 "LITTELFUSE" H 9040 1160 50  0001 L BNN "Manufacturer_Name"
+F 7 "SMAJ5.0CA" H 9040 1060 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "576-SMAJ5.0CA" H 9040 960 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ50CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D" H 9040 860 50  0001 L BNN "Mouser Price/Stock"
+F 10 "SMAJ5.0CA" H 9040 760 50  0001 L BNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/smaj5.0ca/littelfuse" H 9040 660 50  0001 L BNN "Arrow Price/Stock"
+	1    8440 1410
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	8800 1470 9070 1470
-Connection ~ 8800 1470
+	8440 1350 8440 1410
 Wire Wire Line
-	8800 1970 9070 1970
-Connection ~ 8800 1970
+	8010 1350 8440 1350
+Wire Wire Line
+	8440 1350 8800 1350
+Wire Wire Line
+	8800 1350 8800 1630
+Connection ~ 8440 1350
+Wire Wire Line
+	8800 1350 9070 1350
+Wire Wire Line
+	9070 1350 9070 1470
+Connection ~ 8800 1350
+Wire Wire Line
+	9070 2380 9070 1970
+Wire Wire Line
+	8800 1830 8800 2380
+Wire Wire Line
+	8010 2380 8440 2380
+Connection ~ 8800 2380
+Wire Wire Line
+	8800 2380 9070 2380
+Wire Wire Line
+	8440 2310 8440 2380
+Connection ~ 8440 2380
+Wire Wire Line
+	8440 2380 8800 2380
 $EndSCHEMATC
