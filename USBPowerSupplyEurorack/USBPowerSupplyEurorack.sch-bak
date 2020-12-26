@@ -483,16 +483,12 @@ Wire Wire Line
 Wire Wire Line
 	7110 1350 7050 1350
 Wire Wire Line
-	7050 1350 7050 2380
-Wire Wire Line
 	7050 2380 7310 2380
 Connection ~ 7310 2380
 Wire Wire Line
 	7050 1280 7050 1350
-Connection ~ 7050 1350
 Wire Wire Line
 	7050 2460 7050 2380
-Connection ~ 7050 2380
 $Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FEBAD77

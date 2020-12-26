@@ -68,84 +68,55 @@ Wire Notes Line
 Text Notes 950  1070 0    50   ~ 0
 USB Power In
 Wire Wire Line
-	4430 1830 4430 1930
+	4690 1830 4690 1930
 Wire Wire Line
-	5830 1830 5830 1930
+	6090 1830 6090 1930
 $Comp
 L LP4OA1PBCTR:LP4OA1PBCTR S1
 U 1 1 5FE10AE7
-P 5130 2530
-F 0 "S1" V 6270 2840 50  0000 L CNN
-F 1 "LP4OA1PBCTR" V 6180 2640 50  0000 L CNN
-F 2 "LP4OA1PBCTR:LP4OA1PBCTR" H 6180 3030 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/B240001.pdf" H 6180 2930 50  0001 L CNN
-F 4 "Pushbutton Switches DPDT On-Mom LED, Red" H 6180 2830 50  0001 L CNN "Description"
-F 5 "19.95" H 6180 2730 50  0001 L CNN "Height"
-F 6 "E-Switch" H 6180 2630 50  0001 L CNN "Manufacturer_Name"
-F 7 "LP4OA1PBCTR" H 6180 2530 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 6180 2430 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 6180 2330 50  0001 L CNN "Arrow Price/Stock"
-F 10 "612-LP4OA1PBCTR" H 6180 2230 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-LP4OA1PBCTR" H 6180 2130 50  0001 L CNN "Mouser Price/Stock"
-	1    5130 2530
+P 5390 2530
+F 0 "S1" V 6530 2840 50  0000 L CNN
+F 1 "LP4OA1PBCTR" V 6440 2640 50  0000 L CNN
+F 2 "LP4OA1PBCTR:LP4OA1PBCTR" H 6440 3030 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/B240001.pdf" H 6440 2930 50  0001 L CNN
+F 4 "Pushbutton Switches DPDT On-Mom LED, Red" H 6440 2830 50  0001 L CNN "Description"
+F 5 "19.95" H 6440 2730 50  0001 L CNN "Height"
+F 6 "E-Switch" H 6440 2630 50  0001 L CNN "Manufacturer_Name"
+F 7 "LP4OA1PBCTR" H 6440 2530 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 6440 2430 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 6440 2330 50  0001 L CNN "Arrow Price/Stock"
+F 10 "612-LP4OA1PBCTR" H 6440 2230 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-LP4OA1PBCTR" H 6440 2130 50  0001 L CNN "Mouser Price/Stock"
+	1    5390 2530
 	0    -1   -1   0   
 $EndComp
-NoConn ~ 4430 2030
-NoConn ~ 5830 2030
-Connection ~ 5830 1830
-$Comp
-L power:+5VD #PWR0102
-U 1 1 5FE20BD7
-P 2560 1440
-F 0 "#PWR0102" H 2560 1290 50  0001 C CNN
-F 1 "+5VD" H 2575 1613 50  0000 C CNN
-F 2 "" H 2560 1440 50  0001 C CNN
-F 3 "" H 2560 1440 50  0001 C CNN
-	1    2560 1440
-	1    0    0    -1  
-$EndComp
+NoConn ~ 4690 2030
+NoConn ~ 6090 2030
+Connection ~ 6090 1830
 $Comp
 L power:+5V #PWR0103
 U 1 1 5FE2195B
-P 5830 1830
-F 0 "#PWR0103" H 5830 1680 50  0001 C CNN
-F 1 "+5V" H 5845 2003 50  0000 C CNN
-F 2 "" H 5830 1830 50  0001 C CNN
-F 3 "" H 5830 1830 50  0001 C CNN
-	1    5830 1830
+P 6090 1830
+F 0 "#PWR0103" H 6090 1680 50  0001 C CNN
+F 1 "+5V" H 6105 2003 50  0000 C CNN
+F 2 "" H 6090 1830 50  0001 C CNN
+F 3 "" H 6090 1830 50  0001 C CNN
+	1    6090 1830
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5VD #PWR0104
-U 1 1 5FE220CC
-P 4430 1830
-F 0 "#PWR0104" H 4430 1680 50  0001 C CNN
-F 1 "+5VD" H 4445 2003 50  0000 C CNN
-F 2 "" H 4430 1830 50  0001 C CNN
-F 3 "" H 4430 1830 50  0001 C CNN
-	1    4430 1830
-	1    0    0    -1  
-$EndComp
-Connection ~ 4430 1830
 $Comp
 L Device:R_Small R1
 U 1 1 5FE234A2
-P 5130 2630
-F 0 "R1" H 5189 2676 50  0000 L CNN
-F 1 "510" H 5189 2585 50  0000 L CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 5130 2630 50  0001 C CNN
-F 3 "~" H 5130 2630 50  0001 C CNN
-	1    5130 2630
+P 5390 2630
+F 0 "R1" H 5449 2676 50  0000 L CNN
+F 1 "510" H 5449 2585 50  0000 L CNN
+F 2 "Resistor_SMD:R_0612_1632Metric" H 5390 2630 50  0001 C CNN
+F 3 "~" H 5390 2630 50  0001 C CNN
+	1    5390 2630
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	4240 1010 6360 1010
-Wire Notes Line
 	6360 1010 6360 3050
-Wire Notes Line
-	6360 3050 4240 3050
-Wire Notes Line
-	4240 3050 4240 1010
 Text Notes 4240 1010 0    50   ~ 0
 Push button & LED
 $Comp
@@ -431,17 +402,6 @@ F 3 "~" H 5990 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 Connection ~ 5990 5650
-$Comp
-L power:PWR_FLAG #FLG0104
-U 1 1 5FEBEC19
-P 5830 1830
-F 0 "#FLG0104" H 5830 1905 50  0001 C CNN
-F 1 "PWR_FLAG" V 5830 1958 50  0000 L CNN
-F 2 "" H 5830 1830 50  0001 C CNN
-F 3 "~" H 5830 1830 50  0001 C CNN
-	1    5830 1830
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	8900 5530 9800 5530
 $Comp
@@ -500,30 +460,10 @@ F 3 "~" H 5990 5060 50  0001 C CNN
 	1    5990 5060
 	0    1    1    0   
 $EndComp
-$Comp
-L RS6-0512S:RS6-0512S PS1
-U 1 1 5FE5CD2D
-P 1630 4780
-F 0 "PS1" H 1990 5020 50  0000 L CNN
-F 1 "RS6-0512S" H 1920 4940 50  0000 L CNN
-F 2 "RS6-0512S:RS60512S" H 2480 4880 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 2480 4780 50  0001 L CNN
-F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 2480 4680 50  0001 L CNN "Description"
-F 5 "11.6" H 2480 4580 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 2480 4480 50  0001 L CNN "Manufacturer_Name"
-F 7 "RS6-0512S" H 2480 4380 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "919-RS6-0512S" H 2480 4280 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 2480 4180 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 2480 4080 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 2480 3980 50  0001 L CNN "Arrow Price/Stock"
-	1    1630 4780
-	1    0    0    -1  
-$EndComp
 Text GLabel 1630 4780 0    50   Input ~ 0
 -Vin
 Text GLabel 1630 4880 0    50   Input ~ 0
 +Vin
-NoConn ~ 1630 4980
 Text GLabel 1560 5280 0    50   Input ~ 0
 0V
 Text GLabel 1630 5180 0    50   Input ~ 0
@@ -554,7 +494,6 @@ Text GLabel 1630 5820 0    50   Input ~ 0
 -Vin
 Text GLabel 1630 5920 0    50   Input ~ 0
 +Vin
-NoConn ~ 1630 6020
 Text GLabel 1560 6220 0    50   Input ~ 0
 0V
 NoConn ~ 1630 6120
@@ -587,18 +526,18 @@ F 11 "https://www.arrow.com/en/products/10129381-910001blf/amphenol-fci" H 9650 
 	1    8900 5330
 	1    0    0    -1  
 $EndComp
-Text GLabel 5080 2880 0    50   Input ~ 0
+Text GLabel 5340 2880 0    50   Input ~ 0
 0V
 Wire Wire Line
-	5080 2880 5130 2880
+	5340 2880 5390 2880
 Wire Wire Line
-	5130 2730 5130 2880
-Text GLabel 5080 1230 0    50   Input ~ 0
+	5390 2730 5390 2880
+Text GLabel 5340 1230 0    50   Input ~ 0
 +12V
 Wire Wire Line
-	5080 1230 5130 1230
+	5340 1230 5390 1230
 Wire Wire Line
-	5130 1230 5130 1330
+	5390 1230 5390 1330
 $Comp
 L eec2:ACM4520V-901-2P-T L1
 U 1 1 5FE60CD9
@@ -669,4 +608,46 @@ Wire Wire Line
 Connection ~ 8440 2380
 Wire Wire Line
 	8440 2380 8800 2380
+$Comp
+L power:+5V #PWR?
+U 1 1 5FE7630F
+P 2560 1440
+F 0 "#PWR?" H 2560 1290 50  0001 C CNN
+F 1 "+5V" H 2575 1613 50  0000 C CNN
+F 2 "" H 2560 1440 50  0001 C CNN
+F 3 "" H 2560 1440 50  0001 C CNN
+	1    2560 1440
+	1    0    0    -1  
+$EndComp
+Text GLabel 1630 4980 0    50   Input ~ 0
+CTRL
+$Comp
+L RS6-0512S:RS6-0512S PS1
+U 1 1 5FE5CD2D
+P 1630 4780
+F 0 "PS1" H 1990 5020 50  0000 L CNN
+F 1 "RS6-0512S" H 1920 4940 50  0000 L CNN
+F 2 "RS6-0512S:RS60512S" H 2480 4880 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 2480 4780 50  0001 L CNN
+F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 2480 4680 50  0001 L CNN "Description"
+F 5 "11.6" H 2480 4580 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 2480 4480 50  0001 L CNN "Manufacturer_Name"
+F 7 "RS6-0512S" H 2480 4380 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-RS6-0512S" H 2480 4280 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 2480 4180 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 2480 4080 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 2480 3980 50  0001 L CNN "Arrow Price/Stock"
+	1    1630 4780
+	1    0    0    -1  
+$EndComp
+Text GLabel 1630 6020 0    50   Input ~ 0
+CTRL
+Wire Notes Line
+	6360 3050 4240 3050
+Wire Notes Line
+	4240 3050 4240 1010
+Wire Notes Line
+	4240 1010 6360 1010
+Text GLabel 4690 1830 0    50   Input ~ 0
+CTRL
 $EndSCHEMATC
