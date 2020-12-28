@@ -19,8 +19,9 @@ U 1 1 5FE096E1
 P 8010 1770
 F 0 "C1" H 8101 1816 50  0000 L CNN
 F 1 "220uF" H 8101 1725 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_8x10.2" H 8010 1770 50  0001 C CNN
+F 2 "Capacitor_SMD:C_Elec_6.3x7.7" H 8010 1770 50  0001 C CNN
 F 3 "~" H 8010 1770 50  0001 C CNN
+F 4 "C127327" H 8010 1770 50  0001 C CNN "LCSC"
 	1    8010 1770
 	1    0    0    -1  
 $EndComp
@@ -109,9 +110,10 @@ L Device:R_Small R1
 U 1 1 5FE234A2
 P 5390 2630
 F 0 "R1" H 5449 2676 50  0000 L CNN
-F 1 "510" H 5449 2585 50  0000 L CNN
-F 2 "Resistor_SMD:R_0612_1632Metric" H 5390 2630 50  0001 C CNN
+F 1 "1.5K" H 5449 2585 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5390 2630 50  0001 C CNN
 F 3 "~" H 5390 2630 50  0001 C CNN
+F 4 "C4310" H 5390 2630 50  0001 C CNN "LCSC"
 	1    5390 2630
 	1    0    0    -1  
 $EndComp
@@ -132,17 +134,6 @@ F 3 "" H 7050 1280 50  0001 C CNN
 $EndComp
 NoConn ~ 1660 1590
 NoConn ~ 1660 1690
-$Comp
-L Device:CP1_Small C2
-U 1 1 5FE2664F
-P 8800 1730
-F 0 "C2" H 8860 1810 50  0000 L CNN
-F 1 "22uFMLCC" H 8590 1620 50  0000 L CNN
-F 2 "Capacitor_SMD:C_1210_3225Metric" H 8800 1730 50  0001 C CNN
-F 3 "~" H 8800 1730 50  0001 C CNN
-	1    8800 1730
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8010 1670 8010 1350
 Wire Wire Line
@@ -185,8 +176,9 @@ U 1 1 5FE548E0
 P 7620 1780
 F 0 "C7" H 7711 1826 50  0000 L CNN
 F 1 "47uF" H 7711 1735 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_6.3x5.8" H 7620 1780 50  0001 C CNN
+F 2 "Capacitor_SMD:C_Elec_5x5.4" H 7620 1780 50  0001 C CNN
 F 3 "~" H 7620 1780 50  0001 C CNN
+F 4 "C294514" H 7620 1780 50  0001 C CNN "LCSC"
 	1    7620 1780
 	1    0    0    -1  
 $EndComp
@@ -410,7 +402,7 @@ U 1 1 5FE1FDB4
 P 1780 1490
 F 0 "F1" H 2130 1715 50  0000 C CNN
 F 1 "1812L110" H 2130 1624 50  0000 C CNN
-F 2 "1812L110_16DR:FUSC4632X125N" H 2330 1540 50  0001 L CNN
+F 2 "Fuse:Fuse_1812_4532Metric" H 2330 1540 50  0001 L CNN
 F 3 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2330 1440 50  0001 L CNN
 F 4 "PTC Resettable Fuse 1.1A(hold) 1.95A(trip) 8VDC 100A 0.8W 0.3s 0.06Ohm SMD Solder Pad 1812 T/R" H 2330 1340 50  0001 L CNN "Description"
 F 5 "1.25" H 2330 1240 50  0001 L CNN "Height"
@@ -420,6 +412,7 @@ F 8 "1812L110/16DR" H 2330 940 50  0001 L CNN "Arrow Part Number"
 F 9 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2330 840 50  0001 L CNN "Arrow Price/Stock"
 F 10 "576-1812L110/16DR" H 2330 740 50  0001 L CNN "Mouser Part Number"
 F 11 "https://www.mouser.co.uk/ProductDetail/Littelfuse/1812L110-16DR?qs=PWhpLWeW8we3Ga3SZHmLHg%3D%3D" H 2330 640 50  0001 L CNN "Mouser Price/Stock"
+F 12 "C163516" H 1780 1490 50  0001 C CNN "LCSC"
 	1    1780 1490
 	1    0    0    -1  
 $EndComp
@@ -431,6 +424,7 @@ F 0 "Q1" V 7630 1360 50  0000 C CNN
 F 1 "Q_PMOS_GSD" V 7540 1300 50  0000 C CNN
 F 2 "digikey-footprints:SOT-23-3" H 7510 1550 50  0001 C CNN
 F 3 "https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf" H 7310 1450 50  0001 C CNN
+F 4 "C15127" V 7310 1450 50  0001 C CNN "LCSC"
 	1    7310 1450
 	0    -1   -1   0   
 $EndComp
@@ -558,6 +552,7 @@ F 12 "yes" H 8970 2870 50  0001 L CNN "rohs"
 F 13 "+125°C" H 8970 2970 50  0001 L CNN "temperature range high"
 F 14 "-40°C" H 8970 3070 50  0001 L CNN "temperature range low"
 F 15 "50V" H 8970 3170 50  0001 L CNN "voltage"
+F 16 "C92126" H 8970 1470 50  0001 C CNN "LCSC"
 	1    8970 1470
 	1    0    0    -1  
 $EndComp
@@ -567,7 +562,7 @@ U 1 1 5FE50B9A
 P 8440 1410
 F 0 "D1" V 8570 1550 50  0000 L CNN
 F 1 "SMAJ5.0CA" V 8480 1110 50  0000 L CNN
-F 2 "DIONM5026X229N" H 9040 1560 50  0001 L BNN
+F 2 "digikey-footprints:DO-214AC" H 9040 1560 50  0001 L BNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 9040 1460 50  0001 L BNN
 F 4 "Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" H 9040 1360 50  0001 L BNN "Description"
 F 5 "2.29" H 9040 1260 50  0001 L BNN "Height"
@@ -577,6 +572,7 @@ F 8 "576-SMAJ5.0CA" H 9040 960 50  0001 L BNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ50CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D" H 9040 860 50  0001 L BNN "Mouser Price/Stock"
 F 10 "SMAJ5.0CA" H 9040 760 50  0001 L BNN "Arrow Part Number"
 F 11 "https://www.arrow.com/en/products/smaj5.0ca/littelfuse" H 9040 660 50  0001 L BNN "Arrow Price/Stock"
+F 12 "C151931" H 8440 1410 50  0001 C CNN "LCSC"
 	1    8440 1410
 	0    1    1    0   
 $EndComp
@@ -637,6 +633,7 @@ F 8 "919-RS6-0512S" H 2480 4280 50  0001 L CNN "Mouser Part Number"
 F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 2480 4180 50  0001 L CNN "Mouser Price/Stock"
 F 10 "" H 2480 4080 50  0001 L CNN "Arrow Part Number"
 F 11 "" H 2480 3980 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 1630 4780 50  0001 C CNN "LCSC"
 	1    1630 4780
 	1    0    0    -1  
 $EndComp
@@ -650,4 +647,16 @@ Wire Notes Line
 	4240 1010 6360 1010
 Text GLabel 4690 1830 0    50   Input ~ 0
 CTRL
+$Comp
+L Device:C_Small C2
+U 1 1 5FEA4264
+P 8800 1730
+F 0 "C2" H 8892 1776 50  0000 L CNN
+F 1 "22uF" H 8840 1620 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8800 1730 50  0001 C CNN
+F 3 "~" H 8800 1730 50  0001 C CNN
+F 4 " C45783" H 8800 1730 50  0001 C CNN "LCSC"
+	1    8800 1730
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
