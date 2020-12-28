@@ -520,7 +520,7 @@ U 1 1 5FE50B9A
 P 8440 1410
 F 0 "D1" V 8700 1510 50  0000 L CNN
 F 1 "SMAJ5.0CA" V 8480 1110 50  0001 L CNN
-F 2 "digikey-footprints:DO-214AC" H 9040 1560 50  0001 L BNN
+F 2 "digikey-footprints:DO-214AC-BIPOLAR" H 9040 1560 50  0001 L BNN
 F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 9040 1460 50  0001 L BNN
 F 4 "Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" H 9040 1360 50  0001 L BNN "Description"
 F 5 "2.29" H 9040 1260 50  0001 L BNN "Height"

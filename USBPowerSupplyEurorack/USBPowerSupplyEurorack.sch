@@ -483,25 +483,6 @@ Text GLabel 4760 5060 0    50   Input ~ 0
 0V
 Text GLabel 4820 4520 0    50   Input ~ 0
 +12V
-$Comp
-L 10129381-910001BLF:10129381-910001BLF J2
-U 1 1 5FE8C505
-P 8900 5330
-F 0 "J2" H 9350 5595 50  0000 C CNN
-F 1 "10129381-910001BLF" H 9350 5504 50  0000 C CNN
-F 2 "10129381-910001BLF:HDRV10W67P254_2X5_1270X483X858P" H 9650 5430 50  0001 L CNN
-F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf" H 9650 5330 50  0001 L CNN
-F 4 "EconoStik , Board to Board connector, Unshrouded Vertical Header, Through Hole, Double Row, 10 Positions, 2.54 mm (0.100in) Pitch" H 9650 5230 50  0001 L CNN "Description"
-F 5 "8.58" H 9650 5130 50  0001 L CNN "Height"
-F 6 "Amphenol" H 9650 5030 50  0001 L CNN "Manufacturer_Name"
-F 7 "10129381-910001BLF" H 9650 4930 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "649-1012938191001BLF" H 9650 4830 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10129381-910001BLF?qs=0lQeLiL1qyYhmE%2FYsfo%2FnQ%3D%3D" H 9650 4730 50  0001 L CNN "Mouser Price/Stock"
-F 10 "10129381-910001BLF" H 9650 4630 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/10129381-910001blf/amphenol-fci" H 9650 4530 50  0001 L CNN "Arrow Price/Stock"
-	1    8900 5330
-	1    0    0    -1  
-$EndComp
 Text GLabel 5340 2880 0    50   Input ~ 0
 0V
 Wire Wire Line
@@ -677,4 +658,23 @@ F 3 "~" H 1780 1790 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 1780 1790
+$Comp
+L 95278-501A10LF:95278-501A10LF J2
+U 1 1 5FEC1F9A
+P 8900 5330
+F 0 "J2" H 9350 5595 50  0000 C CNN
+F 1 "95278-501A10LF" H 9350 5504 50  0000 C CNN
+F 2 "95278-501A10LF:95278501A10LF" H 9650 5430 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/95278-501A10LF.pdf" H 9650 5330 50  0001 L CNN
+F 4 "Headers & Wire Housings BERGSTIK" H 9650 5230 50  0001 L CNN "Description"
+F 5 "8.77" H 9650 5130 50  0001 L CNN "Height"
+F 6 "Amphenol" H 9650 5030 50  0001 L CNN "Manufacturer_Name"
+F 7 "95278-501A10LF" H 9650 4930 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "649-95278-501A10LF" H 9650 4830 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=649-95278-501A10LF" H 9650 4730 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9650 4630 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 9650 4530 50  0001 L CNN "Arrow Price/Stock"
+	1    8900 5330
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
