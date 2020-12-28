@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ACP3225-102-2P-T000
+D Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc
+K
+F https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf
+$ENDCMP
+#
+#End Doc Library

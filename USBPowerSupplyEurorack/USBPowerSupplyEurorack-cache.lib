@@ -77,6 +77,29 @@ X ~ 2 700 0 200 L 50 50 0 0 P
 ENDDRAW
 ENDDEF
 #
+# ACP3225-102-2P-T000_ACP3225-102-2P-T000
+#
+DEF ACP3225-102-2P-T000_ACP3225-102-2P-T000 FL 0 30 Y Y 1 F N
+F0 "FL" 650 300 50 H V L CNN
+F1 "ACP3225-102-2P-T000_ACP3225-102-2P-T000" 650 200 50 H V L CNN
+F2 "ACP3225" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf" 650 0 50 H I L CNN
+F4 "Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc" 650 -100 50 H I L CNN "Description"
+F5 "TDK" 650 -300 50 H I L CNN "Manufacturer_Name"
+F6 "ACP3225-102-2P-T000" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "810-ACP32251022PT000" 650 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/TDK/ACP3225-102-2P-T000/?qs=ivTIEzcXi434Fc9I%252Be4KYw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "ACP3225-102-2P-T000" 650 -700 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/acp3225-102-2p-t000/tdk" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 -100 200 L 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
 # Device_CP1_Small
 #
 DEF Device_CP1_Small C 0 10 N N 1 F N
@@ -94,26 +117,6 @@ P 2 0 1 0 -50 60 -30 60 N
 P 2 0 1 0 -40 50 -40 70 N
 X ~ 1 0 100 80 D 50 50 1 1 P
 X ~ 2 0 -100 80 U 50 50 1 1 P
-ENDDRAW
-ENDDEF
-#
-# Device_CP_Small
-#
-DEF Device_CP_Small C 0 10 N N 1 F N
-F0 "C" 10 70 50 H V L CNN
-F1 "Device_CP_Small" 10 -80 50 H V L CNN
-F2 "" 0 0 50 H I C CNN
-F3 "" 0 0 50 H I C CNN
-$FPLIST
- CP_*
-$ENDFPLIST
-DRAW
-S -60 -12 60 -27 0 1 0 F
-S -60 27 60 12 0 1 0 N
-P 2 0 1 0 -50 60 -30 60 N
-P 2 0 1 0 -40 50 -40 70 N
-X ~ 1 0 100 73 D 50 50 1 1 P
-X ~ 2 0 -100 73 U 50 50 1 1 P
 ENDDRAW
 ENDDEF
 #
@@ -278,42 +281,6 @@ P 4 0 1 6 200 0 400 -100 400 100 200 0 N
 P 4 0 1 6 700 0 500 -100 500 100 700 0 N
 X ~ 1 0 0 200 R 50 50 0 0 P
 X ~ 2 900 0 200 L 50 50 0 0 P
-ENDDRAW
-ENDDEF
-#
-# eec2_ACM4520V-901-2P-T
-#
-DEF eec2_ACM4520V-901-2P-T F 0 40 Y Y 1 L N
-F0 "F" 0 200 50 H V L CNN
-F1 "eec2_ACM4520V-901-2P-T" 0 300 50 H V L CNN
-F2 "TDK-ACM4520V-901-2P-T-*" 0 400 50 H I L CNN
-F3 "http://nl.rs-online.com/webdocs/14e9/0900766b814e92ac.pdf" 0 500 50 H I L CNN
-F4 "Fuse" 0 600 50 H I L CNN "category"
-F5 "2 Line Common Mode Choke Surface Mount 900 Ohm @ 100MHz 1.2A DCR 60 mOhm" 0 700 50 H I L CNN "digikey description"
-F6 "445-15677-1-ND" 0 800 50 H I L CNN "digikey part number"
-F7 "yes" 0 900 50 H I L CNN "lead free"
-F8 "40a722fe90742dbf" 0 1000 50 H I L CNN "library id"
-F9 "TDK" 0 1100 50 H I L CNN "manufacturer"
-F10 "810-ACM4520V9012PT00" 0 1200 50 H I L CNN "mouser part number"
-F11 "L1808" 0 1300 50 H I L CNN "package"
-F12 "yes" 0 1400 50 H I L CNN "rohs"
-F13 "+125°C" 0 1500 50 H I L CNN "temperature range high"
-F14 "-40°C" 0 1600 50 H I L CNN "temperature range low"
-F15 "50V" 0 1700 50 H I L CNN "voltage"
-DRAW
-A 500 -500 100 0 1799 1 1 0 N 600 -500 400 -500
-A 500 0 100 1800 -1 1 1 0 N 400 0 600 0
-A 700 -500 100 0 1799 1 1 0 N 800 -500 600 -500
-A 700 0 100 1800 -1 1 1 0 N 600 0 800 0
-A 900 -500 100 0 1799 1 1 0 N 1000 -500 800 -500
-A 900 0 100 1800 -1 1 1 0 N 800 0 1000 0
-S 200 100 1200 -600 1 1 0 f
-P 2 1 1 0 400 -300 1000 -300 N
-P 2 1 1 0 400 -200 1000 -200 N
-X 1 1 100 0 300 R 40 0 1 1 U
-X 2 2 100 -500 300 R 40 0 1 1 U
-X 3 3 1300 -500 300 L 40 0 1 1 U
-X 4 4 1300 0 300 L 40 0 1 1 U
 ENDDRAW
 ENDDEF
 #

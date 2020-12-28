@@ -1,0 +1,27 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ACP3225-102-2P-T000
+#/867432/389885/2.47/4/4/Filter
+DEF ACP3225-102-2P-T000 FL 0 30 Y Y 1 F N
+F0 "FL" 650 300 50 H V L CNN
+F1 "ACP3225-102-2P-T000" 650 200 50 H V L CNN
+F2 "ACP3225" 650 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf" 650 0 50 H I L CNN
+F4 "Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc" 650 -100 50 H I L CNN "Description"
+F5 "" 650 -200 50 H I L CNN "Height"
+F6 "TDK" 650 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ACP3225-102-2P-T000" 650 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "810-ACP32251022PT000" 650 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/TDK/ACP3225-102-2P-T000/?qs=ivTIEzcXi434Fc9I%252Be4KYw%3D%3D" 650 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "ACP3225-102-2P-T000" 650 -700 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/acp3225-102-2p-t000/tdk" 650 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 -100 200 L 50 50 0 0 P
+X 4 4 800 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
