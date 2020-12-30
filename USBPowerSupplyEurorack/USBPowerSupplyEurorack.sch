@@ -13,18 +13,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L Device:CP1_Small C1
-U 1 1 5FE096E1
-P 4050 2030
-F 0 "C1" H 4141 2076 50  0000 L CNN
-F 1 "220uF" H 4141 1985 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_6.3x7.7" H 4050 2030 50  0001 C CNN
-F 3 "~" H 4050 2030 50  0001 C CNN
-F 4 "C127327" H 4050 2030 50  0001 C CNN "LCSC"
-	1    4050 2030
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2080 1910 2200 1910
 Wire Wire Line
@@ -49,48 +37,17 @@ Wire Wire Line
 	1600 5370 1600 5470
 Wire Wire Line
 	3000 5370 3000 5470
-$Comp
-L LP4OA1PBCTR:LP4OA1PBCTR S1
-U 1 1 5FE10AE7
-P 2300 6070
-F 0 "S1" V 3440 6380 50  0000 L CNN
-F 1 "LP4OA1PBCTR" V 3350 6180 50  0000 L CNN
-F 2 "LP4OA1PBCTR:LP4OA1PBCTR" H 3350 6570 50  0001 L CNN
-F 3 "http://spec_sheets.e-switch.com/specs/B240001.pdf" H 3350 6470 50  0001 L CNN
-F 4 "Pushbutton Switches DPDT On-Mom LED, Red" H 3350 6370 50  0001 L CNN "Description"
-F 5 "19.95" H 3350 6270 50  0001 L CNN "Height"
-F 6 "E-Switch" H 3350 6170 50  0001 L CNN "Manufacturer_Name"
-F 7 "LP4OA1PBCTR" H 3350 6070 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "" H 3350 5970 50  0001 L CNN "Arrow Part Number"
-F 9 "" H 3350 5870 50  0001 L CNN "Arrow Price/Stock"
-F 10 "612-LP4OA1PBCTR" H 3350 5770 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-LP4OA1PBCTR" H 3350 5670 50  0001 L CNN "Mouser Price/Stock"
-	1    2300 6070
-	0    -1   -1   0   
-$EndComp
 NoConn ~ 1600 5570
 NoConn ~ 3000 5570
-Connection ~ 3000 5370
-$Comp
-L power:+5V #PWR0103
-U 1 1 5FE2195B
-P 3000 5370
-F 0 "#PWR0103" H 3000 5220 50  0001 C CNN
-F 1 "+5V" H 3015 5543 50  0000 C CNN
-F 2 "" H 3000 5370 50  0001 C CNN
-F 3 "" H 3000 5370 50  0001 C CNN
-	1    3000 5370
-	1    0    0    -1  
-$EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 5FE234A2
 P 2300 6170
 F 0 "R1" H 2359 6216 50  0000 L CNN
-F 1 "1.5K" H 2359 6125 50  0000 L CNN
+F 1 "1K" H 2359 6125 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric" H 2300 6170 50  0001 C CNN
 F 3 "~" H 2300 6170 50  0001 C CNN
-F 4 "C4310" H 2300 6170 50  0001 C CNN "LCSC"
+F 4 "C17513" H 2300 6170 50  0001 C CNN "LCSC"
 	1    2300 6170
 	1    0    0    -1  
 $EndComp
@@ -101,45 +58,17 @@ Push button & LED
 NoConn ~ 2080 1710
 NoConn ~ 2080 1810
 Wire Wire Line
-	4050 1930 4050 1610
-Wire Wire Line
-	4050 2130 4050 2640
-Connection ~ 4050 2640
-Wire Wire Line
 	2900 1610 2980 1610
 Wire Wire Line
 	2980 1610 2980 1560
-Connection ~ 4050 1610
 Text GLabel 6300 1610 2    50   Input ~ 0
 +Vin
 Text GLabel 6300 1710 2    50   Input ~ 0
 -Vin
-$Comp
-L Device:CP1_Small C7
-U 1 1 5FE548E0
-P 3660 2040
-F 0 "C7" H 3751 2086 50  0000 L CNN
-F 1 "47uF" H 3751 1995 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_5x5.4" H 3660 2040 50  0001 C CNN
-F 3 "~" H 3660 2040 50  0001 C CNN
-F 4 "C294514" H 3660 2040 50  0001 C CNN "LCSC"
-	1    3660 2040
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5680 5490 5680 5650
 Wire Wire Line
 	5680 5650 5510 5650
-Wire Wire Line
-	4050 1610 3660 1610
-Wire Wire Line
-	3660 1610 3660 1940
-Wire Wire Line
-	3660 2140 3660 2640
-Wire Wire Line
-	3660 2640 4050 2640
-Connection ~ 3660 2640
-Connection ~ 3660 1610
 Wire Notes Line
 	6650 1270 6650 2970
 Text Notes 1290 1270 0    50   ~ 0
@@ -348,25 +277,6 @@ F 12 "C163516" H 2200 1610 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Q_PMOS_GSD Q1
-U 1 1 5FE39F03
-P 3350 1710
-F 0 "Q1" V 3600 1680 50  0000 C CNN
-F 1 "Q_PMOS_GSD" V 3580 1560 50  0001 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 3550 1810 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf" H 3350 1710 50  0001 C CNN
-F 4 "C15127" V 3350 1710 50  0001 C CNN "LCSC"
-	1    3350 1710
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	3660 1610 3550 1610
-Wire Wire Line
-	3350 1910 3350 2640
-Wire Wire Line
-	3350 2640 3660 2640
-Connection ~ 3350 2640
-$Comp
 L power:PWR_FLAG #FLG0102
 U 1 1 5FEBAD77
 P 6680 5060
@@ -437,48 +347,6 @@ Wire Wire Line
 Wire Wire Line
 	2300 4770 2300 4870
 $Comp
-L SMAJ5.0CA:SMAJ5.0CA D1
-U 1 1 5FE50B9A
-P 4480 1670
-F 0 "D1" V 4740 1770 50  0000 L CNN
-F 1 "SMAJ5.0CA" V 4520 1370 50  0001 L CNN
-F 2 "digikey-footprints:DO-214AC-BIPOLAR" H 5080 1820 50  0001 L BNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 5080 1720 50  0001 L BNN
-F 4 "Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" H 5080 1620 50  0001 L BNN "Description"
-F 5 "2.29" H 5080 1520 50  0001 L BNN "Height"
-F 6 "LITTELFUSE" H 5080 1420 50  0001 L BNN "Manufacturer_Name"
-F 7 "SMAJ5.0CA" H 5080 1320 50  0001 L BNN "Manufacturer_Part_Number"
-F 8 "576-SMAJ5.0CA" H 5080 1220 50  0001 L BNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ50CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D" H 5080 1120 50  0001 L BNN "Mouser Price/Stock"
-F 10 "SMAJ5.0CA" H 5080 1020 50  0001 L BNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/smaj5.0ca/littelfuse" H 5080 920 50  0001 L BNN "Arrow Price/Stock"
-F 12 "C151931" H 4480 1670 50  0001 C CNN "LCSC"
-	1    4480 1670
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4480 1610 4480 1670
-Wire Wire Line
-	4050 1610 4480 1610
-Wire Wire Line
-	4480 1610 4840 1610
-Wire Wire Line
-	4840 1610 4840 1890
-Connection ~ 4480 1610
-Connection ~ 4840 1610
-Wire Wire Line
-	4840 2090 4840 2640
-Wire Wire Line
-	4050 2640 4480 2640
-Connection ~ 4840 2640
-Wire Wire Line
-	4840 2640 5110 2640
-Wire Wire Line
-	4480 2570 4480 2640
-Connection ~ 4480 2640
-Wire Wire Line
-	4480 2640 4840 2640
-$Comp
 L power:+5V #PWR0102
 U 1 1 5FE7630F
 P 2980 1560
@@ -522,18 +390,6 @@ Wire Notes Line
 Text GLabel 1600 5370 0    50   Input ~ 0
 CTRL
 $Comp
-L Device:C_Small C2
-U 1 1 5FEA4264
-P 4840 1990
-F 0 "C2" H 4900 2070 50  0000 L CNN
-F 1 "22uF" H 4880 1880 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4840 1990 50  0001 C CNN
-F 3 "~" H 4840 1990 50  0001 C CNN
-F 4 " C45783" H 4840 1990 50  0001 C CNN "LCSC"
-	1    4840 1990
-	1    0    0    -1  
-$EndComp
-$Comp
 L ACP3225-102-2P-T000:ACP3225-102-2P-T000 FL1
 U 1 1 5FEA5D5D
 P 5240 1610
@@ -557,8 +413,6 @@ Wire Wire Line
 	4840 1610 5240 1610
 Wire Wire Line
 	5110 1710 5240 1710
-Wire Wire Line
-	5110 1710 5110 2640
 Wire Wire Line
 	6040 1610 6300 1610
 Wire Wire Line
@@ -606,17 +460,53 @@ F 11 "" H 10300 4460 50  0001 L CNN "Arrow Price/Stock"
 	1    9550 5260
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2980 1610 3150 1610
-Wire Wire Line
-	2200 1910 2200 2640
-Wire Wire Line
-	2200 2640 2980 2640
+Wire Notes Line
+	1290 2970 1290 1270
+Wire Notes Line
+	1290 1270 6650 1270
+Wire Notes Line
+	1290 2970 6650 2970
+Text GLabel 3000 5370 2    50   Input ~ 0
++Vin
 $Comp
-L power:GND #PWR?
+L LP4OA1PBCTR:LP4OA1PBCTR S1
+U 1 1 5FE10AE7
+P 2300 6070
+F 0 "S1" V 3440 6380 50  0000 L CNN
+F 1 "Blue switch" V 3350 6180 50  0000 L CNN
+F 2 "LP4OA1PBCTR:LP4OA1PBCTR" H 3350 6570 50  0001 L CNN
+F 3 "http://spec_sheets.e-switch.com/specs/B240001.pdf" H 3350 6470 50  0001 L CNN
+F 4 "Pushbutton Switches DPDT On-Mom LED, Red" H 3350 6370 50  0001 L CNN "Description"
+F 5 "19.95" H 3350 6270 50  0001 L CNN "Height"
+F 6 "E-Switch" H 3350 6170 50  0001 L CNN "Manufacturer_Name"
+F 7 "LP4OA1PBCTR" H 3350 6070 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 3350 5970 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 3350 5870 50  0001 L CNN "Arrow Price/Stock"
+F 10 "612-LP4OA1PBCTR" H 3350 5770 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.com/Search/Refine.aspx?Keyword=612-LP4OA1PBCTR" H 3350 5670 50  0001 L CNN "Mouser Price/Stock"
+	1    2300 6070
+	0    -1   -1   0   
+$EndComp
+Connection ~ 2980 2640
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5FEDF6FA
+P 2980 2640
+F 0 "#FLG0104" H 2980 2715 50  0001 C CNN
+F 1 "PWR_FLAG" H 2980 2813 50  0000 C CNN
+F 2 "" H 2980 2640 50  0001 C CNN
+F 3 "~" H 2980 2640 50  0001 C CNN
+	1    2980 2640
+	1    0    0    -1  
+$EndComp
+Connection ~ 2200 2640
+Wire Wire Line
+	2200 2760 2200 2640
+$Comp
+L power:GND #PWR0101
 U 1 1 5FEDDC70
 P 2200 2760
-F 0 "#PWR?" H 2200 2510 50  0001 C CNN
+F 0 "#PWR0101" H 2200 2510 50  0001 C CNN
 F 1 "GND" H 2205 2587 50  0000 C CNN
 F 2 "" H 2200 2760 50  0001 C CNN
 F 3 "" H 2200 2760 50  0001 C CNN
@@ -624,26 +514,126 @@ F 3 "" H 2200 2760 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2200 2760 2200 2640
-Connection ~ 2200 2640
+	2200 2640 2980 2640
+Wire Wire Line
+	2200 1910 2200 2640
+Wire Wire Line
+	5110 1710 5110 2640
+Wire Wire Line
+	4840 2640 5110 2640
+Wire Wire Line
+	4840 2090 4840 2640
+Wire Wire Line
+	4840 1610 4840 1890
 $Comp
-L power:PWR_FLAG #FLG?
-U 1 1 5FEDF6FA
-P 2980 2640
-F 0 "#FLG?" H 2980 2715 50  0001 C CNN
-F 1 "PWR_FLAG" H 2980 2813 50  0000 C CNN
-F 2 "" H 2980 2640 50  0001 C CNN
-F 3 "~" H 2980 2640 50  0001 C CNN
-	1    2980 2640
+L Device:C_Small C2
+U 1 1 5FEA4264
+P 4840 1990
+F 0 "C2" H 4900 2070 50  0000 L CNN
+F 1 "22uF" H 4880 1880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4840 1990 50  0001 C CNN
+F 3 "~" H 4840 1990 50  0001 C CNN
+F 4 " C45783" H 4840 1990 50  0001 C CNN "LCSC"
+	1    4840 1990
 	1    0    0    -1  
 $EndComp
-Connection ~ 2980 2640
 Wire Wire Line
 	2980 2640 3350 2640
-Wire Notes Line
-	1290 2970 1290 1270
-Wire Notes Line
-	1290 1270 6650 1270
-Wire Notes Line
-	1290 2970 6650 2970
+Wire Wire Line
+	2980 1610 3150 1610
+Connection ~ 3350 2640
+Wire Wire Line
+	3350 2640 3660 2640
+Wire Wire Line
+	3350 1910 3350 2640
+Wire Wire Line
+	3660 1610 3550 1610
+$Comp
+L Device:Q_PMOS_GSD Q1
+U 1 1 5FE39F03
+P 3350 1710
+F 0 "Q1" V 3600 1680 50  0000 C CNN
+F 1 "Q_PMOS_GSD" V 3580 1560 50  0001 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 3550 1810 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf" H 3350 1710 50  0001 C CNN
+F 4 "C15127" V 3350 1710 50  0001 C CNN "LCSC"
+	1    3350 1710
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3660 2140 3660 2640
+Wire Wire Line
+	3660 1610 3660 1940
+$Comp
+L Device:CP1_Small C7
+U 1 1 5FE548E0
+P 3660 2040
+F 0 "C7" H 3751 2086 50  0000 L CNN
+F 1 "47uF" H 3751 1995 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_5x5.4" H 3660 2040 50  0001 C CNN
+F 3 "~" H 3660 2040 50  0001 C CNN
+F 4 "C294514" H 3660 2040 50  0001 C CNN "LCSC"
+	1    3660 2040
+	1    0    0    -1  
+$EndComp
+Connection ~ 4840 2640
+Connection ~ 4840 1610
+Connection ~ 3660 1610
+Connection ~ 3660 2640
+Wire Wire Line
+	4480 2640 4840 2640
+Connection ~ 4480 2640
+Wire Wire Line
+	4480 2570 4480 2640
+Wire Wire Line
+	4050 2640 4480 2640
+Connection ~ 4480 1610
+Wire Wire Line
+	4480 1610 4840 1610
+Wire Wire Line
+	4050 1610 4480 1610
+Wire Wire Line
+	4480 1610 4480 1670
+$Comp
+L SMAJ5.0CA:SMAJ5.0CA D1
+U 1 1 5FE50B9A
+P 4480 1670
+F 0 "D1" V 4740 1770 50  0000 L CNN
+F 1 "SMAJ5.0CA" V 4520 1370 50  0001 L CNN
+F 2 "digikey-footprints:DO-214AC-BIPOLAR" H 5080 1820 50  0001 L BNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 5080 1720 50  0001 L BNN
+F 4 "Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" H 5080 1620 50  0001 L BNN "Description"
+F 5 "2.29" H 5080 1520 50  0001 L BNN "Height"
+F 6 "LITTELFUSE" H 5080 1420 50  0001 L BNN "Manufacturer_Name"
+F 7 "SMAJ5.0CA" H 5080 1320 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "576-SMAJ5.0CA" H 5080 1220 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ50CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D" H 5080 1120 50  0001 L BNN "Mouser Price/Stock"
+F 10 "SMAJ5.0CA" H 5080 1020 50  0001 L BNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/smaj5.0ca/littelfuse" H 5080 920 50  0001 L BNN "Arrow Price/Stock"
+F 12 "C151931" H 4480 1670 50  0001 C CNN "LCSC"
+	1    4480 1670
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3660 2640 4050 2640
+Wire Wire Line
+	4050 1610 3660 1610
+Connection ~ 4050 1610
+Connection ~ 4050 2640
+Wire Wire Line
+	4050 2130 4050 2640
+Wire Wire Line
+	4050 1930 4050 1610
+$Comp
+L Device:CP1_Small C1
+U 1 1 5FE096E1
+P 4050 2030
+F 0 "C1" H 4141 2076 50  0000 L CNN
+F 1 "220uF" H 4141 1985 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_6.3x7.7" H 4050 2030 50  0001 C CNN
+F 3 "~" H 4050 2030 50  0001 C CNN
+F 4 "C127327" H 4050 2030 50  0001 C CNN "LCSC"
+	1    4050 2030
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
