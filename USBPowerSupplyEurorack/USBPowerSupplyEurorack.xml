@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>/Users/fabiengaubert/Documents/Electronic/USBPowerSupply/USBPowerSupply/USBPowerSupplyEurorack/USBPowerSupplyEurorack.sch</source>
-    <date>2020 December 25, Friday 20:38:47</date>
+    <date>2020 December 30, Wednesday 18:15:36</date>
     <tool>Eeschema (5.1.6-0-10_14)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -19,14 +19,6 @@
     </sheet>
   </design>
   <components>
-    <comp ref="C1">
-      <value>220uF</value>
-      <footprint>Capacitor_SMD:C_Elec_8x10.2</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE096E1</tstamp>
-    </comp>
     <comp ref="J1">
       <value>1734366-1</value>
       <footprint>1734366-1:TE_1734366-1</footprint>
@@ -41,103 +33,71 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE0D725</tstamp>
     </comp>
-    <comp ref="S1">
-      <value>LP4OA1PBCTR</value>
-      <footprint>LP4OA1PBCTR:LP4OA1PBCTR</footprint>
-      <datasheet>http://spec_sheets.e-switch.com/specs/B240001.pdf</datasheet>
-      <fields>
-        <field name="Description">Pushbutton Switches DPDT On-Mom LED, Red</field>
-        <field name="Height">19.95</field>
-        <field name="Manufacturer_Name">E-Switch</field>
-        <field name="Manufacturer_Part_Number">LP4OA1PBCTR</field>
-        <field name="Mouser Part Number">612-LP4OA1PBCTR</field>
-        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=612-LP4OA1PBCTR</field>
-      </fields>
-      <libsource lib="LP4OA1PBCTR" part="LP4OA1PBCTR" description="Pushbutton Switches DPDT On-Mom LED, Red"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE10AE7</tstamp>
-    </comp>
     <comp ref="R1">
-      <value>510</value>
-      <footprint>Resistor_SMD:R_0612_1632Metric</footprint>
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C17513</field>
+      </fields>
       <libsource lib="Device" part="R_Small" description="Resistor, small symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE234A2</tstamp>
     </comp>
-    <comp ref="C2">
-      <value>22uFMLCC</value>
-      <footprint>Capacitor_SMD:C_1210_3225Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE2664F</tstamp>
-    </comp>
-    <comp ref="C3">
-      <value>100nF MLCC</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE49BEB</tstamp>
-    </comp>
-    <comp ref="C7">
-      <value>47uF</value>
-      <footprint>Capacitor_SMD:C_Elec_6.3x5.8</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE548E0</tstamp>
-    </comp>
     <comp ref="D3">
-      <value>1N4004</value>
+      <value>1N4007</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
       <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
       <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE6DCB8</tstamp>
     </comp>
-    <comp ref="C4">
-      <value>100nF MLCC</value>
-      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
-      <datasheet>~</datasheet>
-      <libsource lib="Device" part="CP_Small" description="Polarized capacitor, small symbol"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE6E630</tstamp>
-    </comp>
     <comp ref="C5">
-      <value>1uF</value>
+      <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_Elec_4x5.4</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C116398</field>
+      </fields>
       <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE73D6E</tstamp>
     </comp>
     <comp ref="C6">
-      <value>1uF</value>
+      <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_Elec_4x5.4</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C116398</field>
+      </fields>
       <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE74A1F</tstamp>
     </comp>
     <comp ref="D4">
-      <value>1N4004</value>
+      <value>1N4007</value>
       <footprint>Diode_SMD:D_SOD-123F</footprint>
       <datasheet>http://www.vishay.com/docs/88503/1n4001.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C64898</field>
+      </fields>
       <libsource lib="Diode" part="1N4004" description="400V 1A General Purpose Rectifier Diode, DO-41"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE81B4A</tstamp>
     </comp>
     <comp ref="F1">
       <value>1812L110</value>
-      <footprint>1812L110_16DR:FUSC4632X125N</footprint>
+      <footprint>Fuse:Fuse_1812_4532Metric</footprint>
       <datasheet>https://www.arrow.com/en/products/1812l11016dr/littelfuse</datasheet>
       <fields>
         <field name="Arrow Part Number">1812L110/16DR</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/1812l11016dr/littelfuse</field>
         <field name="Description">PTC Resettable Fuse 1.1A(hold) 1.95A(trip) 8VDC 100A 0.8W 0.3s 0.06Ohm SMD Solder Pad 1812 T/R</field>
         <field name="Height">1.25</field>
+        <field name="LCSC">C163516</field>
         <field name="Manufacturer_Name">LITTELFUSE</field>
         <field name="Manufacturer_Part_Number">1812L110/16DR</field>
         <field name="Mouser Part Number">576-1812L110/16DR</field>
@@ -146,30 +106,6 @@
       <libsource lib="1812L110_16DR" part="1812L110_16DR" description="PTC Resettable Fuse 1.1A(hold) 1.95A(trip) 16VDC 100A 0.8W 0.3s 0.06Ohm SMD Solder Pad 1812 T/R"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE1FDB4</tstamp>
-    </comp>
-    <comp ref="Q1">
-      <value>Q_PMOS_GSD</value>
-      <footprint>digikey-footprints:SOT-23-3</footprint>
-      <datasheet>https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf</datasheet>
-      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE39F03</tstamp>
-    </comp>
-    <comp ref="PS1">
-      <value>RS6-0512S</value>
-      <footprint>RS6-0512S:RS60512S</footprint>
-      <datasheet>https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf</datasheet>
-      <fields>
-        <field name="Description">Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8</field>
-        <field name="Height">11.6</field>
-        <field name="Manufacturer_Name">RECOM Power</field>
-        <field name="Manufacturer_Part_Number">RS6-0512S</field>
-        <field name="Mouser Part Number">919-RS6-0512S</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D</field>
-      </fields>
-      <libsource lib="RS6-0512S" part="RS6-0512S" description="Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE5CD2D</tstamp>
     </comp>
     <comp ref="PS2">
       <value>RS6-0512S</value>
@@ -187,55 +123,137 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE68DDD</tstamp>
     </comp>
-    <comp ref="J2">
-      <value>10129381-910001BLF</value>
-      <footprint>10129381-910001BLF:HDRV10W67P254_2X5_1270X483X858P</footprint>
-      <datasheet>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf</datasheet>
+    <comp ref="PS1">
+      <value>RS6-0512S</value>
+      <footprint>RS6-0512S:RS60512S</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf</datasheet>
       <fields>
-        <field name="Arrow Part Number">10129381-910001BLF</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/10129381-910001blf/amphenol-fci</field>
-        <field name="Description">EconoStik , Board to Board connector, Unshrouded Vertical Header, Through Hole, Double Row, 10 Positions, 2.54 mm (0.100in) Pitch</field>
-        <field name="Height">8.58</field>
-        <field name="Manufacturer_Name">Amphenol</field>
-        <field name="Manufacturer_Part_Number">10129381-910001BLF</field>
-        <field name="Mouser Part Number">649-1012938191001BLF</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10129381-910001BLF?qs=0lQeLiL1qyYhmE%2FYsfo%2FnQ%3D%3D</field>
+        <field name="Description">Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8</field>
+        <field name="Height">11.6</field>
+        <field name="Manufacturer_Name">RECOM Power</field>
+        <field name="Manufacturer_Part_Number">RS6-0512S</field>
+        <field name="Mouser Part Number">919-RS6-0512S</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D</field>
       </fields>
-      <libsource lib="10129381-910001BLF" part="10129381-910001BLF" description="EconoStik , Board to Board connector, Unshrouded Vertical Header, Through Hole, Double Row, 10 Positions, 2.54 mm (0.100in) Pitch"/>
+      <libsource lib="RS6-0512S" part="RS6-0512S" description="Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE8C505</tstamp>
+      <tstamp>5FE5CD2D</tstamp>
     </comp>
-    <comp ref="L1">
-      <value>ACM4520V-901-2P-T</value>
-      <footprint>eec2:TDK-ACM4520V-901-2P-T-0</footprint>
-      <datasheet>http://nl.rs-online.com/webdocs/14e9/0900766b814e92ac.pdf</datasheet>
+    <comp ref="FL1">
+      <value>ACP3225-102-2P-T000</value>
+      <footprint>ACP3225-102-2P-T000:ACP3225</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf</datasheet>
       <fields>
-        <field name="category">Fuse</field>
-        <field name="digikey description">2 Line Common Mode Choke Surface Mount 900 Ohm @ 100MHz 1.2A DCR 60 mOhm</field>
-        <field name="digikey part number">445-15677-1-ND</field>
-        <field name="lead free">yes</field>
-        <field name="library id">40a722fe90742dbf</field>
-        <field name="manufacturer">TDK</field>
-        <field name="mouser part number">810-ACM4520V9012PT00</field>
-        <field name="package">L1808</field>
-        <field name="rohs">yes</field>
-        <field name="temperature range high">+125°C</field>
-        <field name="temperature range low">-40°C</field>
-        <field name="voltage">50V</field>
+        <field name="Arrow Part Number">ACP3225-102-2P-T000</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/acp3225-102-2p-t000/tdk</field>
+        <field name="Description">Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc</field>
+        <field name="LCSC">C92126</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">ACP3225-102-2P-T000</field>
+        <field name="Mouser Part Number">810-ACP32251022PT000</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/ACP3225-102-2P-T000/?qs=ivTIEzcXi434Fc9I%252Be4KYw%3D%3D</field>
       </fields>
-      <libsource lib="eec2" part="ACM4520V-901-2P-T" description="ACM4520V-901-2P-T"/>
+      <libsource lib="ACP3225-102-2P-T000" part="ACP3225-102-2P-T000" description="Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamp>5FE60CD9</tstamp>
+      <tstamp>5FEA5D5D</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB06CB</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitor_SMD:C_0402_1005Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C1525</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEB46EE</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>95278-501A10LF</value>
+      <footprint>95278-501A10LF:95278501A10LF</footprint>
+      <datasheet>https://componentsearchengine.com/Datasheets/1/95278-501A10LF.pdf</datasheet>
+      <fields>
+        <field name="Description">Headers &amp; Wire Housings BERGSTIK</field>
+        <field name="Height">8.77</field>
+        <field name="Manufacturer_Name">Amphenol</field>
+        <field name="Manufacturer_Part_Number">95278-501A10LF</field>
+        <field name="Mouser Part Number">649-95278-501A10LF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=649-95278-501A10LF</field>
+      </fields>
+      <libsource lib="95278-501A10LF" part="95278-501A10LF" description="Headers &amp; Wire Housings BERGSTIK"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEC1F9A</tstamp>
+    </comp>
+    <comp ref="S1">
+      <value>Blue switch</value>
+      <footprint>LP4OA1PBCTR:LP4OA1PBCTR</footprint>
+      <datasheet>http://spec_sheets.e-switch.com/specs/B240001.pdf</datasheet>
+      <fields>
+        <field name="Description">Pushbutton Switches DPDT On-Mom LED, Red</field>
+        <field name="Height">19.95</field>
+        <field name="Manufacturer_Name">E-Switch</field>
+        <field name="Manufacturer_Part_Number">LP4OA1PBCTR</field>
+        <field name="Mouser Part Number">612-LP4OA1PBCTR</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=612-LP4OA1PBCTR</field>
+      </fields>
+      <libsource lib="LP4OA1PBCTR" part="LP4OA1PBCTR" description="Pushbutton Switches DPDT On-Mom LED, Red"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE10AE7</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22uF</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC"> C45783</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FEA4264</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>Q_PMOS_GSD</value>
+      <footprint>digikey-footprints:SOT-23-3</footprint>
+      <datasheet>https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C15127</field>
+      </fields>
+      <libsource lib="Device" part="Q_PMOS_GSD" description="P-MOSFET transistor, gate/source/drain"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE39F03</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47uF</value>
+      <footprint>Capacitor_SMD:C_Elec_5x5.4</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C294514</field>
+      </fields>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE548E0</tstamp>
     </comp>
     <comp ref="D1">
       <value>SMAJ5.0CA</value>
-      <footprint>DIONM5026X229N</footprint>
+      <footprint>digikey-footprints:DO-214AC-BIPOLAR</footprint>
       <datasheet>http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf</datasheet>
       <fields>
         <field name="Arrow Part Number">SMAJ5.0CA</field>
         <field name="Arrow Price/Stock">https://www.arrow.com/en/products/smaj5.0ca/littelfuse</field>
         <field name="Description">Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC</field>
         <field name="Height">2.29</field>
+        <field name="LCSC">C151931</field>
         <field name="Manufacturer_Name">LITTELFUSE</field>
         <field name="Manufacturer_Part_Number">SMAJ5.0CA</field>
         <field name="Mouser Part Number">576-SMAJ5.0CA</field>
@@ -245,38 +263,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5FE50B9A</tstamp>
     </comp>
+    <comp ref="C1">
+      <value>220uF</value>
+      <footprint>Capacitor_SMD:C_Elec_6.3x7.7</footprint>
+      <datasheet>~</datasheet>
+      <fields>
+        <field name="LCSC">C127327</field>
+      </fields>
+      <libsource lib="Device" part="CP1_Small" description="Polarized capacitor, small US symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FE096E1</tstamp>
+    </comp>
   </components>
   <libparts>
-    <libpart lib="10129381-910001BLF" part="10129381-910001BLF">
-      <description>EconoStik , Board to Board connector, Unshrouded Vertical Header, Through Hole, Double Row, 10 Positions, 2.54 mm (0.100in) Pitch</description>
-      <docs>https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf</docs>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">10129381-910001BLF</field>
-        <field name="Footprint">HDRV10W67P254_2X5_1270X483X858P</field>
-        <field name="Datasheet">https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf</field>
-        <field name="Description">EconoStik , Board to Board connector, Unshrouded Vertical Header, Through Hole, Double Row, 10 Positions, 2.54 mm (0.100in) Pitch</field>
-        <field name="Height">8.58</field>
-        <field name="Manufacturer_Name">Amphenol</field>
-        <field name="Manufacturer_Part_Number">10129381-910001BLF</field>
-        <field name="Mouser Part Number">649-1012938191001BLF</field>
-        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10129381-910001BLF?qs=0lQeLiL1qyYhmE%2FYsfo%2FnQ%3D%3D</field>
-        <field name="Arrow Part Number">10129381-910001BLF</field>
-        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/10129381-910001blf/amphenol-fci</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-        <pin num="3" name="3" type="passive"/>
-        <pin num="4" name="4" type="passive"/>
-        <pin num="5" name="5" type="passive"/>
-        <pin num="6" name="6" type="passive"/>
-        <pin num="7" name="7" type="passive"/>
-        <pin num="8" name="8" type="passive"/>
-        <pin num="9" name="9" type="passive"/>
-        <pin num="10" name="10" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="1734366-1" part="1734366-1">
       <fields>
         <field name="Reference">J</field>
@@ -319,6 +318,57 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="95278-501A10LF" part="95278-501A10LF">
+      <description>Headers &amp; Wire Housings BERGSTIK</description>
+      <docs>https://componentsearchengine.com/Datasheets/1/95278-501A10LF.pdf</docs>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">95278-501A10LF</field>
+        <field name="Footprint">95278501A10LF</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/1/95278-501A10LF.pdf</field>
+        <field name="Description">Headers &amp; Wire Housings BERGSTIK</field>
+        <field name="Height">8.77</field>
+        <field name="Manufacturer_Name">Amphenol</field>
+        <field name="Manufacturer_Part_Number">95278-501A10LF</field>
+        <field name="Mouser Part Number">649-95278-501A10LF</field>
+        <field name="Mouser Price/Stock">https://www.mouser.com/Search/Refine.aspx?Keyword=649-95278-501A10LF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ACP3225-102-2P-T000" part="ACP3225-102-2P-T000">
+      <description>Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc</description>
+      <docs>https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf</docs>
+      <fields>
+        <field name="Reference">FL</field>
+        <field name="Value">ACP3225-102-2P-T000</field>
+        <field name="Footprint">ACP3225</field>
+        <field name="Datasheet">https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf</field>
+        <field name="Description">Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc</field>
+        <field name="Manufacturer_Name">TDK</field>
+        <field name="Manufacturer_Part_Number">ACP3225-102-2P-T000</field>
+        <field name="Mouser Part Number">810-ACP32251022PT000</field>
+        <field name="Mouser Price/Stock">https://www.mouser.co.uk/ProductDetail/TDK/ACP3225-102-2P-T000/?qs=ivTIEzcXi434Fc9I%252Be4KYw%3D%3D</field>
+        <field name="Arrow Part Number">ACP3225-102-2P-T000</field>
+        <field name="Arrow Price/Stock">https://www.arrow.com/en/products/acp3225-102-2p-t000/tdk</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Device" part="CP1_Small">
       <description>Polarized capacitor, small US symbol</description>
       <docs>~</docs>
@@ -334,15 +384,15 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="CP_Small">
-      <description>Polarized capacitor, small symbol</description>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
       <footprints>
-        <fp>CP_*</fp>
+        <fp>C_*</fp>
       </footprints>
       <fields>
         <field name="Reference">C</field>
-        <field name="Value">CP_Small</field>
+        <field name="Value">C_Small</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
@@ -477,44 +527,19 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="eec2" part="ACM4520V-901-2P-T">
-      <description>ACM4520V-901-2P-T</description>
-      <docs>http://nl.rs-online.com/webdocs/14e9/0900766b814e92ac.pdf</docs>
-      <fields>
-        <field name="Reference">F</field>
-        <field name="Value">ACM4520V-901-2P-T</field>
-        <field name="Footprint">TDK-ACM4520V-901-2P-T-*</field>
-        <field name="Datasheet">http://nl.rs-online.com/webdocs/14e9/0900766b814e92ac.pdf</field>
-        <field name="category">Fuse</field>
-        <field name="digikey description">2 Line Common Mode Choke Surface Mount 900 Ohm @ 100MHz 1.2A DCR 60 mOhm</field>
-        <field name="digikey part number">445-15677-1-ND</field>
-        <field name="lead free">yes</field>
-        <field name="library id">40a722fe90742dbf</field>
-        <field name="manufacturer">TDK</field>
-        <field name="mouser part number">810-ACM4520V9012PT00</field>
-        <field name="package">L1808</field>
-        <field name="rohs">yes</field>
-        <field name="temperature range high">+125°C</field>
-        <field name="temperature range low">-40°C</field>
-        <field name="voltage">50V</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="unspc"/>
-        <pin num="2" name="2" type="unspc"/>
-        <pin num="3" name="3" type="unspc"/>
-        <pin num="4" name="4" type="unspc"/>
-      </pins>
-    </libpart>
   </libparts>
   <libraries>
-    <library logical="10129381-910001BLF">
-      <uri>/Users/fabiengaubert/Documents/Electronic/USBPowerSupply/USBPowerSupply/USBPowerSupplyEurorack/CustomSymbols/10129381-910001BLF/10129381-910001BLF.lib</uri>
-    </library>
     <library logical="1734366-1">
       <uri>/Users/fabiengaubert/Documents/Electronic/USBPowerSupply/USBPowerSupply/USBPowerSupplyEurorack/CustomSymbols/1734366-1/1734366-1.lib</uri>
     </library>
     <library logical="1812L110_16DR">
       <uri>/Users/fabiengaubert/Documents/Electronic/USBPowerSupply/USBPowerSupply/USBPowerSupplyEurorack/CustomSymbols/LIB_1812L110_16DR/KiCad/1812L110_16DR.lib</uri>
+    </library>
+    <library logical="95278-501A10LF">
+      <uri>/Users/fabiengaubert/Documents/Electronic/USBPowerSupply/USBPowerSupply/USBPowerSupplyEurorack/CustomSymbols/95278-501A10LF/KiCad/95278-501A10LF.lib</uri>
+    </library>
+    <library logical="ACP3225-102-2P-T000">
+      <uri>/Users/fabiengaubert/Documents/Electronic/USBPowerSupply/USBPowerSupply/USBPowerSupplyEurorack/CustomSymbols/ACP3225/ACP3225-102-2P-T000.lib</uri>
     </library>
     <library logical="Device">
       <uri>/Library/Application Support/kicad/library/Device.lib</uri>
@@ -531,123 +556,116 @@
     <library logical="SMAJ5.0CA">
       <uri>/Users/fabiengaubert/Documents/Electronic/USBPowerSupply/USBPowerSupply/USBPowerSupplyEurorack/CustomSymbols/SMAJ5.0CA/SMAJ5.0CA.lib</uri>
     </library>
-    <library logical="eec2">
-      <uri>/Users/fabiengaubert/Documents/Electronic/USBPowerSupply/USBPowerSupply/USBPowerSupplyEurorack/CustomSymbols/Fuse_TDK_ACM4520V-901-2P-T/eec2.lib</uri>
-    </library>
   </libraries>
   <nets>
-    <net code="1" name="GND">
-      <node ref="C1" pin="2"/>
-      <node ref="C7" pin="2"/>
-      <node ref="L1" pin="2"/>
-      <node ref="J1" pin="4"/>
-      <node ref="D1" pin="2"/>
-      <node ref="Q1" pin="1"/>
-      <node ref="C2" pin="2"/>
-    </net>
-    <net code="2" name="Net-(F1-Pad1)">
-      <node ref="F1" pin="1"/>
+    <net code="1" name="Net-(F1-Pad1)">
       <node ref="J1" pin="1"/>
+      <node ref="F1" pin="1"/>
     </net>
-    <net code="3" name="Net-(J1-Pad2)">
+    <net code="2" name="Net-(J1-Pad2)">
       <node ref="J1" pin="2"/>
     </net>
-    <net code="4" name="Net-(J1-Pad3)">
+    <net code="3" name="Net-(J1-Pad3)">
       <node ref="J1" pin="3"/>
     </net>
-    <net code="5" name="Net-(J1-PadSH1)">
-      <node ref="J1" pin="SH2"/>
+    <net code="4" name="Net-(J1-PadSH1)">
       <node ref="J1" pin="SH1"/>
+      <node ref="J1" pin="SH2"/>
     </net>
-    <net code="6" name="+5V">
-      <node ref="Q1" pin="3"/>
-      <node ref="S1" pin="5"/>
-      <node ref="S1" pin="4"/>
-    </net>
-    <net code="7" name="Net-(S1-Pad3)">
+    <net code="5" name="Net-(S1-Pad3)">
       <node ref="S1" pin="3"/>
     </net>
-    <net code="8" name="Net-(S1-Pad6)">
+    <net code="6" name="Net-(S1-Pad6)">
       <node ref="S1" pin="6"/>
     </net>
-    <net code="9" name="Net-(R1-Pad1)">
+    <net code="7" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1"/>
       <node ref="S1" pin="L2"/>
     </net>
-    <net code="10" name="+5VD">
-      <node ref="S1" pin="1"/>
+    <net code="8" name="+5V">
+      <node ref="Q1" pin="3"/>
       <node ref="F1" pin="2"/>
-      <node ref="S1" pin="2"/>
     </net>
-    <net code="11" name="+12V">
+    <net code="9" name="+12V">
+      <node ref="J2" pin="1"/>
       <node ref="J2" pin="2"/>
       <node ref="PS1" pin="6"/>
       <node ref="C5" pin="1"/>
-      <node ref="C4" pin="1"/>
       <node ref="S1" pin="L1"/>
       <node ref="D3" pin="1"/>
-      <node ref="J2" pin="1"/>
+      <node ref="C3" pin="1"/>
     </net>
-    <net code="12" name="-12V">
-      <node ref="J2" pin="9"/>
-      <node ref="PS2" pin="7"/>
-      <node ref="J2" pin="10"/>
-      <node ref="C3" pin="2"/>
+    <net code="10" name="-12V">
+      <node ref="C4" pin="2"/>
       <node ref="C6" pin="2"/>
       <node ref="D4" pin="2"/>
+      <node ref="J2" pin="9"/>
+      <node ref="J2" pin="10"/>
+      <node ref="PS2" pin="7"/>
     </net>
-    <net code="13" name="0V">
-      <node ref="D4" pin="1"/>
+    <net code="11" name="0V">
+      <node ref="D3" pin="2"/>
       <node ref="R1" pin="2"/>
-      <node ref="C3" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="1"/>
+      <node ref="PS2" pin="6"/>
+      <node ref="D4" pin="1"/>
+      <node ref="J2" pin="3"/>
+      <node ref="J2" pin="8"/>
       <node ref="C6" pin="1"/>
       <node ref="C5" pin="2"/>
-      <node ref="J2" pin="3"/>
-      <node ref="D3" pin="2"/>
-      <node ref="PS1" pin="7"/>
-      <node ref="C4" pin="2"/>
-      <node ref="J2" pin="8"/>
-      <node ref="PS2" pin="6"/>
-      <node ref="J2" pin="6"/>
       <node ref="J2" pin="4"/>
-      <node ref="J2" pin="7"/>
       <node ref="J2" pin="5"/>
+      <node ref="J2" pin="7"/>
+      <node ref="J2" pin="6"/>
+      <node ref="PS1" pin="7"/>
     </net>
-    <net code="14" name="Net-(PS1-Pad3)">
-      <node ref="PS1" pin="3"/>
-    </net>
-    <net code="15" name="Net-(PS1-Pad5)">
+    <net code="12" name="Net-(PS1-Pad5)">
       <node ref="PS1" pin="5"/>
+    </net>
+    <net code="13" name="Net-(PS2-Pad5)">
+      <node ref="PS2" pin="5"/>
+    </net>
+    <net code="14" name="Net-(PS2-Pad8)">
+      <node ref="PS2" pin="8"/>
+    </net>
+    <net code="15" name="CTRL">
+      <node ref="PS1" pin="3"/>
+      <node ref="PS2" pin="3"/>
+      <node ref="S1" pin="1"/>
+      <node ref="S1" pin="2"/>
     </net>
     <net code="16" name="Net-(PS1-Pad8)">
       <node ref="PS1" pin="8"/>
     </net>
-    <net code="17" name="Net-(PS2-Pad3)">
-      <node ref="PS2" pin="3"/>
+    <net code="17" name="GND">
+      <node ref="FL1" pin="2"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="J1" pin="4"/>
+      <node ref="Q1" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
     </net>
-    <net code="18" name="Net-(PS2-Pad5)">
-      <node ref="PS2" pin="5"/>
+    <net code="18" name="-Vin">
+      <node ref="FL1" pin="3"/>
+      <node ref="PS1" pin="1"/>
+      <node ref="PS2" pin="1"/>
     </net>
-    <net code="19" name="Net-(PS2-Pad8)">
-      <node ref="PS2" pin="8"/>
-    </net>
-    <net code="20" name="+Vin">
+    <net code="19" name="+Vin">
+      <node ref="S1" pin="4"/>
+      <node ref="S1" pin="5"/>
       <node ref="PS2" pin="2"/>
       <node ref="PS1" pin="2"/>
-      <node ref="L1" pin="4"/>
+      <node ref="FL1" pin="4"/>
     </net>
-    <net code="21" name="-Vin">
-      <node ref="PS2" pin="1"/>
-      <node ref="PS1" pin="1"/>
-      <node ref="L1" pin="3"/>
-    </net>
-    <net code="22" name="Net-(C1-Pad1)">
-      <node ref="C7" pin="1"/>
-      <node ref="L1" pin="1"/>
-      <node ref="D1" pin="1"/>
-      <node ref="C2" pin="1"/>
+    <net code="20" name="Net-(C1-Pad1)">
       <node ref="Q1" pin="2"/>
+      <node ref="C7" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="FL1" pin="1"/>
       <node ref="C1" pin="1"/>
+      <node ref="C2" pin="1"/>
     </net>
   </nets>
 </export>
