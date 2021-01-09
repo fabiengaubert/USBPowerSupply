@@ -1,6 +1,6 @@
 # USBPowerSupply
 
-![3D view](3D_view.png)
+![3D view](3D_view.png|width=100px)
 
 
 USB Power supply design for eurorack
