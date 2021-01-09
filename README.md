@@ -1,9 +1,9 @@
 # USBPowerSupply
 
-<img src="3D_view.png" alt="3D view" width="320">
-
-
 USB Power supply design for eurorack
+
+<img src="3D_view.png" alt="3D view" width="220">
+
 - 2 HP
 - +12V at 500mA, - 12V at 500mA
 - efficient DC-DC switching regulator with low heat release
