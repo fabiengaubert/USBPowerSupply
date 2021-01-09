@@ -1,5 +1,8 @@
 # USBPowerSupply
 
+![3D view](3D_view)
+
+
 USB Power supply design for eurorack
 - 2 HP
 - +12V at 500mA, - 12V at 500mA
