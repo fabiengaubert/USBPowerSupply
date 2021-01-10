@@ -5,11 +5,11 @@ USB Power supply design for eurorack
 <img src="3D_view.png" alt="3D view" width="220">
 
 - 2 HP
-- +12V at 500mA, - 12V at 500mA
+- 500mA at +12v, 500mA at - 12v
 - efficient DC-DC switching regulator with low heat release
 - surge voltage and over-current protection with resettable fuse
-- reverse polarity protection
-- 2 LEDs to indicated overload and short circuit
+- reversed polarity protection
+- 1 LED per rail to indicated overload and short circuits
 
 
 The project should work but has not been prototyped for several reasons:
