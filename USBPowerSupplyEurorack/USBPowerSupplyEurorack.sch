@@ -148,9 +148,9 @@ Wire Notes Line
 Text Notes 8425 2555 0    50   ~ 0
 DC-DC switching regulators
 Text GLabel 8915 2965 0    50   Input ~ 0
--Vin
+-Vin1
 Text GLabel 8915 3065 0    50   Input ~ 0
-+Vin
++Vin1
 Text GLabel 8845 3465 0    50   Input ~ 0
 0V
 Text GLabel 8915 3365 0    50   Input ~ 0
@@ -159,9 +159,9 @@ NoConn ~ 8915 3265
 Wire Wire Line
 	8845 3465 8915 3465
 Text GLabel 8915 4005 0    50   Input ~ 0
--Vin
+-Vin2
 Text GLabel 8915 4105 0    50   Input ~ 0
-+Vin
++Vin2
 Text GLabel 8845 4405 0    50   Input ~ 0
 0V
 NoConn ~ 8915 4305
@@ -482,7 +482,7 @@ Connection ~ 3770 2670
 Wire Wire Line
 	3770 2670 4095 2670
 Text GLabel 7095 1640 2    50   Input ~ 0
-+Vin
++Vin1
 Wire Wire Line
 	6825 1640 6515 1640
 Connection ~ 6515 1640
@@ -526,11 +526,11 @@ Wire Wire Line
 	6515 2110 6825 2110
 Connection ~ 6825 2110
 Text GLabel 7095 2110 2    50   Input ~ 0
--Vin
+-Vin1
 Wire Wire Line
 	6825 2110 7095 2110
 Text GLabel 7095 2340 2    50   Input ~ 0
-+Vin
++Vin2
 $Comp
 L Device:C_Small C16
 U 1 1 6008CC6F
@@ -576,7 +576,7 @@ Connection ~ 6825 2810
 Wire Wire Line
 	6825 2810 7095 2810
 Text GLabel 7095 2810 2    50   Input ~ 0
--Vin
+-Vin2
 Wire Wire Line
 	5905 1740 6000 1740
 Wire Wire Line
@@ -832,7 +832,6 @@ Wire Wire Line
 Wire Wire Line
 	3540 6270 3260 6270
 Connection ~ 3540 5680
-Connection ~ 3540 6270
 $Comp
 L Device:CP1_Small C10
 U 1 1 600040C8
@@ -879,10 +878,7 @@ Wire Wire Line
 Wire Wire Line
 	4340 6120 4340 6270
 Wire Wire Line
-	3540 6270 4340 6270
-Wire Wire Line
 	4340 6270 4640 6270
-Connection ~ 4340 6270
 $Comp
 L Device:C_Small C13
 U 1 1 600E04D8
@@ -928,19 +924,15 @@ Connection ~ 4340 5140
 $Comp
 L Device:Ferrite_Bead_Small FB2
 U 1 1 60111921
-P 3945 5680
-F 0 "FB2" V 3800 5680 50  0000 C CNN
-F 1 "C15957" V 3799 5680 50  0001 C CNN
-F 2 "MPZ2012S101AT000:BEADC2012X105N" V 3875 5680 50  0001 C CNN
-F 3 "~" H 3945 5680 50  0001 C CNN
-F 4 "C15957" V 3945 5680 50  0001 C CNN "LSCS"
-	1    3945 5680
+P 3945 6270
+F 0 "FB2" V 3800 6270 50  0000 C CNN
+F 1 "C15957" V 3799 6270 50  0001 C CNN
+F 2 "MPZ2012S101AT000:BEADC2012X105N" V 3875 6270 50  0001 C CNN
+F 3 "~" H 3945 6270 50  0001 C CNN
+F 4 "C15957" V 3945 6270 50  0001 C CNN "LSCS"
+	1    3945 6270
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	3845 5680 3540 5680
-Wire Wire Line
-	4045 5680 4340 5680
 Wire Notes Line
 	7480 1300 7480 3080
 Wire Notes Line
@@ -949,4 +941,12 @@ Wire Notes Line
 	1155 3080 1155 1300
 Wire Notes Line
 	1155 3080 7480 3080
+Wire Wire Line
+	3845 6270 3540 6270
+Connection ~ 3540 6270
+Wire Wire Line
+	4045 6270 4340 6270
+Connection ~ 4340 6270
+Wire Wire Line
+	3540 5680 4340 5680
 $EndSCHEMATC
