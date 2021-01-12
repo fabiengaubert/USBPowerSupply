@@ -14,54 +14,52 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 Wire Wire Line
-	2130 2035 2250 2035
+	1455 1700 1575 1700
 Wire Wire Line
-	2130 1735 2250 1735
+	1455 1400 1575 1400
 $Comp
 L 1734366-1:1734366-1 J1
 U 1 1 5FE0D725
-P 1730 1935
-F 0 "J1" H 1810 2395 50  0000 C CNN
-F 1 "1734366-1" H 1730 2305 50  0000 C CNN
-F 2 "1734366-1:TE_1734366-1" H 1730 1935 50  0001 L BNN
-F 3 "" H 1730 1935 50  0001 L BNN
-F 4 "2 mm[.078 in]" H 1730 1935 50  0001 L BNN "Centerline_Pitch"
-F 5 "Connector" H 1730 1935 50  0001 L BNN "Product_Type"
-F 6 "1734366-1" H 1730 1935 50  0001 L BNN "Comment"
-F 7 "Compliant" H 1730 1935 50  0001 L BNN "EU_RoHS_Compliance"
-F 8 "4" H 1730 1935 50  0001 L BNN "Number_of_Positions"
-	1    1730 1935
+P 1055 1600
+F 0 "J1" H 1135 2060 50  0000 C CNN
+F 1 "1734366-1" H 1055 1970 50  0000 C CNN
+F 2 "1734366-1:TE_1734366-1" H 1055 1600 50  0001 L BNN
+F 3 "" H 1055 1600 50  0001 L BNN
+F 4 "2 mm[.078 in]" H 1055 1600 50  0001 L BNN "Centerline_Pitch"
+F 5 "Connector" H 1055 1600 50  0001 L BNN "Product_Type"
+F 6 "1734366-1" H 1055 1600 50  0001 L BNN "Comment"
+F 7 "Compliant" H 1055 1600 50  0001 L BNN "EU_RoHS_Compliance"
+F 8 "4" H 1055 1600 50  0001 L BNN "Number_of_Positions"
+	1    1055 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R1
 U 1 1 5FE234A2
-P 3075 5530
-F 0 "R1" H 3134 5576 50  0000 L CNN
-F 1 "1K" H 3134 5485 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3075 5530 50  0001 C CNN
-F 3 "~" H 3075 5530 50  0001 C CNN
-F 4 "C17513" H 3075 5530 50  0001 C CNN "LCSC"
-	1    3075 5530
+P 1975 5530
+F 0 "R1" H 2034 5576 50  0000 L CNN
+F 1 "1K" H 2034 5485 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1975 5530 50  0001 C CNN
+F 3 "~" H 1975 5530 50  0001 C CNN
+F 4 "C17513" H 1975 5530 50  0001 C CNN "LCSC"
+	1    1975 5530
 	1    0    0    -1  
 $EndComp
-NoConn ~ 2130 1835
-NoConn ~ 2130 1935
+NoConn ~ 1455 1500
+NoConn ~ 1455 1600
 Wire Wire Line
-	2950 1735 3030 1735
+	2275 1400 2355 1400
 Wire Wire Line
-	3030 1735 3030 1685
-Text GLabel 6350 1735 2    50   Input ~ 0
+	2355 1400 2355 1350
+Text GLabel 6605 1400 2    50   Input ~ 0
 +Vin
-Text GLabel 6350 1835 2    50   Input ~ 0
+Text GLabel 7930 2980 2    50   Input ~ 0
 -Vin
 Wire Wire Line
-	3450 6135 3450 6295
+	2350 6135 2350 6295
 Wire Wire Line
-	3450 6295 3075 6295
-Wire Notes Line
-	6700 1395 6700 3095
-Text Notes 1340 1395 0    50   ~ 0
+	2350 6295 1975 6295
+Text Notes 665  1060 0    50   ~ 0
 USB filtering and protections
 $Comp
 L Diode:1N4004 D3
@@ -76,57 +74,33 @@ F 4 "C64898" H 4335 5445 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2880 5165 3075 5165
+	1780 5165 1975 5165
 Wire Wire Line
-	3450 5165 3450 5345
+	2350 5165 2350 5345
 Wire Wire Line
-	3450 5545 3450 5705
+	2350 5545 2350 5705
 Wire Wire Line
-	3450 5705 3075 5705
+	2350 5705 1975 5705
 Wire Wire Line
-	3450 5935 3450 5705
-Connection ~ 3450 5705
-$Comp
-L Device:CP1_Small C5
-U 1 1 5FE73D6E
-P 3845 5445
-F 0 "C5" H 3936 5491 50  0000 L CNN
-F 1 "4.7uF" H 3936 5400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_4x5.4" H 3845 5445 50  0001 C CNN
-F 3 "~" H 3845 5445 50  0001 C CNN
-F 4 "C116398" H 3845 5445 50  0001 C CNN "LCSC"
-	1    3845 5445
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:CP1_Small C6
-U 1 1 5FE74A1F
-P 3845 6055
-F 0 "C6" H 3936 6101 50  0000 L CNN
-F 1 "4.7uF" H 3936 6010 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_4x5.4" H 3845 6055 50  0001 C CNN
-F 3 "~" H 3845 6055 50  0001 C CNN
-F 4 "C116398" H 3845 6055 50  0001 C CNN "LCSC"
-	1    3845 6055
-	1    0    0    -1  
-$EndComp
+	2350 5935 2350 5705
+Connection ~ 2350 5705
 Wire Wire Line
-	3450 5165 3845 5165
+	2350 5165 2670 5165
 Wire Wire Line
-	3845 5165 3845 5345
-Connection ~ 3450 5165
+	3235 5165 3235 5345
+Connection ~ 2350 5165
 Wire Wire Line
-	3845 5545 3845 5705
+	3235 5545 3235 5705
 Wire Wire Line
-	3845 6155 3845 6295
+	3235 6135 3235 6295
 Wire Wire Line
-	3845 6295 3450 6295
-Connection ~ 3450 6295
+	3235 6295 2955 6295
+Connection ~ 2350 6295
 Wire Wire Line
-	3450 5705 3845 5705
-Connection ~ 3845 5705
+	2350 5705 2670 5705
+Connection ~ 3235 5705
 Wire Wire Line
-	3845 5705 3845 5955
+	3235 5705 3235 5935
 $Comp
 L Diode:1N4004 D4
 U 1 1 5FE81B4A
@@ -140,12 +114,8 @@ F 4 "C64898" H 4335 6035 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	3845 6295 4335 6295
-Wire Wire Line
 	4335 6295 4335 6185
-Connection ~ 3845 6295
-Wire Wire Line
-	3845 5705 4215 5705
+Connection ~ 3235 6295
 Wire Wire Line
 	4335 5595 4335 5705
 Connection ~ 4335 5705
@@ -153,22 +123,19 @@ Wire Wire Line
 	4335 5705 4335 5885
 Wire Wire Line
 	4335 5295 4335 5165
-Wire Wire Line
-	4335 5165 3845 5165
-Connection ~ 3845 5165
 Wire Notes Line
-	8380 2280 9950 2280
+	9585 2370 11155 2370
 Wire Notes Line
-	9950 2280 9950 4610
+	11155 2370 11155 4700
 Wire Notes Line
-	9950 4610 8380 4610
+	11155 4700 9585 4700
 Wire Notes Line
-	8380 4610 8380 2280
-Text Notes 8380 2280 0    50   ~ 0
+	9585 4700 9585 2370
+Text Notes 9585 2370 0    50   ~ 0
 DC-DC switching regulators
 Wire Notes Line
-	2485 6590 2485 4830
-Text Notes 2485 4830 0    50   ~ 0
+	1385 6590 1385 4830
+Text Notes 1385 4830 0    50   ~ 0
 Output filtering
 Wire Wire Line
 	4915 5605 4915 5705
@@ -187,15 +154,15 @@ Wire Wire Line
 $Comp
 L power:PWR_FLAG #FLG02
 U 1 1 5FEB7EB0
-P 3030 1735
-F 0 "#FLG02" H 3030 1810 50  0001 C CNN
-F 1 "PWR_FLAG" H 3030 1908 50  0000 C CNN
-F 2 "" H 3030 1735 50  0001 C CNN
-F 3 "~" H 3030 1735 50  0001 C CNN
-	1    3030 1735
+P 2355 1400
+F 0 "#FLG02" H 2355 1475 50  0001 C CNN
+F 1 "PWR_FLAG" H 2355 1573 50  0000 C CNN
+F 2 "" H 2355 1400 50  0001 C CNN
+F 3 "~" H 2355 1400 50  0001 C CNN
+	1    2355 1400
 	-1   0    0    1   
 $EndComp
-Connection ~ 3030 1735
+Connection ~ 2355 1400
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5FEBA228
@@ -225,21 +192,21 @@ Wire Wire Line
 $Comp
 L 1812L110_16DR:1812L110_16DR F1
 U 1 1 5FE1FDB4
-P 2250 1735
-F 0 "F1" H 2600 1960 50  0000 C CNN
-F 1 "1.1A" H 2600 1869 50  0000 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric" H 2800 1785 50  0001 L CNN
-F 3 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2800 1685 50  0001 L CNN
-F 4 "PTC Resettable Fuse 1.1A(hold) 1.95A(trip) 8VDC 100A 0.8W 0.3s 0.06Ohm SMD Solder Pad 1812 T/R" H 2800 1585 50  0001 L CNN "Description"
-F 5 "1.25" H 2800 1485 50  0001 L CNN "Height"
-F 6 "LITTELFUSE" H 2800 1385 50  0001 L CNN "Manufacturer_Name"
-F 7 "1812L110/16DR" H 2800 1285 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "1812L110/16DR" H 2800 1185 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2800 1085 50  0001 L CNN "Arrow Price/Stock"
-F 10 "576-1812L110/16DR" H 2800 985 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Littelfuse/1812L110-16DR?qs=PWhpLWeW8we3Ga3SZHmLHg%3D%3D" H 2800 885 50  0001 L CNN "Mouser Price/Stock"
-F 12 "C163516" H 2250 1735 50  0001 C CNN "LCSC"
-	1    2250 1735
+P 1575 1400
+F 0 "F1" H 1925 1625 50  0000 C CNN
+F 1 "1.1A" H 1925 1534 50  0000 C CNN
+F 2 "Fuse:Fuse_1812_4532Metric" H 2125 1450 50  0001 L CNN
+F 3 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2125 1350 50  0001 L CNN
+F 4 "PTC Resettable Fuse 1.1A(hold) 1.95A(trip) 8VDC 100A 0.8W 0.3s 0.06Ohm SMD Solder Pad 1812 T/R" H 2125 1250 50  0001 L CNN "Description"
+F 5 "1.25" H 2125 1150 50  0001 L CNN "Height"
+F 6 "LITTELFUSE" H 2125 1050 50  0001 L CNN "Manufacturer_Name"
+F 7 "1812L110/16DR" H 2125 950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "1812L110/16DR" H 2125 850 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2125 750 50  0001 L CNN "Arrow Price/Stock"
+F 10 "576-1812L110/16DR" H 2125 650 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/Littelfuse/1812L110-16DR?qs=PWhpLWeW8we3Ga3SZHmLHg%3D%3D" H 2125 550 50  0001 L CNN "Mouser Price/Stock"
+F 12 "C163516" H 1575 1400 50  0001 C CNN "LCSC"
+	1    1575 1400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -253,115 +220,111 @@ F 3 "~" H 4215 5705 50  0001 C CNN
 	1    4215 5705
 	1    0    0    -1  
 $EndComp
-Text GLabel 8870 2690 0    50   Input ~ 0
+Text GLabel 10075 2780 0    50   Input ~ 0
 -Vin
-Text GLabel 8870 2790 0    50   Input ~ 0
+Text GLabel 10075 2880 0    50   Input ~ 0
 +Vin
-Text GLabel 8800 3190 0    50   Input ~ 0
+Text GLabel 10005 3280 0    50   Input ~ 0
 0V
-Text GLabel 8870 3090 0    50   Input ~ 0
+Text GLabel 10075 3180 0    50   Input ~ 0
 +12V
-NoConn ~ 8870 2990
+NoConn ~ 10075 3080
 Wire Wire Line
-	8800 3190 8870 3190
-Text GLabel 8870 3730 0    50   Input ~ 0
+	10005 3280 10075 3280
+Text GLabel 10075 3820 0    50   Input ~ 0
 -Vin
-Text GLabel 8870 3830 0    50   Input ~ 0
+Text GLabel 10075 3920 0    50   Input ~ 0
 +Vin
-Text GLabel 8800 4130 0    50   Input ~ 0
+Text GLabel 10005 4220 0    50   Input ~ 0
 0V
-NoConn ~ 8870 4030
+NoConn ~ 10075 4120
 Wire Wire Line
-	8800 4130 8870 4130
-Text GLabel 8870 4230 0    50   Input ~ 0
+	10005 4220 10075 4220
+Text GLabel 10075 4320 0    50   Input ~ 0
 -12V
-Text GLabel 2880 6295 0    50   Input ~ 0
+Text GLabel 1780 6295 0    50   Input ~ 0
 -12V
-Text GLabel 2820 5705 0    50   Input ~ 0
+Text GLabel 1720 5705 0    50   Input ~ 0
 0V
-Text GLabel 2880 5165 0    50   Input ~ 0
+Text GLabel 1780 5165 0    50   Input ~ 0
 +12V
 $Comp
 L power:+5V #PWR0102
 U 1 1 5FE7630F
-P 3030 1685
-F 0 "#PWR0102" H 3030 1535 50  0001 C CNN
-F 1 "+5V" H 3045 1858 50  0000 C CNN
-F 2 "" H 3030 1685 50  0001 C CNN
-F 3 "" H 3030 1685 50  0001 C CNN
-	1    3030 1685
+P 2355 1350
+F 0 "#PWR0102" H 2355 1200 50  0001 C CNN
+F 1 "+5V" H 2370 1523 50  0000 C CNN
+F 2 "" H 2355 1350 50  0001 C CNN
+F 3 "" H 2355 1350 50  0001 C CNN
+	1    2355 1350
 	1    0    0    -1  
 $EndComp
 $Comp
 L RS6-0512S:RS6-0512S PS1
 U 1 1 5FE5CD2D
-P 8870 2690
-F 0 "PS1" H 9230 2930 50  0000 L CNN
-F 1 "RS6-0512S" H 9160 2850 50  0000 L CNN
-F 2 "RS6-0512S:RS60512S" H 9720 2790 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 9720 2690 50  0001 L CNN
-F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 9720 2590 50  0001 L CNN "Description"
-F 5 "11.6" H 9720 2490 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 9720 2390 50  0001 L CNN "Manufacturer_Name"
-F 7 "RS6-0512S" H 9720 2290 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "919-RS6-0512S" H 9720 2190 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 9720 2090 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 9720 1990 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 9720 1890 50  0001 L CNN "Arrow Price/Stock"
-F 12 "" H 8870 2690 50  0001 C CNN "LCSC"
-	1    8870 2690
+P 10075 2780
+F 0 "PS1" H 10435 3020 50  0000 L CNN
+F 1 "RS6-0512S" H 10365 2940 50  0000 L CNN
+F 2 "RS6-0512S:RS60512S" H 10925 2880 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 10925 2780 50  0001 L CNN
+F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 10925 2680 50  0001 L CNN "Description"
+F 5 "11.6" H 10925 2580 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 10925 2480 50  0001 L CNN "Manufacturer_Name"
+F 7 "RS6-0512S" H 10925 2380 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-RS6-0512S" H 10925 2280 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 10925 2180 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10925 2080 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10925 1980 50  0001 L CNN "Arrow Price/Stock"
+F 12 "" H 10075 2780 50  0001 C CNN "LCSC"
+	1    10075 2780
 	1    0    0    -1  
 $EndComp
 $Comp
 L ACP3225-102-2P-T000:ACP3225-102-2P-T000 FL1
 U 1 1 5FEA5D5D
-P 5290 1735
-F 0 "FL1" H 5690 1908 50  0000 C CNN
-F 1 "ACP3225-102-2P-T000" H 5690 1909 50  0001 C CNN
-F 2 "ACP3225-102-2P-T000:ACP3225" H 5940 1835 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf" H 5940 1735 50  0001 L CNN
-F 4 "Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc" H 5940 1635 50  0001 L CNN "Description"
-F 5 "" H 5940 1535 50  0001 L CNN "Height"
-F 6 "TDK" H 5940 1435 50  0001 L CNN "Manufacturer_Name"
-F 7 "ACP3225-102-2P-T000" H 5940 1335 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "810-ACP32251022PT000" H 5940 1235 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/TDK/ACP3225-102-2P-T000/?qs=ivTIEzcXi434Fc9I%252Be4KYw%3D%3D" H 5940 1135 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ACP3225-102-2P-T000" H 5940 1035 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/acp3225-102-2p-t000/tdk" H 5940 935 50  0001 L CNN "Arrow Price/Stock"
-F 12 "C92126" H 5290 1735 50  0001 C CNN "LCSC"
-	1    5290 1735
+P 4615 1400
+F 0 "FL1" H 5015 1573 50  0000 C CNN
+F 1 "ACP3225-102-2P-T000" H 5015 1574 50  0001 C CNN
+F 2 "ACP3225-102-2P-T000:ACP3225" H 5265 1500 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf" H 5265 1400 50  0001 L CNN
+F 4 "Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc" H 5265 1300 50  0001 L CNN "Description"
+F 5 "" H 5265 1200 50  0001 L CNN "Height"
+F 6 "TDK" H 5265 1100 50  0001 L CNN "Manufacturer_Name"
+F 7 "ACP3225-102-2P-T000" H 5265 1000 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "810-ACP32251022PT000" H 5265 900 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/TDK/ACP3225-102-2P-T000/?qs=ivTIEzcXi434Fc9I%252Be4KYw%3D%3D" H 5265 800 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ACP3225-102-2P-T000" H 5265 700 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/acp3225-102-2p-t000/tdk" H 5265 600 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C92126" H 4615 1400 50  0001 C CNN "LCSC"
+	1    4615 1400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4890 1735 5290 1735
+	4485 1500 4615 1500
 Wire Wire Line
-	5160 1835 5290 1835
-Wire Wire Line
-	6090 1735 6350 1735
-Wire Wire Line
-	6090 1835 6350 1835
+	5870 1400 6025 1400
 $Comp
 L Device:C_Small C3
 U 1 1 5FEB06CB
-P 3450 5445
-F 0 "C3" H 3510 5525 50  0000 L CNN
-F 1 "100nF" H 3490 5335 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3450 5445 50  0001 C CNN
-F 3 "~" H 3450 5445 50  0001 C CNN
-F 4 "C1525" H 3450 5445 50  0001 C CNN "LCSC"
-	1    3450 5445
+P 2350 5445
+F 0 "C3" H 2410 5525 50  0000 L CNN
+F 1 "100nF" H 2390 5335 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2350 5445 50  0001 C CNN
+F 3 "~" H 2350 5445 50  0001 C CNN
+F 4 "C1525" H 2350 5445 50  0001 C CNN "LCSC"
+	1    2350 5445
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:C_Small C4
 U 1 1 5FEB46EE
-P 3450 6035
-F 0 "C4" H 3510 6115 50  0000 L CNN
-F 1 "100nF" H 3490 5925 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 3450 6035 50  0001 C CNN
-F 3 "~" H 3450 6035 50  0001 C CNN
-F 4 "C1525" H 3450 6035 50  0001 C CNN "LCSC"
-	1    3450 6035
+P 2350 6035
+F 0 "C4" H 2410 6115 50  0000 L CNN
+F 1 "100nF" H 2390 5925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2350 6035 50  0001 C CNN
+F 3 "~" H 2350 6035 50  0001 C CNN
+F 4 "C1525" H 2350 6035 50  0001 C CNN "LCSC"
+	1    2350 6035
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -384,160 +347,98 @@ F 11 "" H 5665 4705 50  0001 L CNN "Arrow Price/Stock"
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
-	1340 3095 1340 1395
+	665  3555 665  1060
 Wire Notes Line
-	1340 1395 6700 1395
-Wire Notes Line
-	1340 3095 6700 3095
-Connection ~ 3030 2765
+	665  1060 7270 1055
+Connection ~ 2355 2430
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 5FEDF6FA
-P 3030 2765
-F 0 "#FLG0104" H 3030 2840 50  0001 C CNN
-F 1 "PWR_FLAG" H 3030 2938 50  0000 C CNN
-F 2 "" H 3030 2765 50  0001 C CNN
-F 3 "~" H 3030 2765 50  0001 C CNN
-	1    3030 2765
+P 2355 2430
+F 0 "#FLG0104" H 2355 2505 50  0001 C CNN
+F 1 "PWR_FLAG" H 2355 2603 50  0000 C CNN
+F 2 "" H 2355 2430 50  0001 C CNN
+F 3 "~" H 2355 2430 50  0001 C CNN
+	1    2355 2430
 	1    0    0    -1  
 $EndComp
-Connection ~ 2250 2765
+Connection ~ 1575 2430
 Wire Wire Line
-	2250 2885 2250 2765
+	1575 2550 1575 2430
 $Comp
 L power:GND #PWR0101
 U 1 1 5FEDDC70
-P 2250 2885
-F 0 "#PWR0101" H 2250 2635 50  0001 C CNN
-F 1 "GND" H 2255 2712 50  0000 C CNN
-F 2 "" H 2250 2885 50  0001 C CNN
-F 3 "" H 2250 2885 50  0001 C CNN
-	1    2250 2885
+P 1575 2550
+F 0 "#PWR0101" H 1575 2300 50  0001 C CNN
+F 1 "GND" H 1580 2377 50  0000 C CNN
+F 2 "" H 1575 2550 50  0001 C CNN
+F 3 "" H 1575 2550 50  0001 C CNN
+	1    1575 2550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2250 2765 3030 2765
+	1575 2430 2355 2430
 Wire Wire Line
-	2250 2035 2250 2235
+	1575 1700 1575 1900
 Wire Wire Line
-	5160 1835 5160 2765
+	4485 1500 4485 2430
 Wire Wire Line
-	4890 2765 5160 2765
+	4215 1880 4215 2430
 Wire Wire Line
-	4890 2215 4890 2765
-Wire Wire Line
-	4890 1735 4890 2015
+	4215 1400 4215 1680
 $Comp
 L Device:C_Small C2
 U 1 1 5FEA4264
-P 4890 2115
-F 0 "C2" H 4950 2195 50  0000 L CNN
-F 1 "22uF" H 4930 2005 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 4890 2115 50  0001 C CNN
-F 3 "~" H 4890 2115 50  0001 C CNN
-F 4 " C45783" H 4890 2115 50  0001 C CNN "LCSC"
-	1    4890 2115
+P 4215 1780
+F 0 "C2" H 4275 1860 50  0000 L CNN
+F 1 "22uF" H 4255 1670 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4215 1780 50  0001 C CNN
+F 3 "~" H 4215 1780 50  0001 C CNN
+F 4 " C45783" H 4215 1780 50  0001 C CNN "LCSC"
+	1    4215 1780
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3030 2765 3400 2765
+	2355 2430 2645 2430
 Wire Wire Line
-	3030 1735 3200 1735
-Connection ~ 3400 2765
+	2355 1400 2445 1400
+Connection ~ 2645 2430
 Wire Wire Line
-	3400 2765 3710 2765
+	2645 2430 2955 2430
 Wire Wire Line
-	3400 2035 3400 2765
+	2645 1700 2645 2430
 Wire Wire Line
-	3710 1735 3600 1735
+	2955 1400 2845 1400
 $Comp
 L Device:Q_PMOS_GSD Q1
 U 1 1 5FE39F03
-P 3400 1835
-F 0 "Q1" V 3650 1805 50  0000 C CNN
-F 1 "Q_PMOS_GSD" V 3630 1685 50  0001 C CNN
-F 2 "digikey-footprints:SOT-23-3" H 3600 1935 50  0001 C CNN
-F 3 "https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf" H 3400 1835 50  0001 C CNN
-F 4 "C15127" V 3400 1835 50  0001 C CNN "LCSC"
-	1    3400 1835
+P 2645 1500
+F 0 "Q1" V 2895 1470 50  0000 C CNN
+F 1 "Q_PMOS_GSD" V 2875 1350 50  0001 C CNN
+F 2 "digikey-footprints:SOT-23-3" H 2845 1600 50  0001 C CNN
+F 3 "https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf" H 2645 1500 50  0001 C CNN
+F 4 "C15127" V 2645 1500 50  0001 C CNN "LCSC"
+	1    2645 1500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3710 2265 3710 2765
+	2955 1930 2955 2430
 Wire Wire Line
-	3710 1735 3710 2065
+	2955 1400 2955 1730
 $Comp
 L Device:CP1_Small C7
 U 1 1 5FE548E0
-P 3710 2165
-F 0 "C7" H 3801 2211 50  0000 L CNN
-F 1 "47uF" H 3801 2120 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_5x5.4" H 3710 2165 50  0001 C CNN
-F 3 "~" H 3710 2165 50  0001 C CNN
-F 4 "C294514" H 3710 2165 50  0001 C CNN "LCSC"
-	1    3710 2165
+P 2955 1830
+F 0 "C7" H 2970 1920 50  0000 L CNN
+F 1 "47uF" H 2970 1740 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_5x5.4" H 2955 1830 50  0001 C CNN
+F 3 "~" H 2955 1830 50  0001 C CNN
+F 4 "C294514" H 2955 1830 50  0001 C CNN "LCSC"
+	1    2955 1830
 	1    0    0    -1  
 $EndComp
-Connection ~ 4890 2765
-Connection ~ 4890 1735
-Connection ~ 3710 1735
-Connection ~ 3710 2765
-Wire Wire Line
-	4530 2765 4890 2765
-Connection ~ 4530 2765
-Wire Wire Line
-	4530 2695 4530 2765
-Wire Wire Line
-	4100 2765 4530 2765
-Connection ~ 4530 1735
-Wire Wire Line
-	4530 1735 4890 1735
-Wire Wire Line
-	4100 1735 4530 1735
-Wire Wire Line
-	4530 1735 4530 1795
-$Comp
-L SMAJ5.0CA:SMAJ5.0CA D1
-U 1 1 5FE50B9A
-P 4530 1795
-F 0 "D1" V 4790 1895 50  0000 L CNN
-F 1 "SMAJ5.0CA" V 4570 1495 50  0001 L CNN
-F 2 "digikey-footprints:DO-214AC-BIPOLAR" H 5130 1945 50  0001 L BNN
-F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 5130 1845 50  0001 L BNN
-F 4 "Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" H 5130 1745 50  0001 L BNN "Description"
-F 5 "2.29" H 5130 1645 50  0001 L BNN "Height"
-F 6 "LITTELFUSE" H 5130 1545 50  0001 L BNN "Manufacturer_Name"
-F 7 "SMAJ5.0CA" H 5130 1445 50  0001 L BNN "Manufacturer_Part_Number"
-F 8 "576-SMAJ5.0CA" H 5130 1345 50  0001 L BNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ50CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D" H 5130 1245 50  0001 L BNN "Mouser Price/Stock"
-F 10 "SMAJ5.0CA" H 5130 1145 50  0001 L BNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/smaj5.0ca/littelfuse" H 5130 1045 50  0001 L BNN "Arrow Price/Stock"
-F 12 "C151931" H 4530 1795 50  0001 C CNN "LCSC"
-	1    4530 1795
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3710 2765 4100 2765
-Wire Wire Line
-	4100 1735 3710 1735
-Connection ~ 4100 1735
-Connection ~ 4100 2765
-Wire Wire Line
-	4100 2255 4100 2765
-Wire Wire Line
-	4100 2055 4100 1735
-$Comp
-L Device:CP1_Small C1
-U 1 1 5FE096E1
-P 4100 2155
-F 0 "C1" H 4191 2201 50  0000 L CNN
-F 1 "220uF" H 4191 2110 50  0000 L CNN
-F 2 "Capacitor_SMD:C_Elec_6.3x7.7" H 4100 2155 50  0001 C CNN
-F 3 "~" H 4100 2155 50  0001 C CNN
-F 4 "C127327" H 4100 2155 50  0001 C CNN "LCSC"
-	1    4100 2155
-	1    0    0    -1  
-$EndComp
+Connection ~ 4215 2430
+Connection ~ 4215 1400
 Connection ~ 4215 5705
 Wire Wire Line
 	4215 5705 4335 5705
@@ -560,84 +461,502 @@ Connection ~ 4915 5905
 $Comp
 L Device:LED_Small_ALT D2
 U 1 1 5FF1E6C4
-P 3075 5330
-F 0 "D2" V 3121 5260 50  0000 R CNN
-F 1 "Blue" V 3030 5260 50  0000 R CNN
-F 2 "digikey-footprints:LED_0603" V 3075 5330 50  0001 C CNN
-F 3 "~" V 3075 5330 50  0001 C CNN
-	1    3075 5330
+P 1975 5330
+F 0 "D2" V 2021 5260 50  0000 R CNN
+F 1 "Blue" V 1930 5260 50  0000 R CNN
+F 2 "digikey-footprints:LED_0603" V 1975 5330 50  0001 C CNN
+F 3 "~" V 1975 5330 50  0001 C CNN
+	1    1975 5330
 	0    -1   -1   0   
 $EndComp
 Wire Notes Line
-	2485 4830 5945 4830
+	1385 4830 5945 4830
 Wire Notes Line
-	2485 6590 5945 6590
-Wire Notes Line
-	5945 4830 5945 6590
+	1385 6590 5945 6590
 Wire Wire Line
-	3075 5630 3075 5705
-Connection ~ 3075 5705
+	1975 5630 1975 5705
+Connection ~ 1975 5705
 Wire Wire Line
-	3075 5705 2820 5705
+	1975 5705 1720 5705
 Wire Wire Line
-	3075 5165 3075 5230
-Connection ~ 3075 5165
+	1975 5165 1975 5230
+Connection ~ 1975 5165
 Wire Wire Line
-	3075 5165 3450 5165
+	1975 5165 2350 5165
 $Comp
 L Device:R_Small R2
 U 1 1 5FF3D1E7
-P 3075 6120
-F 0 "R2" H 3134 6166 50  0000 L CNN
-F 1 "1K" H 3134 6075 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" H 3075 6120 50  0001 C CNN
-F 3 "~" H 3075 6120 50  0001 C CNN
-F 4 "C17513" H 3075 6120 50  0001 C CNN "LCSC"
-	1    3075 6120
+P 1975 6120
+F 0 "R2" H 2034 6166 50  0000 L CNN
+F 1 "1K" H 2034 6075 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 1975 6120 50  0001 C CNN
+F 3 "~" H 1975 6120 50  0001 C CNN
+F 4 "C17513" H 1975 6120 50  0001 C CNN "LCSC"
+	1    1975 6120
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:LED_Small_ALT D5
 U 1 1 5FF3D1ED
-P 3075 5920
-F 0 "D5" V 3121 5850 50  0000 R CNN
-F 1 "Blue" V 3030 5850 50  0000 R CNN
-F 2 "digikey-footprints:LED_0603" V 3075 5920 50  0001 C CNN
-F 3 "~" V 3075 5920 50  0001 C CNN
-	1    3075 5920
+P 1975 5920
+F 0 "D5" V 2021 5850 50  0000 R CNN
+F 1 "Blue" V 1930 5850 50  0000 R CNN
+F 2 "digikey-footprints:LED_0603" V 1975 5920 50  0001 C CNN
+F 3 "~" V 1975 5920 50  0001 C CNN
+	1    1975 5920
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	3075 5705 3075 5820
+	1975 5705 1975 5820
 Wire Wire Line
-	3075 6220 3075 6295
-Connection ~ 3075 6295
+	1975 6220 1975 6295
+Connection ~ 1975 6295
 Wire Wire Line
-	3075 6295 2880 6295
+	1975 6295 1780 6295
 Wire Wire Line
-	2130 2235 2250 2235
-Connection ~ 2250 2235
+	1455 1900 1575 1900
+Connection ~ 1575 1900
 Wire Wire Line
-	2250 2235 2250 2765
+	1575 1900 1575 2430
 $Comp
 L RS6-0512S:RS6-0512S PS2
 U 1 1 5FE68DDD
-P 8870 3730
-F 0 "PS2" H 9230 3970 50  0000 L CNN
-F 1 "RS6-0512S" H 9160 3890 50  0000 L CNN
-F 2 "RS6-0512S:RS60512S" H 9720 3830 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 9720 3730 50  0001 L CNN
-F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 9720 3630 50  0001 L CNN "Description"
-F 5 "11.6" H 9720 3530 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 9720 3430 50  0001 L CNN "Manufacturer_Name"
-F 7 "RS6-0512S" H 9720 3330 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "919-RS6-0512S" H 9720 3230 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 9720 3130 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 9720 3030 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 9720 2930 50  0001 L CNN "Arrow Price/Stock"
-	1    8870 3730
+P 10075 3820
+F 0 "PS2" H 10435 4060 50  0000 L CNN
+F 1 "RS6-0512S" H 10365 3980 50  0000 L CNN
+F 2 "RS6-0512S:RS60512S" H 10925 3920 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 10925 3820 50  0001 L CNN
+F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 10925 3720 50  0001 L CNN "Description"
+F 5 "11.6" H 10925 3620 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 10925 3520 50  0001 L CNN "Manufacturer_Name"
+F 7 "RS6-0512S" H 10925 3420 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-RS6-0512S" H 10925 3320 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 10925 3220 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 10925 3120 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 10925 3020 50  0001 L CNN "Arrow Price/Stock"
+	1    10075 3820
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8870 2890
-NoConn ~ 8870 3930
+NoConn ~ 10075 2980
+NoConn ~ 10075 4020
+Wire Notes Line
+	5945 4830 5945 6590
+$Comp
+L Device:C_Small C?
+U 1 1 5FFE894D
+P 6025 1635
+F 0 "C?" H 6085 1715 50  0000 L CNN
+F 1 "22uF" H 6065 1525 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6025 1635 50  0001 C CNN
+F 3 "~" H 6025 1635 50  0001 C CNN
+F 4 " C45783" H 6025 1635 50  0001 C CNN "LCSC"
+	1    6025 1635
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FFE9702
+P 6335 1635
+F 0 "C?" H 6395 1715 50  0000 L CNN
+F 1 "100nF" H 6375 1525 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6335 1635 50  0001 C CNN
+F 3 "~" H 6335 1635 50  0001 C CNN
+F 4 "C1525" H 6335 1635 50  0001 C CNN "LCSC"
+	1    6335 1635
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5FFEAAB1
+P 8210 2010
+F 0 "C?" H 8270 2090 50  0000 L CNN
+F 1 "22uF" H 8250 1900 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8210 2010 50  0001 C CNN
+F 3 "~" H 8210 2010 50  0001 C CNN
+F 4 " C45783" H 8210 2010 50  0001 C CNN "LCSC"
+	1    8210 2010
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 1535 6025 1400
+$Comp
+L Device:CP1_Small C?
+U 1 1 600040C8
+P 3235 5445
+F 0 "C?" H 3326 5491 50  0000 L CNN
+F 1 "47uF" H 3326 5400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_5x5.4" H 3235 5445 50  0001 C CNN
+F 3 "~" H 3235 5445 50  0001 C CNN
+F 4 "C294514" H 3235 5445 50  0001 C CNN "LCSC"
+	1    3235 5445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C?
+U 1 1 6000A73C
+P 3235 6035
+F 0 "C?" H 3326 6081 50  0000 L CNN
+F 1 "47uF" H 3326 5990 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_5x5.4" H 3235 6035 50  0001 C CNN
+F 3 "~" H 3235 6035 50  0001 C CNN
+F 4 "C294514" H 3235 6035 50  0001 C CNN "LCSC"
+	1    3235 6035
+	1    0    0    -1  
+$EndComp
+Connection ~ 2955 2430
+Connection ~ 2955 1400
+Wire Wire Line
+	4215 2430 4485 2430
+Wire Wire Line
+	4215 1400 4615 1400
+$Comp
+L Device:CP1_Small C1
+U 1 1 5FE096E1
+P 3605 1820
+F 0 "C1" H 3625 1900 50  0000 L CNN
+F 1 "220uF" H 3625 1735 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_6.3x7.7" H 3605 1820 50  0001 C CNN
+F 3 "~" H 3605 1820 50  0001 C CNN
+F 4 "C127327" H 3605 1820 50  0001 C CNN "LCSC"
+	1    3605 1820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3605 1720 3605 1400
+Wire Wire Line
+	3605 1920 3605 2430
+Connection ~ 3605 2430
+Connection ~ 3605 1400
+Wire Wire Line
+	3605 1400 3280 1400
+Wire Wire Line
+	2955 2430 3280 2430
+$Comp
+L SMAJ5.0CA:SMAJ5.0CA D1
+U 1 1 5FE50B9A
+P 3985 1460
+F 0 "D1" V 4055 1505 50  0000 L CNN
+F 1 "SMAJ5.0CA" V 4025 1160 50  0001 L CNN
+F 2 "digikey-footprints:DO-214AC-BIPOLAR" H 4585 1610 50  0001 L BNN
+F 3 "http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf" H 4585 1510 50  0001 L BNN
+F 4 "Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC" H 4585 1410 50  0001 L BNN "Description"
+F 5 "2.29" H 4585 1310 50  0001 L BNN "Height"
+F 6 "LITTELFUSE" H 4585 1210 50  0001 L BNN "Manufacturer_Name"
+F 7 "SMAJ5.0CA" H 4585 1110 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "576-SMAJ5.0CA" H 4585 1010 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ50CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D" H 4585 910 50  0001 L BNN "Mouser Price/Stock"
+F 10 "SMAJ5.0CA" H 4585 810 50  0001 L BNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/smaj5.0ca/littelfuse" H 4585 710 50  0001 L BNN "Arrow Price/Stock"
+F 12 "C151931" H 3985 1460 50  0001 C CNN "LCSC"
+	1    3985 1460
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3985 1400 3985 1460
+Wire Wire Line
+	3605 1400 3985 1400
+Wire Wire Line
+	3985 1400 4215 1400
+Connection ~ 3985 1400
+Wire Wire Line
+	3605 2430 3985 2430
+Wire Wire Line
+	3985 2360 3985 2430
+Connection ~ 3985 2430
+Wire Wire Line
+	3985 2430 4215 2430
+$Comp
+L Device:CP1_Small C?
+U 1 1 6001C19F
+P 3280 1820
+F 0 "C?" H 3300 1900 50  0000 L CNN
+F 1 "220uF" H 3300 1735 50  0000 L CNN
+F 2 "Capacitor_SMD:C_Elec_6.3x7.7" H 3280 1820 50  0001 C CNN
+F 3 "~" H 3280 1820 50  0001 C CNN
+F 4 "C127327" H 3280 1820 50  0001 C CNN "LCSC"
+	1    3280 1820
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3280 1720 3280 1400
+Connection ~ 3280 1400
+Wire Wire Line
+	3280 1400 2955 1400
+Wire Wire Line
+	3280 1920 3280 2430
+Connection ~ 3280 2430
+Wire Wire Line
+	3280 2430 3605 2430
+Wire Wire Line
+	6335 1535 6335 1400
+Wire Wire Line
+	6335 1400 6025 1400
+Connection ~ 6025 1400
+Wire Wire Line
+	6605 1400 6335 1400
+Connection ~ 6335 1400
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60052225
+P 5770 1400
+F 0 "FB?" V 5625 1400 50  0000 C CNN
+F 1 "C15957" V 5624 1400 50  0001 C CNN
+F 2 "" V 5700 1400 50  0001 C CNN
+F 3 "~" H 5770 1400 50  0001 C CNN
+F 4 "C15957" V 5770 1400 50  0001 C CNN "LCSC"
+	1    5770 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5415 1400 5615 1400
+Wire Wire Line
+	5415 1500 5510 1500
+Wire Wire Line
+	5510 1870 6025 1870
+Wire Wire Line
+	6025 1735 6025 1870
+Connection ~ 6025 1870
+Wire Wire Line
+	6025 1870 6335 1870
+Wire Wire Line
+	6335 1735 6335 1870
+Connection ~ 6335 1870
+Wire Wire Line
+	6335 1870 6605 1870
+Text GLabel 6605 1870 2    50   Input ~ 0
+-Vin
+Text GLabel 6605 2100 2    50   Input ~ 0
++Vin
+Wire Wire Line
+	5875 2100 6025 2100
+$Comp
+L Device:C_Small C?
+U 1 1 6008CC6F
+P 6025 2335
+F 0 "C?" H 6085 2415 50  0000 L CNN
+F 1 "22uF" H 6065 2225 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6025 2335 50  0001 C CNN
+F 3 "~" H 6025 2335 50  0001 C CNN
+F 4 " C45783" H 6025 2335 50  0001 C CNN "LCSC"
+	1    6025 2335
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 6008CC7A
+P 6335 2335
+F 0 "C?" H 6395 2415 50  0000 L CNN
+F 1 "100nF" H 6375 2225 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 6335 2335 50  0001 C CNN
+F 3 "~" H 6335 2335 50  0001 C CNN
+F 4 "C1525" H 6335 2335 50  0001 C CNN "LCSC"
+	1    6335 2335
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6025 2235 6025 2100
+Wire Wire Line
+	6335 2235 6335 2100
+Wire Wire Line
+	6335 2100 6025 2100
+Connection ~ 6025 2100
+Wire Wire Line
+	6605 2100 6335 2100
+Connection ~ 6335 2100
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 6008CC8A
+P 5775 2100
+F 0 "FB?" V 5630 2100 50  0000 C CNN
+F 1 "C15957" V 5629 2100 50  0001 C CNN
+F 2 "" V 5705 2100 50  0001 C CNN
+F 3 "~" H 5775 2100 50  0001 C CNN
+F 4 "C15957" V 5775 2100 50  0001 C CNN "LSCS"
+	1    5775 2100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5510 2570 6025 2570
+Wire Wire Line
+	6025 2435 6025 2570
+Connection ~ 6025 2570
+Wire Wire Line
+	6025 2570 6335 2570
+Wire Wire Line
+	6335 2435 6335 2570
+Connection ~ 6335 2570
+Wire Wire Line
+	6335 2570 6605 2570
+Text GLabel 6605 2570 2    50   Input ~ 0
+-Vin
+Wire Wire Line
+	5510 1500 5510 1870
+Connection ~ 5510 1870
+Wire Wire Line
+	5510 1870 5510 2570
+Wire Wire Line
+	5675 2100 5615 2100
+Wire Wire Line
+	5615 2100 5615 1400
+Connection ~ 5615 1400
+Wire Wire Line
+	5615 1400 5670 1400
+$Comp
+L Device:C_Small C?
+U 1 1 600B498E
+P 2670 5445
+F 0 "C?" H 2730 5525 50  0000 L CNN
+F 1 "22uF" H 2710 5335 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2670 5445 50  0001 C CNN
+F 3 "~" H 2670 5445 50  0001 C CNN
+F 4 " C45783" H 2670 5445 50  0001 C CNN "LCSC"
+	1    2670 5445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 600B58ED
+P 2670 6035
+F 0 "C?" H 2730 6115 50  0000 L CNN
+F 1 "22uF" H 2710 5925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2670 6035 50  0001 C CNN
+F 3 "~" H 2670 6035 50  0001 C CNN
+F 4 " C45783" H 2670 6035 50  0001 C CNN "LCSC"
+	1    2670 6035
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2670 5935 2670 5705
+Connection ~ 2670 5705
+Wire Wire Line
+	2670 5705 2955 5705
+Wire Wire Line
+	2670 5705 2670 5545
+Wire Wire Line
+	2670 5165 2670 5345
+Connection ~ 2670 5165
+Wire Wire Line
+	2670 5165 2955 5165
+Wire Wire Line
+	2670 6135 2670 6295
+Connection ~ 2670 6295
+Wire Wire Line
+	2670 6295 2350 6295
+$Comp
+L Device:C_Small C?
+U 1 1 600C310E
+P 2955 5445
+F 0 "C?" H 3015 5525 50  0000 L CNN
+F 1 "22uF" H 2995 5335 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2955 5445 50  0001 C CNN
+F 3 "~" H 2955 5445 50  0001 C CNN
+F 4 " C45783" H 2955 5445 50  0001 C CNN "LCSC"
+	1    2955 5445
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 600C3C95
+P 2955 6035
+F 0 "C?" H 3015 6115 50  0000 L CNN
+F 1 "22uF" H 2995 5925 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2955 6035 50  0001 C CNN
+F 3 "~" H 2955 6035 50  0001 C CNN
+F 4 " C45783" H 2955 6035 50  0001 C CNN "LCSC"
+	1    2955 6035
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2955 6135 2955 6295
+Connection ~ 2955 6295
+Wire Wire Line
+	2955 6295 2670 6295
+Wire Wire Line
+	2955 5935 2955 5705
+Connection ~ 2955 5705
+Wire Wire Line
+	2955 5705 3235 5705
+Wire Wire Line
+	2955 5705 2955 5545
+Wire Wire Line
+	2955 5165 2955 5345
+Connection ~ 2955 5165
+Wire Wire Line
+	2955 5165 3235 5165
+Wire Wire Line
+	3235 6295 4035 6295
+Wire Wire Line
+	4335 5165 4035 5165
+$Comp
+L Device:C_Small C?
+U 1 1 600E04D8
+P 4035 5450
+F 0 "C?" H 3865 5500 50  0000 L CNN
+F 1 "100nF" H 3795 5350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4035 5450 50  0001 C CNN
+F 3 "~" H 4035 5450 50  0001 C CNN
+F 4 "C1525" H 4035 5450 50  0001 C CNN "LCSC"
+	1    4035 5450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 600E0EB7
+P 4035 6045
+F 0 "C?" H 3895 6125 50  0000 L CNN
+F 1 "100nF" H 3790 5915 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 4035 6045 50  0001 C CNN
+F 3 "~" H 4035 6045 50  0001 C CNN
+F 4 "C1525" H 4035 6045 50  0001 C CNN "LCSC"
+	1    4035 6045
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4035 5350 4035 5165
+Wire Wire Line
+	4035 5550 4035 5705
+Connection ~ 4035 5705
+Wire Wire Line
+	4035 5705 4215 5705
+Wire Wire Line
+	4035 5705 4035 5945
+Wire Wire Line
+	4035 6145 4035 6295
+Connection ~ 4035 6295
+Wire Wire Line
+	4035 6295 4335 6295
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60107C3C
+P 3640 5165
+F 0 "FB?" V 3495 5165 50  0000 C CNN
+F 1 "C15957" V 3494 5165 50  0001 C CNN
+F 2 "" V 3570 5165 50  0001 C CNN
+F 3 "~" H 3640 5165 50  0001 C CNN
+F 4 "C15957" V 3640 5165 50  0001 C CNN "LSCS"
+	1    3640 5165
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3540 5165 3235 5165
+Connection ~ 3235 5165
+Wire Wire Line
+	3740 5165 4035 5165
+Connection ~ 4035 5165
+$Comp
+L Device:Ferrite_Bead_Small FB?
+U 1 1 60111921
+P 3640 5705
+F 0 "FB?" V 3495 5705 50  0000 C CNN
+F 1 "C15957" V 3494 5705 50  0001 C CNN
+F 2 "" V 3570 5705 50  0001 C CNN
+F 3 "~" H 3640 5705 50  0001 C CNN
+F 4 "C15957" V 3640 5705 50  0001 C CNN "LSCS"
+	1    3640 5705
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3540 5705 3235 5705
+Wire Wire Line
+	3740 5705 4035 5705
 $EndSCHEMATC
