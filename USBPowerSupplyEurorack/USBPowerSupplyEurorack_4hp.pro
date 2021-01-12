@@ -1,6 +1,6 @@
-update=2021 January 10, Sunday 14:25:08
+update=2021 January 12, Tuesday 12:14:19
 version=1
-last_client=kicad
+last_client=pcbnew
 [general]
 version=1
 RootSch=
@@ -12,20 +12,10 @@ NetIExt=net
 version=1
 LibDir=
 [eeschema/libraries]
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=Pcbnew
-SpiceAjustPassiveValues=0
-LabSize=50
-ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=USBPowerSupplyEurorack.net
+LastNetListRead=USBPowerSupplyEurorackNEW4HP.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -44,8 +34,11 @@ TrackWidth3=0.25
 TrackWidth4=0.3
 TrackWidth5=0.45
 TrackWidth6=0.5
-TrackWidth7=1
-TrackWidth8=2
+TrackWidth7=0.8
+TrackWidth8=1
+TrackWidth9=1.5
+TrackWidth10=2
+TrackWidth11=4
 ViaDiameter1=0.8
 ViaDrill1=0.4
 dPairWidth1=0.2

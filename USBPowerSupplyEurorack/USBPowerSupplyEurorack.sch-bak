@@ -264,25 +264,6 @@ Text GLabel 8870 3090 0    50   Input ~ 0
 NoConn ~ 8870 2990
 Wire Wire Line
 	8800 3190 8870 3190
-$Comp
-L RS6-0512S:RS6-0512S PS2
-U 1 1 5FE68DDD
-P 8870 3730
-F 0 "PS2" H 9230 3970 50  0000 L CNN
-F 1 "RS6-0512S" H 9160 3890 50  0000 L CNN
-F 2 "RS6-0512S:RS60512S" H 9720 3830 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 9720 3730 50  0001 L CNN
-F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 9720 3630 50  0001 L CNN "Description"
-F 5 "11.6" H 9720 3530 50  0001 L CNN "Height"
-F 6 "RECOM Power" H 9720 3430 50  0001 L CNN "Manufacturer_Name"
-F 7 "RS6-0512S" H 9720 3330 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "919-RS6-0512S" H 9720 3230 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 9720 3130 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 9720 3030 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 9720 2930 50  0001 L CNN "Arrow Price/Stock"
-	1    8870 3730
-	1    0    0    -1  
-$EndComp
 Text GLabel 8870 3730 0    50   Input ~ 0
 -Vin
 Text GLabel 8870 3830 0    50   Input ~ 0
@@ -311,8 +292,6 @@ F 3 "" H 3030 1685 50  0001 C CNN
 	1    3030 1685
 	1    0    0    -1  
 $EndComp
-Text GLabel 8870 2890 0    50   Input ~ 0
-CTRL
 $Comp
 L RS6-0512S:RS6-0512S PS1
 U 1 1 5FE5CD2D
@@ -333,8 +312,6 @@ F 12 "" H 8870 2690 50  0001 C CNN "LCSC"
 	1    8870 2690
 	1    0    0    -1  
 $EndComp
-Text GLabel 8870 3930 0    50   Input ~ 0
-CTRL
 $Comp
 L ACP3225-102-2P-T000:ACP3225-102-2P-T000 FL1
 U 1 1 5FEA5D5D
@@ -642,4 +619,25 @@ Wire Wire Line
 Connection ~ 2250 2235
 Wire Wire Line
 	2250 2235 2250 2765
+$Comp
+L RS6-0512S:RS6-0512S PS2
+U 1 1 5FE68DDD
+P 8870 3730
+F 0 "PS2" H 9230 3970 50  0000 L CNN
+F 1 "RS6-0512S" H 9160 3890 50  0000 L CNN
+F 2 "RS6-0512S:RS60512S" H 9720 3830 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/RS6-0512S.pdf" H 9720 3730 50  0001 L CNN
+F 4 "Isolated DC/DC Converters 6W 4.5-9Vin 12Vout 500mA SIP8" H 9720 3630 50  0001 L CNN "Description"
+F 5 "11.6" H 9720 3530 50  0001 L CNN "Height"
+F 6 "RECOM Power" H 9720 3430 50  0001 L CNN "Manufacturer_Name"
+F 7 "RS6-0512S" H 9720 3330 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "919-RS6-0512S" H 9720 3230 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/RECOM-Power/RS6-0512S?qs=FLBwGrBR9%252B1rp7zTwCRMhw%3D%3D" H 9720 3130 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 9720 3030 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 9720 2930 50  0001 L CNN "Arrow Price/Stock"
+	1    8870 3730
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8870 2890
+NoConn ~ 8870 3930
 $EndSCHEMATC
