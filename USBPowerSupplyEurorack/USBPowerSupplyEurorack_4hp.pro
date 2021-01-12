@@ -1,4 +1,4 @@
-update=2021 January 12, Tuesday 12:14:19
+update=2021 January 12, Tuesday 20:36:28
 version=1
 last_client=pcbnew
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=USBPowerSupplyEurorackNEW4HP.net
+LastNetListRead=USBPowerSupplyEurorack4HPNEW.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
