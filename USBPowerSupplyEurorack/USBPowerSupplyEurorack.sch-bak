@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Diode:1N4004 D3
+L Diode:1N4004 D4
 U 1 1 5FE6DCB8
 P 4640 5420
-F 0 "D3" V 4594 5500 50  0000 L CNN
+F 0 "D4" V 4594 5500 50  0000 L CNN
 F 1 "1N4007" V 4685 5500 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123F" H 4640 5245 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4640 5420 50  0001 C CNN
@@ -26,10 +26,10 @@ F 4 "C64898" H 4640 5420 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4004 D4
+L Diode:1N4004 D5
 U 1 1 5FE81B4A
 P 4640 6010
-F 0 "D4" V 4594 6090 50  0000 L CNN
+F 0 "D5" V 4594 6090 50  0000 L CNN
 F 1 "1N4007" V 4685 6090 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123F" H 4640 5835 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4640 6010 50  0001 C CNN
@@ -218,8 +218,8 @@ $Comp
 L 1734366-1:1734366-1 J1
 U 1 1 5FE0D725
 P 1545 1840
-F 0 "J1" H 1625 2300 50  0000 C CNN
-F 1 "1734366-1" H 1545 2210 50  0000 C CNN
+F 0 "J1" H 1605 2210 50  0000 C CNN
+F 1 "1734366-1" H 1545 2210 50  0001 C CNN
 F 2 "1734366-1:TE_1734366-1" H 1545 1840 50  0001 L BNN
 F 3 "" H 1545 1840 50  0001 L BNN
 F 4 "2 mm[.078 in]" H 1545 1840 50  0001 L BNN "Centerline_Pitch"
@@ -255,18 +255,18 @@ L 1812L110_16DR:1812L110_16DR F1
 U 1 1 5FE1FDB4
 P 2065 1640
 F 0 "F1" H 2415 1865 50  0000 C CNN
-F 1 "1.1A" H 2415 1774 50  0000 C CNN
+F 1 "3A hold" H 2415 1774 50  0000 C CNN
 F 2 "Fuse:Fuse_1812_4532Metric" H 2615 1690 50  0001 L CNN
-F 3 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2615 1590 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811082016_TLC-Electronic-TLC-MSMD300_C262035.pdf" H 2615 1590 50  0001 L CNN
 F 4 "PTC Resettable Fuse 1.1A(hold) 1.95A(trip) 8VDC 100A 0.8W 0.3s 0.06Ohm SMD Solder Pad 1812 T/R" H 2615 1490 50  0001 L CNN "Description"
-F 5 "1.25" H 2615 1390 50  0001 L CNN "Height"
-F 6 "LITTELFUSE" H 2615 1290 50  0001 L CNN "Manufacturer_Name"
-F 7 "1812L110/16DR" H 2615 1190 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "1812L110/16DR" H 2615 1090 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2615 990 50  0001 L CNN "Arrow Price/Stock"
-F 10 "576-1812L110/16DR" H 2615 890 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Littelfuse/1812L110-16DR?qs=PWhpLWeW8we3Ga3SZHmLHg%3D%3D" H 2615 790 50  0001 L CNN "Mouser Price/Stock"
-F 12 "C163516" H 2065 1640 50  0001 C CNN "LCSC"
+F 5 "" H 2615 1390 50  0001 L CNN "Height"
+F 6 "" H 2615 1290 50  0001 L CNN "Manufacturer_Name"
+F 7 "" H 2615 1190 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 2615 1090 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 2615 990 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 2615 890 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 2615 790 50  0001 L CNN "Mouser Price/Stock"
+F 12 "C262035" H 2065 1640 50  0001 C CNN "LCSC"
 	1    2065 1640
 	1    0    0    -1  
 $EndComp
@@ -370,7 +370,7 @@ F 0 "Q1" V 3385 1710 50  0000 C CNN
 F 1 "Q_PMOS_GSD" V 3365 1590 50  0001 C CNN
 F 2 "digikey-footprints:SOT-23-3" H 3335 1840 50  0001 C CNN
 F 3 "https://www.mouser.fr/datasheet/2/916/PMV240SP-1919536.pdf" H 3135 1740 50  0001 C CNN
-F 4 "C15127" V 3135 1740 50  0001 C CNN "LCSC"
+F 4 "C306862" V 3135 1740 50  0001 C CNN "LCSC"
 	1    3135 1740
 	0    -1   -1   0   
 $EndComp
@@ -602,10 +602,10 @@ Wire Wire Line
 	6105 1640 6160 1640
 Connection ~ 6105 1640
 $Comp
-L Device:Ferrite_Bead_Small FB3
+L Device:Ferrite_Bead_Small FB1
 U 1 1 60052225
 P 6260 1640
-F 0 "FB3" V 6115 1640 50  0000 C CNN
+F 0 "FB1" V 6115 1640 50  0000 C CNN
 F 1 "C15957" V 6114 1640 50  0001 C CNN
 F 2 "MPZ2012S101AT000:BEADC2012X105N" V 6190 1640 50  0001 C CNN
 F 3 "~" H 6260 1640 50  0001 C CNN
@@ -614,10 +614,10 @@ F 4 "C15957" V 6260 1640 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB4
+L Device:Ferrite_Bead_Small FB2
 U 1 1 6008CC8A
 P 6265 2340
-F 0 "FB4" V 6120 2340 50  0000 C CNN
+F 0 "FB2" V 6120 2340 50  0000 C CNN
 F 1 "C15957" V 6119 2340 50  0001 C CNN
 F 2 "MPZ2012S101AT000:BEADC2012X105N" V 6195 2340 50  0001 C CNN
 F 3 "~" H 6265 2340 50  0001 C CNN
@@ -726,10 +726,10 @@ F 4 "C17513" H 2280 6095 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small_ALT D5
+L Device:LED_Small_ALT D3
 U 1 1 5FF3D1ED
 P 2280 5895
-F 0 "D5" V 2326 5825 50  0000 R CNN
+F 0 "D3" V 2326 5825 50  0000 R CNN
 F 1 "Blue" V 2235 5825 50  0000 R CNN
 F 2 "digikey-footprints:LED_0603" V 2280 5895 50  0001 C CNN
 F 3 "~" V 2280 5895 50  0001 C CNN
@@ -904,10 +904,10 @@ F 4 "C1525" H 4340 6020 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:Ferrite_Bead_Small FB1
+L Device:Ferrite_Bead_Small FB3
 U 1 1 60107C3C
 P 3945 5140
-F 0 "FB1" V 3800 5140 50  0000 C CNN
+F 0 "FB3" V 3800 5140 50  0000 C CNN
 F 1 "C15957" V 3799 5140 50  0001 C CNN
 F 2 "MPZ2012S101AT000:BEADC2012X105N" V 3875 5140 50  0001 C CNN
 F 3 "~" H 3945 5140 50  0001 C CNN
@@ -922,10 +922,10 @@ Wire Wire Line
 	4045 5140 4340 5140
 Connection ~ 4340 5140
 $Comp
-L Device:Ferrite_Bead_Small FB2
+L Device:Ferrite_Bead_Small FB4
 U 1 1 60111921
 P 3945 6270
-F 0 "FB2" V 3800 6270 50  0000 C CNN
+F 0 "FB4" V 3800 6270 50  0000 C CNN
 F 1 "C15957" V 3799 6270 50  0001 C CNN
 F 2 "MPZ2012S101AT000:BEADC2012X105N" V 3875 6270 50  0001 C CNN
 F 3 "~" H 3945 6270 50  0001 C CNN
@@ -949,4 +949,6 @@ Wire Wire Line
 Connection ~ 4340 6270
 Wire Wire Line
 	3540 5680 4340 5680
+Text Notes 1315 3880 0    50   ~ 0
+0.5A on +12v\n0.5A on -12v\n= 1A\nSwitching regulator have 87% of nominal efficiency (let’s take 85% for calcul)\nFrom 5 to 12 volts, x2.4 ratio\n1A x 2.5 = 2.4A\nWith 80% of efficiency, we need to be able to provide 2.4/0.85 = 2.85A.\nLet’s size for 3A maximum input
 $EndSCHEMATC
