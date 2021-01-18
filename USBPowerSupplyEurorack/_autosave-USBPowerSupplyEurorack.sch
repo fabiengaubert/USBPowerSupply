@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Diode:1N4004 D3
+L Diode:1N4004 D4
 U 1 1 5FE6DCB8
 P 4640 5420
-F 0 "D3" V 4594 5500 50  0000 L CNN
+F 0 "D4" V 4594 5500 50  0000 L CNN
 F 1 "1N4007" V 4685 5500 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123F" H 4640 5245 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4640 5420 50  0001 C CNN
@@ -26,10 +26,10 @@ F 4 "C64898" H 4640 5420 50  0001 C CNN "LCSC"
 	0    1    1    0   
 $EndComp
 $Comp
-L Diode:1N4004 D4
+L Diode:1N4004 D5
 U 1 1 5FE81B4A
 P 4640 6010
-F 0 "D4" V 4594 6090 50  0000 L CNN
+F 0 "D5" V 4594 6090 50  0000 L CNN
 F 1 "1N4007" V 4685 6090 50  0000 L CNN
 F 2 "Diode_SMD:D_SOD-123F" H 4640 5835 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 4640 6010 50  0001 C CNN
@@ -255,18 +255,18 @@ L 1812L110_16DR:1812L110_16DR F1
 U 1 1 5FE1FDB4
 P 2065 1640
 F 0 "F1" H 2415 1865 50  0000 C CNN
-F 1 "3.125A hold" H 2415 1774 50  0000 C CNN
+F 1 "3A hold" H 2415 1774 50  0000 C CNN
 F 2 "Fuse:Fuse_1812_4532Metric" H 2615 1690 50  0001 L CNN
-F 3 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2615 1590 50  0001 L CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1811082016_TLC-Electronic-TLC-MSMD300_C262035.pdf" H 2615 1590 50  0001 L CNN
 F 4 "PTC Resettable Fuse 1.1A(hold) 1.95A(trip) 8VDC 100A 0.8W 0.3s 0.06Ohm SMD Solder Pad 1812 T/R" H 2615 1490 50  0001 L CNN "Description"
-F 5 "1.25" H 2615 1390 50  0001 L CNN "Height"
-F 6 "LITTELFUSE" H 2615 1290 50  0001 L CNN "Manufacturer_Name"
-F 7 "1812L110/16DR" H 2615 1190 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "1812L110/16DR" H 2615 1090 50  0001 L CNN "Arrow Part Number"
-F 9 "https://www.arrow.com/en/products/1812l11016dr/littelfuse" H 2615 990 50  0001 L CNN "Arrow Price/Stock"
-F 10 "576-1812L110/16DR" H 2615 890 50  0001 L CNN "Mouser Part Number"
-F 11 "https://www.mouser.co.uk/ProductDetail/Littelfuse/1812L110-16DR?qs=PWhpLWeW8we3Ga3SZHmLHg%3D%3D" H 2615 790 50  0001 L CNN "Mouser Price/Stock"
-F 12 "C163516" H 2065 1640 50  0001 C CNN "LCSC"
+F 5 "" H 2615 1390 50  0001 L CNN "Height"
+F 6 "" H 2615 1290 50  0001 L CNN "Manufacturer_Name"
+F 7 "" H 2615 1190 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "" H 2615 1090 50  0001 L CNN "Arrow Part Number"
+F 9 "" H 2615 990 50  0001 L CNN "Arrow Price/Stock"
+F 10 "" H 2615 890 50  0001 L CNN "Mouser Part Number"
+F 11 "" H 2615 790 50  0001 L CNN "Mouser Price/Stock"
+F 12 "C262035" H 2065 1640 50  0001 C CNN "LCSC"
 	1    2065 1640
 	1    0    0    -1  
 $EndComp
@@ -726,10 +726,10 @@ F 4 "C17513" H 2280 6095 50  0001 C CNN "LCSC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:LED_Small_ALT D5
+L Device:LED_Small_ALT D3
 U 1 1 5FF3D1ED
 P 2280 5895
-F 0 "D5" V 2326 5825 50  0000 R CNN
+F 0 "D3" V 2326 5825 50  0000 R CNN
 F 1 "Blue" V 2235 5825 50  0000 R CNN
 F 2 "digikey-footprints:LED_0603" V 2280 5895 50  0001 C CNN
 F 3 "~" V 2280 5895 50  0001 C CNN
@@ -949,4 +949,6 @@ Wire Wire Line
 Connection ~ 4340 6270
 Wire Wire Line
 	3540 5680 4340 5680
+Text Notes 1315 3880 0    50   ~ 0
+0.5A on +12v\n0.5A on -12v\n= 1A\nSwitching regulator have 87% of nominal efficiency (let’s take 85% for calcul)\nFrom 5 to 12 volts, x2.4 ratio\n1A x 2.5 = 2.4A\nWith 80% of efficiency, we need to be able to provide 2.4/0.85 = 2.85A.\nLet’s size for 3A maximum input
 $EndSCHEMATC
