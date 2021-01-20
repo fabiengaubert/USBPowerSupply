@@ -1,4 +1,4 @@
-update=2021 January 13, Wednesday 01:18:58
+update=2021 January 20, Wednesday 16:17:10
 version=1
 last_client=pcbnew
 [general]
@@ -15,7 +15,7 @@ LibDir=
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=USBPowerSupplyEurorack4HPNEWnew.net
+LastNetListRead=USBPowerSupplyEurorack4hp2001.net
 CopperLayerCount=2
 BoardThickness=1.6
 AllowMicroVias=0
@@ -67,7 +67,7 @@ OthersTextUpright=1
 SolderMaskClearance=0.05
 SolderMaskMinWidth=0
 SolderPasteClearance=0
-SolderPasteRatio=-0
+SolderPasteRatio=0
 [pcbnew/Layer.F.Cu]
 Name=F.Cu
 Type=0

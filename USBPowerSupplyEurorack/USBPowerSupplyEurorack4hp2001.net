@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/fabiengaubert/Documents/Electronic/USBPowerSupply/USBPowerSupply/USBPowerSupplyEurorack/USBPowerSupplyEurorack.sch)
-    (date "2021 January 20, Wednesday 16:15:56")
+    (date "2021 January 20, Wednesday 16:16:53")
     (tool "Eeschema (5.1.6-0-10_14)")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
