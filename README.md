@@ -1,6 +1,6 @@
 # USBPowerSupply
 
-USB Power supply design for eurorack
+USB Power supply design for eurorack, works with powerbanks or good USB wallwarts
 
 <img src="3D_view.png" alt="3D view" width="220">
 
