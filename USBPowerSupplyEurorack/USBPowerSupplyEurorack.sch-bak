@@ -97,25 +97,6 @@ F 3 "~" H 4520 5680 50  0001 C CNN
 	1    4520 5680
 	1    0    0    -1  
 $EndComp
-$Comp
-L 95278-501A10LF:95278-501A10LF J2
-U 1 1 5FEC1F9A
-P 5220 5480
-F 0 "J2" H 5680 5660 50  0000 C CNN
-F 1 "95278-501A10LF" H 5670 5654 50  0001 C CNN
-F 2 "95278-501A10LF:95278501A10LF" H 5970 5580 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/1/95278-501A10LF.pdf" H 5970 5480 50  0001 L CNN
-F 4 "Headers & Wire Housings BERGSTIK" H 5970 5380 50  0001 L CNN "Description"
-F 5 "8.77" H 5970 5280 50  0001 L CNN "Height"
-F 6 "Amphenol" H 5970 5180 50  0001 L CNN "Manufacturer_Name"
-F 7 "95278-501A10LF" H 5970 5080 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "649-95278-501A10LF" H 5970 4980 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.com/Search/Refine.aspx?Keyword=649-95278-501A10LF" H 5970 4880 50  0001 L CNN "Mouser Price/Stock"
-F 10 "" H 5970 4780 50  0001 L CNN "Arrow Part Number"
-F 11 "" H 5970 4680 50  0001 L CNN "Arrow Price/Stock"
-	1    5220 5480
-	1    0    0    -1  
-$EndComp
 Connection ~ 4520 5680
 Wire Wire Line
 	4520 5680 4640 5680
@@ -965,4 +946,23 @@ Wire Wire Line
 Wire Wire Line
 	5975 2810 6595 2810
 Connection ~ 5975 2110
+$Comp
+L 10129381-910001BLF:10129381-910001BLF J2
+U 1 1 60103960
+P 5220 5480
+F 0 "J2" H 5670 5653 50  0000 C CNN
+F 1 "10129381-910001BLF" H 5670 5654 50  0001 C CNN
+F 2 "HDRV10W67P254_2X5_1270X483X858P" H 5970 5580 50  0001 L CNN
+F 3 "https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10129381.pdf" H 5970 5480 50  0001 L CNN
+F 4 "EconoStik , Board to Board connector, Unshrouded Vertical Header, Through Hole, Double Row, 10 Positions, 2.54 mm (0.100in) Pitch" H 5970 5380 50  0001 L CNN "Description"
+F 5 "8.58" H 5970 5280 50  0001 L CNN "Height"
+F 6 "Amphenol" H 5970 5180 50  0001 L CNN "Manufacturer_Name"
+F 7 "10129381-910001BLF" H 5970 5080 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "649-1012938191001BLF" H 5970 4980 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Amphenol-FCI/10129381-910001BLF?qs=0lQeLiL1qyYhmE%2FYsfo%2FnQ%3D%3D" H 5970 4880 50  0001 L CNN "Mouser Price/Stock"
+F 10 "10129381-910001BLF" H 5970 4780 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/10129381-910001blf/amphenol-fci" H 5970 4680 50  0001 L CNN "Arrow Price/Stock"
+	1    5220 5480
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

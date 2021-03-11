@@ -262,26 +262,6 @@ F 3 "" H 2845 1590 50  0001 C CNN
 	1    2845 1590
 	1    0    0    -1  
 $EndComp
-$Comp
-L ACP3225-102-2P-T000:ACP3225-102-2P-T000 FL1
-U 1 1 5FEA5D5D
-P 5105 1640
-F 0 "FL1" H 5505 1813 50  0000 C CNN
-F 1 "ACP3225-102-2P-T000" H 5505 1814 50  0001 C CNN
-F 2 "ACP3225-102-2P-T000:ACP3225" H 5755 1740 50  0001 L CNN
-F 3 "https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf" H 5755 1640 50  0001 L CNN
-F 4 "Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc" H 5755 1540 50  0001 L CNN "Description"
-F 5 "" H 5755 1440 50  0001 L CNN "Height"
-F 6 "TDK" H 5755 1340 50  0001 L CNN "Manufacturer_Name"
-F 7 "ACP3225-102-2P-T000" H 5755 1240 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "810-ACP32251022PT000" H 5755 1140 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/TDK/ACP3225-102-2P-T000/?qs=ivTIEzcXi434Fc9I%252Be4KYw%3D%3D" H 5755 1040 50  0001 L CNN "Mouser Price/Stock"
-F 10 "ACP3225-102-2P-T000" H 5755 940 50  0001 L CNN "Arrow Part Number"
-F 11 "https://www.arrow.com/en/products/acp3225-102-2p-t000/tdk" H 5755 840 50  0001 L CNN "Arrow Price/Stock"
-F 12 "C92126" H 5105 1640 50  0001 C CNN "LCSC"
-	1    5105 1640
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4975 1740 5105 1740
 Connection ~ 2845 2670
@@ -563,14 +543,14 @@ Wire Wire Line
 Wire Wire Line
 	6445 2340 6595 2340
 Wire Wire Line
-	6245 2340 6185 2340
+	6245 2340 6190 2340
 Wire Wire Line
-	6185 2340 6185 1640
+	6190 2340 6190 1640
 Wire Wire Line
-	5905 1640 6185 1640
+	5905 1640 6020 1640
 Wire Wire Line
-	6185 1640 6240 1640
-Connection ~ 6185 1640
+	6190 1640 6240 1640
+Connection ~ 6190 1640
 $Comp
 L Device:Ferrite_Bead_Small FB1
 U 1 1 60052225
@@ -924,28 +904,15 @@ Text Notes 1315 3880 0    50   ~ 0
 $Comp
 L Device:C_Small C19
 U 1 1 600C271D
-P 5975 1875
-F 0 "C19" H 6000 1960 50  0000 L CNN
-F 1 "10uF" H 5990 1765 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 5975 1875 50  0001 C CNN
-F 3 "~" H 5975 1875 50  0001 C CNN
-F 4 "C15850" H 5975 1875 50  0001 C CNN "LCSC"
-	1    5975 1875
+P 6020 1885
+F 0 "C19" H 6030 1965 50  0000 L CNN
+F 1 "10uF" H 6020 1775 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6020 1885 50  0001 C CNN
+F 3 "~" H 6020 1885 50  0001 C CNN
+F 4 "C15850" H 6020 1885 50  0001 C CNN "LCSC"
+	1    6020 1885
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5975 1775 5975 1740
-Wire Wire Line
-	5975 1740 5905 1740
-Wire Wire Line
-	5975 1975 5975 2110
-Wire Wire Line
-	5975 2110 6595 2110
-Wire Wire Line
-	5975 2110 5975 2810
-Wire Wire Line
-	5975 2810 6595 2810
-Connection ~ 5975 2110
 $Comp
 L 10129381-910001BLF:10129381-910001BLF J2
 U 1 1 60103960
@@ -965,4 +932,43 @@ F 11 "https://www.arrow.com/en/products/10129381-910001blf/amphenol-fci" H 5970 
 	1    5220 5480
 	1    0    0    -1  
 $EndComp
+$Comp
+L ACP3225-102-2P-T000:ACP3225-102-2P-T000 FL1
+U 1 1 5FEA5D5D
+P 5105 1640
+F 0 "FL1" H 5505 1813 50  0000 C CNN
+F 1 "ACP3225-102-2P-T000" H 5505 1814 50  0001 C CNN
+F 2 "ACP3225-102-2P-T000:ACP3225" H 5755 1740 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/2/ACP3225-102-2P-T000.pdf" H 5755 1640 50  0001 L CNN
+F 4 "Common Mode Choke 1kR 1,2A R1 SMD TDK ACP Series Shielded SMD Common Mode Line Filter 1.5A Idc" H 5755 1540 50  0001 L CNN "Description"
+F 5 "" H 5755 1440 50  0001 L CNN "Height"
+F 6 "TDK" H 5755 1340 50  0001 L CNN "Manufacturer_Name"
+F 7 "ACP3225-102-2P-T000" H 5755 1240 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "810-ACP32251022PT000" H 5755 1140 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/TDK/ACP3225-102-2P-T000/?qs=ivTIEzcXi434Fc9I%252Be4KYw%3D%3D" H 5755 1040 50  0001 L CNN "Mouser Price/Stock"
+F 10 "ACP3225-102-2P-T000" H 5755 940 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/acp3225-102-2p-t000/tdk" H 5755 840 50  0001 L CNN "Arrow Price/Stock"
+F 12 "C92126" H 5105 1640 50  0001 C CNN "LCSC"
+	1    5105 1640
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5905 1740 5905 2110
+Connection ~ 5905 2110
+Wire Wire Line
+	5905 2110 5905 2810
+Wire Wire Line
+	5905 2810 6595 2810
+Wire Wire Line
+	5905 2110 6020 2110
+Wire Wire Line
+	6020 1785 6020 1640
+Connection ~ 6020 1640
+Wire Wire Line
+	6020 1640 6190 1640
+Wire Wire Line
+	6020 1985 6020 2110
+Connection ~ 6020 2110
+Wire Wire Line
+	6020 2110 6595 2110
 $EndSCHEMATC
